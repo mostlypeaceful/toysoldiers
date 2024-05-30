@@ -1,0 +1,29 @@
+Notes about logging w/ flags:
+
+--All flags are _ENABLED_ by default. Watch out! (see bottom of this file to learn how to disable by default)
+
+--Every time you do a log_line, log_output or anything else with your flag (ex: FooBarSystem) it will prepend with: "Log::FooBarSystem >> "
+
+--Example use:  log_line( Log::cFlagFooBarSystem, "log this line like a boss!" );   will output:
+Log::FooBarSystem >> log this line like a boss!
+
+
+LogFlags.hpp
+
+[STEP1] Add your entry at end of list. EX:
+
+		define_log_flag(FooBarSystem,		"LOG_GROUP_FOOBARSYSTEM",		18);
+
+[STEP2] Update cGameLogFlagStart right below it to +1 your value. EX:
+
+		static const u32 cGameLogFlagStart = 19;
+
+
+
+
+
+====TO DISABLE YOUR FLAG BY DEFAULT====
+
+Log.cpp  in  fInitializeSystem()  add:
+
+mask = fClearBits( mask, tFlagsType::fFlagsType( Log::cFlagFooBarSystem ).mFlag );

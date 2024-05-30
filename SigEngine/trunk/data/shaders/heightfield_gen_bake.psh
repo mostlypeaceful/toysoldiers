@@ -1,0 +1,74 @@
+#pragma pack_matrix(row_major)
+float4 gWorldSpaceDims_TexAtlasDims		: register( c0 );
+float4 gTexAtlasPixelDims_LayerCount	: register( c1 );
+float4 gMaterialTilingFactors[8]		: register( c2 );
+
+sampler2D gMaskMap		: register( s0 );
+sampler2D gMtlIdsMap	: register( s1 );
+sampler2D gDiffuseMap	: register( s2 );
+
+void fSampleTextureAtlas(	out float4 sampleDiffuse,
+							float mtlId,
+							float2 nworlduv,
+							float2 tileTexelDims,
+							float2 invTexAtlasTexelDims,
+							float2 texAtlasDims,
+							float2 invTexAtlasDims )
+{
+	float newTileFactor = gMaterialTilingFactors[ mtlId / 4 ][ mtlId % 4 ];
+	float2 worldUv = nworlduv * ( newTileFactor * newTileFactor * 250.f );
+	float2 gutter = 1.0f * invTexAtlasTexelDims;
+	float2 dx = invTexAtlasTexelDims.x * ddx( worldUv * tileTexelDims.x );
+	float2 dy = invTexAtlasTexelDims.x * ddy( worldUv * tileTexelDims.y );
+	float2 tiledWorldUv = frac( worldUv );
+	float2 uvOffset = float2( fmod( mtlId, texAtlasDims.x ), floor( mtlId * invTexAtlasDims.x ) );
+	float2 uv = uvOffset * invTexAtlasDims + gutter + tiledWorldUv * ( invTexAtlasDims - 2.f * gutter );
+	sampleDiffuse = tex2Dgrad( gDiffuseMap, uv, dx, dy );
+}
+
+struct tPSInput
+{
+	float4 vCP	: POSITION;
+	float3 vLP	: TEXCOORD0;
+};
+
+void main( tPSInput i, out float4 oColor : COLOR )
+{	
+	const float3 plocal = i.vLP;
+	float2 xzDims = gWorldSpaceDims_TexAtlasDims.xy;
+	float2 nworlduv  = ( plocal.xz + 0.5f * xzDims ) / xzDims;
+	float2 nworlduv2 = ( plocal.xz + 256.f ) / 512.f;
+	const float3 materialMasks = tex2D( gMaskMap, nworlduv ).rgb;
+	const float3 materialIds = tex2D( gMtlIdsMap, nworlduv ).rgb;
+	float2 textureAtlasDims = gWorldSpaceDims_TexAtlasDims.zw;
+	float2 invTextureAtlasDims = 1.f / textureAtlasDims;
+	const float3 materialIdsExpanded = floor( materialIds * float3( 31.f, 63.f, 31.f ) + 0.49f );
+	float2 tileTexelDims = gTexAtlasPixelDims_LayerCount.xy;
+	float2 invTexAtlasTexelDims = 1.f / ( tileTexelDims * textureAtlasDims );
+		
+	float4 dm0,dm1,dm2; //diffuse map X
+	fSampleTextureAtlas(	dm0,
+							materialIdsExpanded.x,
+							nworlduv2,
+							tileTexelDims,
+							invTexAtlasTexelDims,
+							textureAtlasDims,
+							invTextureAtlasDims );
+	fSampleTextureAtlas(	dm1,
+							materialIdsExpanded.y,
+							nworlduv2,
+							tileTexelDims,
+							invTexAtlasTexelDims,
+							textureAtlasDims,
+							invTextureAtlasDims );
+	fSampleTextureAtlas(	dm2,
+							materialIdsExpanded.z,
+							nworlduv2,
+							tileTexelDims,
+							invTexAtlasTexelDims,
+							textureAtlasDims,
+							invTextureAtlasDims );
+		
+	float4 finalDiffuse = materialMasks.x * dm0 + materialMasks.y * dm1 + materialMasks.z * dm2;	
+	oColor = float4( finalDiffuse.rgb, 1 );
+}

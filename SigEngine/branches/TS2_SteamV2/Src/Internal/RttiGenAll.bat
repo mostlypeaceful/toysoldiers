@@ -1,0 +1,9 @@
+@cd Base
+@call RttiGen.bat
+@cd ..
+@cd Tools
+@call RttiGen.bat
+@cd ..
+@cd UnitTests
+@call RttiGen.bat
+@cd ..

@@ -1,0 +1,24 @@
+// this minimal resource file is all what is needed for most of the wxWindows
+// samples
+
+// note that the icon used by the Explorer (i.e. the programs icon) is the
+// first icon in the executable and the icons are sorted both by their order
+// (Win9x) and by alphabetically (!) (NT), so put this icon first and give it
+// a name starting with "a"
+appicon ICON "appicon.ico"
+
+// this is not always needed but doesn't hurt (except making the executable
+// very slightly larger): this file contains the standard icons, cursors, ...
+//#include "wx/msw/wx.rc"
+
+newdoc           BITMAP      "icons/document.bmp"
+opendoc          BITMAP      "icons/open.bmp"
+savedoc          BITMAP      "icons/save.bmp"
+
+undo             BITMAP      "icons/undo.bmp"
+redo		     BITMAP      "icons/redo.bmp"
+
+buildfile	     BITMAP      "icons/buildfile.bmp"
+buildres	     BITMAP      "icons/buildall.bmp"
+
+difffile	     BITMAP		 "icons/diff.bmp"

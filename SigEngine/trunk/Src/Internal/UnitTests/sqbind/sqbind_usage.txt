@@ -1,0 +1,304 @@
+
+SQBind (c) 2009 Juan Linietsky
+
+--Introduction:--
+
+ SQBind is a pretty simple, yet powerful binding library for the Squirrel
+language. It supports for binding classes, methods, static methods, member
+variables, functions, enums, C types. It can either manage pointers, or let
+them unmanaged. It also recognizes functions that receive pointers or
+references, and it passes values accordingly. On top of all that, SQBind
+easily lets you use your own types for taking care of native Squirrel types,
+such as your own (or std::) string class, table class, array class, etc.
+  SQBind is _really_ simple. It consists of an only header file and a
+binders file, so you don't need to link against it. However, since SQBind 
+uses C++ Partial Specialization very heavily, it will probably not work on 
+older compilers. SQBind produces lightweight bindings, as it is designed
+to reuse template symbols as much as possible when binding methods/functions.
+
+--Compilation:--
+
+ Just drop sbind.h and .inc in a directory and include it. Alternatively,
+you may wish to define a SQBIND_CUSTOMIZE header, to allow SQBind to adapt
+to your project better. You can configure the following macros:
+
+SQBIND_NEW() - replaces new
+SQBIND_DELETE() - replaces delete
+SQBIND_INLINE - replaces inline
+SQBIND_DEBUG - catches/prints more errors, but becomes slower.
+
+ Customizing is done by defining SQBIND_CUSTOMIZE right before including
+sqbind.h, like this:
+
+#define SQBIND_CUSTOMIZE "sqbind_custom.h"
+#include "sqbind.h" 
+
+--Usage:--
+
+ -Initializing-
+
+ Before a class is ready for usage, it must be initialized. This is done 
+with a single line (note , 'vm' is the actual HSQUIRRELVM instance):
+
+	SqBind<MyClass>::init(vm,_SC("MyClass"));
+
+//note that _SC is used because Squirrel may be in unicode mode.
+
+ Optionally, inheritance can be defined, as well as non-instantiation
+property. Full initialization lines are:
+
+	SqBind<T>::init(HSQUIRRELVM v,const SQChar * p_name,const SQChar
+*p_base_class_name, bool p_instantiable=true);
+
+or
+
+	SqBind<T>::init(HSQUIRRELVM v,const SQChar * p_name,HSQOBJECT *p_base_class=NULL, bool p_instantiable=true)'
+
+ -Binding a Method-
+
+ Binding a method is done with the "sqbind_method" function. Just pass the
+method pointer (with up to seven parameters) and desired name:
+
+	sqbind_method( vm, "say_hello", &MyClass::say_hello );
+
+  SQBind will recognize the class and pointer from it and it will bind it
+automatically.
+
+-Binding a Function/Static Method-
+
+ Binding a function or a static method is pretty much the same. The catch
+is that static methods need to be passed the class_id owner in the end
+(which can be obtained by calling to SqBind<MyClass>::get_id() )
+
+  :function:
+
+	sqbind_function( vm, "say_goodbye", my_function );
+
+  :static method:
+
+	sqbind_function( vm, "say_goodbye", &SqBind<MyClass>::get_id() );
+
+ -Binding a Squirrel-Native method-
+
+ Native Squirrel methods (SQFUNCTION) is done this way:
+
+	SqBind<MyClass>::bind_method( vm, _SC("difficult_to_bind"), difficult_method);
+
+ Optionally a "static" parameter can be passed to make it static.
+
+ -Binding a Member Variable-
+
+  Binding member variables gets a little trickier, because even if the usage
+of offsetof is valid for this case, C++ compilers advise against it. So, you
+either make your own (more compatible) offsetof, or bind your own _get /
+_set metamethods:
+
+#define OFFSET_OF(st, m) \
+((size_t) ( (char *)&(_nullptr<st>()->m) - (char *)0 ))
+
+	class MyClass {
+	public:
+	
+		int a;
+		float b;
+	};
+
+	SqBind<MyClass>::bind_member_variable<int>( vm, _SC("a"), OFFSET_OF( MyClass, a) );
+	SqBind<MyClass>::bind_member_variable<float>( vm, _SC("b"), OFFSET_OF( MyClass, b) );
+
+ Note that it's very easy to make mistakes when using this helper, so be very careful
+with the types and offsets passed.
+
+ -Binding Enums-
+
+ Before binding any function that returns or takes an enum as parameter,
+SQBind must be told that we are dealing with an integer-like type. This is
+done by defining (globally) the following macro:
+
+	// not inside a function or method!
+	// note that if vm is not passed, this is not "called"
+	SQBIND_INTEGER( MyEnum );
+
+ -Binding Enum-Values and Constants-
+
+ Depending on wether we are dealing with global, or member enums or
+constants, there are 2 macros supplied for this:
+
+	// call to bind
+	SQBIND_CLASS_CONSTANT( vm, MyClass, CONSTANT );
+
+ This will make MyClass::CONSTANT accesible to the script. For global
+constants:
+
+	SQBIND_CONSTANT( vm, CONSTANT );
+
+ -Constructing / Destructing-
+
+ SQBind assumes that the classes you ar binding have a default constructor,
+a default copy constructor, and that they can be deleted using "delete" (or
+wathever is supplied in SQBIND_CUSTOMIZE). This is not always the case,
+specially with classes that contain pure virtual methods, or that are just
+not designed for it. To solve this issue, am "SqBindAllocator" specialization for
+a given class must be provided like this:
+
+
+template<>
+struct SqBindAllocator<MyClass> {
+ 
+	static MyClass *construct() {
+	
+		return NULL; // make it not able to construct
+	}
+	static SQBIND_INLINE MyClass *copy_construct(const MyClass* p_from) {
+	
+		return NULL; // make it not able to copy-construct
+	}
+	static SQBIND_INLINE bool assign(MyClass* p_val, const MyClass* p_from) {
+	
+		return false; // make it not able to assign
+	}
+	static SQBIND_INLINE void destruct(MyClass* p_instance) {
+	
+		// make it ignore destruction
+	}
+	
+	static SQBIND_INLINE MyClass& get_empty() {
+		// if someone tries to assign, this will crash.	
+		// however, this will likely never be called anyway.
+		static MyClass *crashplease=NULL;
+		return *crashplease;
+	}
+}
+
+ By simply defining this allocator before using SqBind<MyClass>, the
+behavior for such operations will be customized.
+
+ -Custom Constructor-
+
+ By default, SQBind doesn't understand extra construction parameters. It
+is up to the programmer to create an instance from them. This is done by 
+setting a custom constructor. SqBind will still ease the task of the
+programmer by not calling the custom constructor when no parameters or copy
+constructor is required. If you still want to take complete control of
+the construction stage, bind a "constructor" function manually.
+
+// class to bind
+
+class Vector3 {
+public:
+
+  float x;
+  float y;
+  float z;
+
+  Vector3(float _x=0, float _y=0, float _z=0) {
+
+	x=_x;
+	y=_y;
+	z=_z;
+  }
+};
+
+// custom constructor
+
+static Vector3* vector3_constructor(HSQUIRRELVM v) {
+
+	// regular and copycon handled by sqbind
+	
+	int params=sq_gettop(v);
+	
+	if (params!=4)
+		return NULL; // need 3 params
+				
+	SQFloat x;
+	SQFloat y;
+	SQFloat z;
+	
+	if (SQ_FAILED( sq_getfloat(v,2,&x) ) )
+		return NULL;
+	if (SQ_FAILED( sq_getfloat(v,3,&y) ) )
+		return NULL;
+	if (SQ_FAILED( sq_getfloat(v,4,&z) ) )
+		return NULL;
+	
+	return new Vector3(x,y,z);
+
+}
+
+..
+
+int main() {
+
+	SqBind<Vector3>::init(vm,_SC("Vector3"));
+	SqBind<Vector3>::set_custom_constructor( vector3_constructor );
+}
+
+-Creating Binders for Native Types-
+
+ Creating binders for C++ types that translate to nativetypes must be done
+by specializing SqBind. Following is an example for binding std::string with
+the native Squirrel string:
+
+template<>
+class SqBind<std::string> {
+public:
+	struct Getter {
+		SQBIND_INLINE std::string get(HSQUIRRELVM v, int p_idx) {
+			return SqBind<std::string>::get(v,2);
+		}
+	};
+	struct GetterPtr {
+		std::string temp;
+		SQBIND_INLINE std::string* get(HSQUIRRELVM v, int p_idx) {
+			temp=SqBind<std::string>::get(v,2);
+			return &temp;
+		}
+	};
+	static std::string get(HSQUIRRELVM v, int p_idx) {
+		if (sq_gettype(v,p_idx)!=OT_STRING) {
+			sqbind_throwerror(v,"Type is not string!");
+			return std::string();
+		}
+		const SQChar * str;
+		sq_getstring(v,p_idx,&str);
+		return std::string(str);
+	}
+
+	static void push(HSQUIRRELVM v, const std::string& p_value) {
+		sq_pushstring(v,p_value.c_str(),-1);
+	}
+};
+
+
+--License--
+
+ SQBind is provided under the MIT license:
+
+Copyright (c) 2009 Juan Linietsky
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+--Contact--
+
+ You can contact the author (Juan Linietsky) via e-mail at:
+	 reduzio@gmail.com
+

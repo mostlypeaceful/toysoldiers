@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="enginelib_tools_pcdx9_debug"
+	OutputDirectory="$(SolutionDir)Obj\$(ProjectName)\$(ConfigurationName)"
+	IntermediateDirectory="$(SolutionDir)Obj\$(ProjectName)\$(ConfigurationName)"
+	InheritedPropertySheets=".\tools_pcdx9_debug.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		PreprocessorDefinitions="_LIB"
+	/>
+</VisualStudioPropertySheet>

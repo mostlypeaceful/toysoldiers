@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}</ProjectGuid>
+    <RootNamespace>ToolsGui</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(SolutionDir)..\..\Bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(SolutionDir)..\..\Bin\</OutDir>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Utilities\Bin\x86;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Sig$(ProjectName)d</TargetName>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Utilities\Bin\x86;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Sig$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>toolsgui_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsGuiPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_stc.lib;wxmsw28d_adv.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName)d.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\maya2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>toolsgui_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsGuiPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;wxmsw28_core.lib;wxbase28.lib;wxmsw28_stc.lib;wxmsw28_adv.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\maya2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation\tAnimPackData.cpp" />
+    <ClCompile Include="Animation\tSigAnimDialog.cpp" />
+    <ClCompile Include="Animation\tSigAnimNodeCanvas.cpp" />
+    <ClCompile Include="Animation\tSigAnimNodeControlPanel.cpp" />
+    <ClCompile Include="Animation\tSkeletableSgFileRefEntity.cpp" />
+    <ClCompile Include="ToolsGuiPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tToolsGuiApp.cpp" />
+    <ClCompile Include="tToolsGuiMainWindow.cpp" />
+    <ClCompile Include="tWxNotificationMessage.cpp" />
+    <ClCompile Include="tWxRenderPanel.cpp" />
+    <ClCompile Include="tWxRenderPanelContainer.cpp" />
+    <ClCompile Include="tWxRenderPanelGridSettings.cpp" />
+    <ClCompile Include="tToolsMouseAndKbCamera.cpp" />
+    <ClCompile Include="tGizmoGeometry.cpp" />
+    <ClCompile Include="tGlobalLightDirGizmo.cpp" />
+    <ClCompile Include="tGlobalLightDirGizmoGeometry.cpp" />
+    <ClCompile Include="tManipulationGizmo.cpp" />
+    <ClCompile Include="tManipulationGizmoAction.cpp" />
+    <ClCompile Include="tMouseFollowGizmoGeometry.cpp" />
+    <ClCompile Include="tRenderOnlyGizmo.cpp" />
+    <ClCompile Include="tRotationGizmo.cpp" />
+    <ClCompile Include="tRotationGizmoGeometry.cpp" />
+    <ClCompile Include="tRotationGizmoSettings.cpp" />
+    <ClCompile Include="tScaleGizmo.cpp" />
+    <ClCompile Include="tScaleGizmoGeometry.cpp" />
+    <ClCompile Include="tSingleVectorGizmoGeometry.cpp" />
+    <ClCompile Include="tTranslationGizmo.cpp" />
+    <ClCompile Include="tTranslationGizmoGeometry.cpp" />
+    <ClCompile Include="tEditorHotKey.cpp" />
+    <ClCompile Include="tEditorCursorController.cpp" />
+    <ClCompile Include="tEditorCursorControllerButton.cpp" />
+    <ClCompile Include="tMouseFollowCursor.cpp" />
+    <ClCompile Include="tPlaceObjectCursor.cpp" />
+    <ClCompile Include="tSelectObjectsCursor.cpp" />
+    <ClCompile Include="tWxToolsPanel.cpp" />
+    <ClCompile Include="tWxToolsPanelContainer.cpp" />
+    <ClCompile Include="tWxToolsPanelSlider.cpp" />
+    <ClCompile Include="tConfigurableBrowserTree.cpp" />
+    <ClCompile Include="tWxColumnListBox.cpp" />
+    <ClCompile Include="tWxScriptDesigner.cpp" />
+    <ClCompile Include="tExplicitDependenciesDialog.cpp" />
+    <ClCompile Include="tFindInDialogBase.cpp" />
+    <ClCompile Include="tProjectXMLDialog.cpp" />
+    <ClCompile Include="tScriptExportDialog.cpp" />
+    <ClCompile Include="tScriptProfilerDialog.cpp" />
+    <ClCompile Include="tSearchableOpenFilesDialog.cpp" />
+    <ClCompile Include="tBrowseControl.cpp" />
+    <ClCompile Include="tScriptContextStack.cpp" />
+    <ClCompile Include="tScriptExportParser.cpp" />
+    <ClCompile Include="tWxDrawPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation\tAnimPackData.hpp" />
+    <ClInclude Include="Animation\tSigAnimDialog.hpp" />
+    <ClInclude Include="Animation\tSigAnimNodeCanvas.hpp" />
+    <ClInclude Include="Animation\tSigAnimNodeControlPanel.hpp" />
+    <ClInclude Include="Animation\tSkeletableSgFileRefEntity.hpp" />
+    <ClInclude Include="ToolsGuiPch.hpp" />
+    <ClInclude Include="tToolsGuiApp.hpp" />
+    <ClInclude Include="tToolsGuiMainWindow.hpp" />
+    <ClInclude Include="tWxNotificationMessage.hpp" />
+    <ClInclude Include="tWxRenderPanel.hpp" />
+    <ClInclude Include="tWxRenderPanelContainer.hpp" />
+    <ClInclude Include="tWxRenderPanelGridSettings.hpp" />
+    <ClInclude Include="tToolsMouseAndKbCamera.hpp" />
+    <ClInclude Include="tGizmoGeometry.hpp" />
+    <ClInclude Include="tGlobalLightDirGizmo.hpp" />
+    <ClInclude Include="tGlobalLightDirGizmoGeometry.hpp" />
+    <ClInclude Include="tManipulationGizmo.hpp" />
+    <ClInclude Include="tManipulationGizmoAction.hpp" />
+    <ClInclude Include="tMouseFollowGizmoGeometry.hpp" />
+    <ClInclude Include="tRenderOnlyGizmo.hpp" />
+    <ClInclude Include="tRotationGizmo.hpp" />
+    <ClInclude Include="tRotationGizmoGeometry.hpp" />
+    <ClInclude Include="tRotationGizmoSettings.hpp" />
+    <ClInclude Include="tScaleGizmo.hpp" />
+    <ClInclude Include="tScaleGizmoGeometry.hpp" />
+    <ClInclude Include="tSingleVectorGizmoGeometry.hpp" />
+    <ClInclude Include="tTranslationGizmo.hpp" />
+    <ClInclude Include="tTranslationGizmoGeometry.hpp" />
+    <ClInclude Include="tEditorHotKey.hpp" />
+    <ClInclude Include="tEditorCursorController.hpp" />
+    <ClInclude Include="tEditorCursorControllerButton.hpp" />
+    <ClInclude Include="tMouseFollowCursor.hpp" />
+    <ClInclude Include="tPlaceObjectCursor.hpp" />
+    <ClInclude Include="tSelectObjectsCursor.hpp" />
+    <ClInclude Include="tWxToolsPanel.hpp" />
+    <ClInclude Include="tWxToolsPanelContainer.hpp" />
+    <ClInclude Include="tWxToolsPanelSlider.hpp" />
+    <ClInclude Include="tConfigurableBrowserTree.hpp" />
+    <ClInclude Include="tWxColumnListBox.hpp" />
+    <ClInclude Include="tWxScriptDesigner.hpp" />
+    <ClInclude Include="tExplicitDependenciesDialog.hpp" />
+    <ClInclude Include="tFindInDialogBase.hpp" />
+    <ClInclude Include="tProjectXMLDialog.hpp" />
+    <ClInclude Include="tScriptExportDialog.hpp" />
+    <ClInclude Include="tScriptProfilerDialog.hpp" />
+    <ClInclude Include="tSearchableOpenFilesDialog.hpp" />
+    <ClInclude Include="tBrowseControl.hpp" />
+    <ClInclude Include="tScriptContextStack.hpp" />
+    <ClInclude Include="tScriptExportParser.hpp" />
+    <ClInclude Include="tWxDrawPanel.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

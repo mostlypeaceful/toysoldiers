@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98D96DD4-A3B1-48ED-A72E-259098326734}</ProjectGuid>
+    <RootNamespace>SigFx</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsexec++_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsexec++_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools; $(SolutionDir)ToolsGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>SigFxPch.hpp</PrecompiledHeaderFile>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28d_core.lib;wxbase28d.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools; $(SolutionDir)ToolsGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>SigFxPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28_core.lib;wxbase28.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregex.lib;wxexpat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SigFx.cpp" />
+    <ClCompile Include="SigFxPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tAttractorPropertiesPanel.cpp" />
+    <ClCompile Include="tCreateNewEffectPanel.cpp" />
+    <ClCompile Include="tEffectFollowMouseGizmo.cpp" />
+    <ClCompile Include="tEffectPositionOffsetGizmo.cpp" />
+    <ClCompile Include="tEffectRotationGizmo.cpp" />
+    <ClCompile Include="tEffectScaleGizmo.cpp" />
+    <ClCompile Include="tEffectTranslationGizmo.cpp" />
+    <ClCompile Include="tManipulateEffectPanel.cpp" />
+    <ClCompile Include="tMeshSelectorDialog.cpp" />
+    <ClCompile Include="tMeshSystemPropertiesPanel.cpp" />
+    <ClCompile Include="tObjectScaleGizmo.cpp" />
+    <ClCompile Include="tParticleSystemPropertiesPanel.cpp" />
+    <ClCompile Include="tReferenceEntitypanel.cpp" />
+    <ClCompile Include="tSigFxGraph.cpp" />
+    <ClCompile Include="tSigFxGraphline.cpp" />
+    <ClCompile Include="tSigFxKeyframe.cpp" />
+    <ClCompile Include="tSigFxKeyline.cpp" />
+    <ClCompile Include="tSigFxKeylineTrack.cpp" />
+    <ClCompile Include="tSigFxMainWindow.cpp" />
+    <ClCompile Include="tSigFxMatEd.cpp" />
+    <ClCompile Include="tSigFxSystem.cpp" />
+    <ClCompile Include="tSigFxTimelineScrub.cpp" />
+    <ClCompile Include="tTabControl.cpp" />
+    <ClCompile Include="tTabPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SigFxPch.hpp" />
+    <ClInclude Include="tAttractorPropertiesPanel.hpp" />
+    <ClInclude Include="tCreateNewEffectPanel.hpp" />
+    <ClInclude Include="tEffectFollowMouseGizmo.hpp" />
+    <ClInclude Include="tEffectPositionOffsetGizmo.hpp" />
+    <ClInclude Include="tEffectRotationGizmo.hpp" />
+    <ClInclude Include="tEffectScaleGizmo.hpp" />
+    <ClInclude Include="tEffectTranslationGizmo.hpp" />
+    <ClInclude Include="tFxEditableGizmoInfo.hpp" />
+    <ClInclude Include="tFxEditorActions.hpp" />
+    <ClInclude Include="tManipulateEffectPanel.hpp" />
+    <ClInclude Include="tMeshSelectorDialog.hpp" />
+    <ClInclude Include="tMeshSystemPropertiesPanel.hpp" />
+    <ClInclude Include="tObjectScaleGizmo.hpp" />
+    <ClInclude Include="tParticleSystemPropertiesPanel.hpp" />
+    <ClInclude Include="tReferenceEntityPanel.hpp" />
+    <ClInclude Include="tSigFxContextMenuActions.hpp" />
+    <ClInclude Include="tSigFxGraph.hpp" />
+    <ClInclude Include="tSigFxGraphline.hpp" />
+    <ClInclude Include="tSigFxKeyframe.hpp" />
+    <ClInclude Include="tSigFxKeyline.hpp" />
+    <ClInclude Include="tSigFxKeylineTrack.hpp" />
+    <ClInclude Include="tSigFxMainWindow.hpp" />
+    <ClInclude Include="tSigFxMatEd.hpp" />
+    <ClInclude Include="tSigFxSystem.hpp" />
+    <ClInclude Include="tSigFxTimelineScrub.hpp" />
+    <ClInclude Include="tSigFxWindowHotKeys.hpp" />
+    <ClInclude Include="tTabControl.hpp" />
+    <ClInclude Include="tTabPanel.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SigFx.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ToolsGui\ToolsGui.vcxproj">
+      <Project>{4a76edda-ce5d-44a1-b47a-037e3b85d157}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="toolsexec++_tools_pcdx9_release"
+	OutputDirectory="$(SigEngine)\Bin"
+	IntermediateDirectory="$(SolutionDir)Obj\$(ProjectName)\$(ConfigurationName)"
+	InheritedPropertySheets=".\tools_pcdx9_release.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SigEngine)\Src\Internal\Tools&quot;"
+		PrecompiledHeaderThrough=""
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		SubSystem="2"
+		OptimizeReferences="2"
+		EnableCOMDATFolding="2"
+		TargetMachine="1"
+	/>
+</VisualStudioPropertySheet>

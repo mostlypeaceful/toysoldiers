@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="game_debug|Win32">
+      <Configuration>game_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_debug|Xbox 360">
+      <Configuration>game_debug</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_internal|Win32">
+      <Configuration>game_internal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_internal|Xbox 360">
+      <Configuration>game_internal</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_release|Win32">
+      <Configuration>game_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_release|Xbox 360">
+      <Configuration>game_release</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_debug|Xbox 360">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Xbox 360">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}</ProjectGuid>
+    <RootNamespace>External</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\enginelib_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\enginelib_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_pcdx9_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_xbox360_internal.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_xbox360_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\gamelib_game_xbox360_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">.\lib\game_pcdx9_release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">.\lib\game_xbox360_release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">.\lib\game_pcdx9_debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">.\lib\game_xbox360_debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">.\lib\tools_pcdx9_release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">$(Platform)\$(Configuration)\</IntDir>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">.\lib\tools_pcdx9_debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">$(Platform)\$(Configuration)\</IntDir>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">.\lib\game_pcdx9_internal\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">.\lib\game_xbox360_internal\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">$(SolutionDir)Obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">Sig$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">Sig$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">Sig$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Sig$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Sig$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Sig$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\bullet-2.66\src;.\squirrel\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GARBAGE_COLLECTOR</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)Sig$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="zlib123\adler32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\crc32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\deflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\example.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">true</ExcludedFromBuild>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\gzio.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">true</ExcludedFromBuild>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\infback.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\inffast.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\inflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\inftrees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\minigzip.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">true</ExcludedFromBuild>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\trees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\uncompr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="zlib123\zutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Xbox 360'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Xbox 360'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="squirrel\squirrel\sqapi.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqbaselib.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqclass.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqcompiler.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqdebug.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqfuncstate.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqlexer.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqmem.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqobject.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqstate.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqtable.cpp" />
+    <ClCompile Include="squirrel\squirrel\sqvm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="zlib123\crc32.h" />
+    <ClInclude Include="zlib123\deflate.h" />
+    <ClInclude Include="zlib123\inffast.h" />
+    <ClInclude Include="zlib123\inffixed.h" />
+    <ClInclude Include="zlib123\inflate.h" />
+    <ClInclude Include="zlib123\inftrees.h" />
+    <ClInclude Include="zlib123\trees.h" />
+    <ClInclude Include="zlib123\zconf.h" />
+    <ClInclude Include="zlib123\zconf.in.h" />
+    <ClInclude Include="zlib123\zlib.h" />
+    <ClInclude Include="zlib123\zutil.h" />
+    <ClInclude Include="squirrel\include\squirrel.h" />
+    <ClInclude Include="squirrel\squirrel\sqarray.h" />
+    <ClInclude Include="squirrel\squirrel\sqclass.h" />
+    <ClInclude Include="squirrel\squirrel\sqclosure.h" />
+    <ClInclude Include="squirrel\squirrel\sqcompiler.h" />
+    <ClInclude Include="squirrel\squirrel\sqfuncproto.h" />
+    <ClInclude Include="squirrel\squirrel\sqfuncstate.h" />
+    <ClInclude Include="squirrel\squirrel\sqlexer.h" />
+    <ClInclude Include="squirrel\squirrel\sqobject.h" />
+    <ClInclude Include="squirrel\squirrel\sqopcodes.h" />
+    <ClInclude Include="squirrel\squirrel\sqpcheader.h" />
+    <ClInclude Include="squirrel\squirrel\sqstate.h" />
+    <ClInclude Include="squirrel\squirrel\sqstring.h" />
+    <ClInclude Include="squirrel\squirrel\sqtable.h" />
+    <ClInclude Include="squirrel\squirrel\squserdata.h" />
+    <ClInclude Include="squirrel\squirrel\squtils.h" />
+    <ClInclude Include="squirrel\squirrel\sqvm.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

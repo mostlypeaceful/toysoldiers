@@ -1,0 +1,313 @@
+===Serializing new types in SigEngine===
+
+//Ver 1.0 - July 29, 2011
+//	First version. Quickly writting down all the steps I took to get tSwfFile through
+//	our asset pipeline.
+
+So you have some new file type you’d like to run through the asset system and load in-game,
+here are the basic steps to get that working. I'll be using "Foo" as my new file type.
+
+Figuring out how to add extra data to your classes (like arrays and such) as well as how to
+do extra fixup work on load/unload is left as an excersize to the leader. This serves simply
+as a quick "how-to" get a file through our asset pipeline and into the game asap.
+
+########################
+  Step 1: tFooFile.hpp
+########################
+
+//This file should be placed somewhere in Base.vcproj (most likely under _Namespaces -> Foo)
+#ifndef __tFooFile__
+#define __tFooFile__
+#include "tLoadInPlaceFileBase.hpp"
+
+namespace Sig
+{
+	class base_export tFooFile : public tLoadInPlaceFileBase
+	{
+		declare_reflector( );
+		implement_rtti_serializable_base_class( tFooFile, 0xBAADF00D );
+	public:
+		static const u32 cVersion;
+		//.... any more data you want
+	public:
+		tFooFile( );
+		tFooFile( tNoOpTag );
+		//.... any more functions you want
+	};
+}//Sig
+
+#endif//__tFooFile__
+
+#######################
+  Step 1 Explanation:
+#######################
+
+- This will be the file to be used in-game. Any extra data needed with this asset should be stored
+	in this class. Later we shall discuss the other classes used to load in the raw-asset and then
+	fill out this class with all the data neccessary.
+- "base_export" is the first thing to point out. We generate DLLs for various things (mostly tools) 
+	so this just ensures our class compiles cleanly across Game + Tools code
+- "tLoadInPlaceFileBase" is used extensively for handling paths in XML files (.sigml, .mshml, etc.)
+	for our basic file we can ignore this and focus on the class that this derives from: 
+	tBinaryFileBase. tBinaryFileBase contains a signiture header that all binary assets should have.
+	This header includes: "!SigB!#", the file type setup by our Rtti System (more on this later) and
+	the current version number of the asset type.
+	If the signiture is not "!SigB!#" where # is the platform Id then you will get a corrupt file
+	 error on load.
+	If the file type is not the same as tFooFile::cClassId then you will get an invalid file type
+	 error on load.
+	And if the version is not the same as tFooFile::cVersion then you will get a wrong version error
+	 with a request to re-run the file through asset-gen.
+- "declare_reflector( );" is required to setup the class to have Rtti info. (more on this later)
+- "implement_rtti_serializable_base_class( tFooFile, 0xBAADFOOD );" is also required for Rtti info
+	but there is a little more to this macro. 0xBAADFOOD  needs to be a unique value that no other
+	class in all the engine code + gameplay code has. You can generate a unique Id by using
+	$(SigEngine)\bin\RuidGen.exe
+	Replace 0xBAADFOOD with the value you get from that (ex: 0x5B75953C) and also do a quick find-in-
+	all-files to make sure no other class is using it.
+- cVersion is used for the signiture we mentioned above. Start this value at 0. As soon as you change
+	any data in the file (adding or removing) you should increment this value by one to guarantee we
+	don't load in assets built previously because they could at best corrupt the asset to be used by
+	the game and at worst cause a buffer overrun and screw over something else in the game. Both can
+	cause seemingly-random behaviour or crashes anywhere in code.
+- "tFooFile( )" will most likely only be used at tools times when you first create the asset.
+	"tFooFile( tNoOpTag )" is very important. The NoOp tag is there to make sure the construction of
+	your file does just that - nothing - no operation. No pointers should be setup or initialized, no
+	data should be allocated, base classes + some engine types should get the noop tag as well. This
+	is all done to prevent any sort of memory leak or data corruption because once this class gets
+	created a memcpy will occur right on top of it. (note: it is something a little more than a memcpy
+	because ptr-fixups occur as well as keeping the vtable intact)
+
+########################
+  Step 2: tFooFile.cpp
+########################
+
+#include "BasePch.hpp"
+#include "tFooFile.hpp"
+
+namespace Sig
+{
+	const u32 tFooFile::cVersion = 0;
+	tFooFile::tFooFile( )
+	{
+	}
+	tFooFile::tFooFile( tNoOpTag )
+		: tLoadInPlaceFileBase( cNoOpTag )
+		//.... any other data members that need to get cNoOpTag
+	{
+	}
+	//.... any more functions impl'ed for this class
+}//Sig
+
+#######################
+  Step 2 Explanation:
+#######################
+
+- cVersion is what we mentioned before. Make sure you change this whenever data in the class changes in
+ any way for any reason
+- "tFooFile( tNoOpTag )" notice the "tLoadInPlaceFileBase( cNoOpTag )" this is super important. Make sure
+ you setup the cNoOpTag for it and any other data members in your class.
+
+#################################
+  Step 3: ClassRegistration.hpp
+#################################
+
+- Find the file in our depot 
+- Add #include "tFooFile.hpp"
+- Add "implement_lip_load_unload_callbacks( tFooFile )" after the other implement macros
+
+#######################
+  Step 3 Explanation:
+#######################
+
+This is one of the biggest GOTCHA!s in our asset loading system. If you do not add the "implement_lip_load_unload_callbacks" 
+then every time the file is loaded the signiture will be incorrect and stuff will just not worked.
+
+You'll be all sorts of confused. MAKE SURE YOU DO THIS.
+
+###############################
+  Step 4: tFooAssetPlugin.hpp
+###############################
+
+//This file should be placed in Tools.vcproj -> Files & Exporters -> Foo
+#ifndef __tFooAssetPlugin__
+#define __tFooAssetPlugin__
+#include "iAssetPlugin.hpp"
+#include "iAssetGenPlugin.hpp"
+#include "tFooFile.hpp"
+
+namespace Sig
+{
+	class tools_export tFooFileConverter : public tFooFile
+	{
+	public:
+		//.... Implement ctors and virtual dtor
+		//.... functions to aid in parsing file
+	};
+	
+	class tools_export tFooAssetPlugin :
+		public iAssetPlugin,
+		public iAssetGenPlugin
+	{
+	public:
+		virtual iAssetGenPlugin* fGetAssetGenPluginInterface( )	{ return this; }
+
+		virtual void fDetermineInputOutputs( 
+			tInputOutputList& inputOutputsOut,
+			const tFilePathPtrList& immediateInputFiles );
+
+		virtual void fProcessInputOutputs(
+			const tInputOutput& inputOutput,
+			tFilePathPtrList& indirectGenFilesAddTo );
+	};
+}//Sig
+
+#endif//__tFooAssetPlugin__
+
+#######################
+  Step 4 Explanation:
+#######################
+
+- "tools_export" is used instead of base_export. I don't think it is any different from "base_export"
+	but all the other asset plugins are written this way.
+- tFooFileConverter derives from tFooFile. It is a silly interface setup to allow write access to
+	tFooFile without having to create some interface on tFooFile that would never be used in game.
+- iAssetPlugin is just to interface with the asset plugin manager thingy (I'll show where we hook this
+	up in code later). All we really need to implement for that interface is fGetAssetGenPluginInterface()
+- iAssetGenPlugin is where all the work gets done. The fDetermine and fProcess are part of this interface.
+- fDetermineInputOutputs is used to figure out if any of the file paths are relavent to us.
+- fProcessInputOutputs is where we process one input file for each output platform (ex: audio files have
+	a different format on xbox then on PC so we need to output different types of files based on the
+	initially .wav input file)
+	
+###############################
+  Step 5: tFooAssetPlugin.cpp
+###############################
+
+#include "ToolsPch.hpp"
+#include "tFooAssetPlugin.hpp"
+#include "FileSystem.hpp"
+#include "tFileReader.hpp"
+#include "tFileWriter.hpp"
+#include "tLoadInPlaceSerializer.hpp"
+
+namespace Sig
+{
+	//.... tFooFileConvert ctors/dtor/file parsing funcs
+	void tFooAssetPlugin::fDetermineInputOutputs( 
+		tInputOutputList& inputOutputsOut,
+		const tFilePathPtrList& immediateInputFiles )
+	{
+		//loop over all potential input file paths
+		for( u32 i = 0; i < immediateInputFiles.fCount( ); ++i )
+		{
+			//check to see if any of them are my .foo files
+			if( StringUtil::fCheckExtension( immediateInputFiles[ i ].fCStr( ), ".foo" ) )
+			{
+				//if so, add them to a list to be processed later by fProcessInputOutputs
+				inputOutputsOut.fGrowCount( 1 );
+				inputOutputsOut.fBack( ).mOriginalInput = immediateInputFiles[i];
+				inputOutputsOut.fBack( ).mInputs.fPushBack( immediateInputFiles[ i ] );
+				inputOutputsOut.fBack( ).mOutput = ToolsPaths::fMakeResRelative( tFilePathPtr::fSwapExtension( immediateInputFiles[ i ], ".foob" ) );
+			}
+		}
+	}
+	void tFooAssetPlugin::fProcessInputOutputs(
+			const tInputOutput& inOut,
+			tFilePathPtrList& indirectGenFilesAddTo )
+	{
+		//for each input
+		for( u32 i = 0; i < inOut.mInputs.fCount( ); ++i )
+		{
+			// for each platform (PC, Xbox, etc.)
+			for( u32 j = 0; j < inOut.mPlatformsToConvert.fCount( ); ++j )
+			{
+				//determine the output path by platform
+				const tPlatformId pid = inOut.mPlatformsToConvert[ j ];
+				const tFilePathPtr outputPath = iAssetGenPlugin::fCreateAbsoluteOutputPath( pid, inOut.mOutput );
+
+				//setup signiture for output file
+				tFooFileConverter c;
+				c.fSetSignature( pid, Rtti::fGetClassId<tFooFile>( ), tFooFile::cVersion );
+				
+				//.... process the file some more and then write file out to outputPath
+			}
+		}
+	}
+}//Sig
+
+#######################
+  Step 5 Explanation:
+#######################
+
+- This entails all the work for processing files for AssetGen. First, we determine which files need to be processed.
+	Then, we process each file in turn for each platform.
+- "fSetSignature" is very important. This sets up your "tLoadInPlaceFileBase" derived class with the proper signiture,
+	file type and file version.
+
+############################
+  Step 6: AssetPlugins.cpp
+############################
+
+Now we need to inform tools that we have another type of file we are searching for and that needs to be processed.
+This gets setup in AssetPlugins.cpp
+
+- Add #include "tFooAssetPlugin.hpp"
+- Add these lines to the bottom of fCreatePlugins():
+	static tFooAssetPlugin gFooAssetPlugin;
+	pluginsAddTo.fPushBack( &gFooAssetPlugin );
+	
+############################
+  Step 7: Rtti
+############################
+
+- Run $(SigEngine)\src\internal\RttiGenAll.bat
+
+If you didn't know: Rtti = Run-Time Type Information
+It aids us mostly in discovering what data lies in a class and helps the underlying systems read & write these to a file.
+(read + writing to a file is also known as serialization).
+
+RttiGenAll will run through all source files in the game/engine code and generate files such as Base.rtti.cpp
+In here is where all the stuff gets setup for the "declare_reflector()" and such using crazy templates.
+You don't really need to know anything about RttiGenAll.bat other than running it. In fact I couldn't 
+even tell you how it works or what all the crazy template stuff does myself. That shit is just nuts.
+
+It is really important that you do this step though. And make sure you do this step EVERY TIME you add/remove data
+or change some part of your tFooFile. It is important that both the RttiGenAll gets run as well as the cVersion var
+gets updated whenever data changes in your class.
+
+###################
+  Step 8: Testing
+###################
+
+Alright so we should now have:
+- files in the "res" directory being checked against our fDetermineInputOutputs()
+- raw files being parsed and written in a platform-specific way for each platform
+- <LOAD FILE TEST CODE>
+- files getting loaded as an in-place binary file and our tFooFile class setup and ready to go!
+
+Before we look into <LOAD FILE TEST CODE>, I'd suggest adding some breakpoints in our FooConverter code to verify files 
+	are getting found and parsed. Then I'd find that file in a platform's res directory and open it up in some hex editor 
+	(you could use the Hex Editor plugin for Notepad++: http://sourceforge.net/projects/npp-plugins/files/Hex%20Editor/)
+	to verify that the signiture looks something like:
+	0d f0 ad ba                       21 53 69 67 42 21 02          00       0d f0 ad ba           00 00 00 00
+	^^^^^^^^^^^ vtable, ignore this    !  S  i  g  B  ! ^^ platform ^^ null  ^^^^^^^^^^^ class id  ^^^^^^^^^^^ file version
+	
+- The class id may be reversed from what you specified (0xbaadf00d) so keep that in mind.
+
+Here is some quick <LOAD FILE TEST CODE>:
+
+
+//create an id for our resource
+tResourceId id = tResourceId::fMake< tFooFile >( "gameplay/foofiles/test.foob" );
+
+//try loading our resource using "this" (whatever class we are inside of) as the person who will own the resource
+tResourcePtr res = tApplication::fInstance( ).fResourceDepot( )->fQueryLoadBlock( id, this );
+
+if( res->fLoaded( ) )
+{
+	tFooFile* foo = res->fCast< tFooFile >( );
+	//.... do stuff with our tFooFile
+}
+else
+	//.... write some error output using res->fAbsolutePhysicalPath( )

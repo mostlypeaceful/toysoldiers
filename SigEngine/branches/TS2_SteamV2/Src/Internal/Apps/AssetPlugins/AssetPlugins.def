@@ -1,0 +1,6 @@
+EXPORTS
+	fGetPluginVersion	@1
+	fCreatePlugins		@2
+	fDestroyPlugins		@3
+SECTIONS
+	.data READ WRITE

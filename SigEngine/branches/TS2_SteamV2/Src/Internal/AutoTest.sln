@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTest (x86)", "Apps\AutoTest\AutoTest (x86).csproj", "{CF3692AE-5574-412D-A379-1C22DB363A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformDebuggingTester", "Apps\PlatformDebuggingTester\PlatformDebuggingTester.csproj", "{17F801A1-038B-43E0-BFA1-BE7A701CEF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformMonitor", "Apps\PlatformMonitor\PlatformMonitor.csproj", "{43175AEB-3EFD-4277-BA76-5386F589C0F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF3692AE-5574-412D-A379-1C22DB363A2B}.Debug|x86.ActiveCfg = Debug|x86
+		{CF3692AE-5574-412D-A379-1C22DB363A2B}.Debug|x86.Build.0 = Debug|x86
+		{CF3692AE-5574-412D-A379-1C22DB363A2B}.Release|x86.ActiveCfg = Release|x86
+		{CF3692AE-5574-412D-A379-1C22DB363A2B}.Release|x86.Build.0 = Release|x86
+		{17F801A1-038B-43E0-BFA1-BE7A701CEF6F}.Debug|x86.ActiveCfg = Debug|x86
+		{17F801A1-038B-43E0-BFA1-BE7A701CEF6F}.Debug|x86.Build.0 = Debug|x86
+		{17F801A1-038B-43E0-BFA1-BE7A701CEF6F}.Release|x86.ActiveCfg = Release|x86
+		{17F801A1-038B-43E0-BFA1-BE7A701CEF6F}.Release|x86.Build.0 = Release|x86
+		{43175AEB-3EFD-4277-BA76-5386F589C0F9}.Debug|x86.ActiveCfg = Debug|x86
+		{43175AEB-3EFD-4277-BA76-5386F589C0F9}.Debug|x86.Build.0 = Debug|x86
+		{43175AEB-3EFD-4277-BA76-5386F589C0F9}.Release|x86.ActiveCfg = Release|x86
+		{43175AEB-3EFD-4277-BA76-5386F589C0F9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

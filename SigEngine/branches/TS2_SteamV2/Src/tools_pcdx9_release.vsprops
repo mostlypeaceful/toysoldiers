@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="tools_pcdx9_release"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="1"
+		InlineFunctionExpansion="2"
+		EnableIntrinsicFunctions="true"
+		FavorSizeOrSpeed="2"
+		EnableFiberSafeOptimizations="true"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)..\External\Microsoft DirectX SDK (June 2010)\Include&quot;;&quot;$(SolutionDir)Base&quot;;&quot;$(SolutionDir)..\External\squirrel\include&quot;;&quot;$(SolutionDir)..\External\zlib123&quot;;&quot;$(SolutionDir)..\External\tinyxml&quot;;&quot;$(SolutionDir)..\External\enet-1.3.0\include&quot;;&quot;$(SolutionDir)..\External\wxWidgets-2.8.7\include&quot;;&quot;$(SolutionDir)..\External\wxWidgets-2.8.7\lib\vc_dll\msw&quot;"
+		PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;WXUSINGDLL;build_release;platform_pcdx9;target_tools"
+		StringPooling="true"
+		MinimalRebuild="false"
+		ExceptionHandling="1"
+		RuntimeLibrary="2"
+		BufferSecurityCheck="false"
+		EnableEnhancedInstructionSet="2"
+		FloatingPointModel="0"
+		RuntimeTypeInfo="true"
+		WarningLevel="3"
+		Detect64BitPortabilityProblems="false"
+		DebugInformationFormat="3"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		LinkIncremental="1"
+		AdditionalLibraryDirectories="&quot;$(SolutionDir)..\External\Microsoft DirectX SDK (June 2010)\Lib\x86&quot;;&quot;$(SolutionDir)..\External\wxWidgets-2.8.7\lib\vc_dll&quot;"
+		GenerateDebugInformation="true"
+		OptimizeReferences="2"
+		EnableCOMDATFolding="2"
+	/>
+</VisualStudioPropertySheet>

@@ -1,0 +1,16 @@
+
+
+if( !`shelfLayout -exists "SigEngine"`)
+{
+	loadNewShelf "shelf_SigEngine.mel";
+}
+
+if( !`shelfLayout -exists "SigArt"`)
+{
+	loadNewShelf "shelf_SigArt.mel";
+}
+
+if( !`shelfLayout -exists "SigAnim"`)
+{
+	loadNewShelf "shelf_SigAnim.mel";
+}

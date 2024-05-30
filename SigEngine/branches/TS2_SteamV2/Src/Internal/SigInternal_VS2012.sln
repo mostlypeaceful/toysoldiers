@@ -1,0 +1,373 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssetGen", "Apps\AssetGen\AssetGen.vcxproj", "{4E6F5A21-390C-4853-9E11-9354F81A7BCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7} = {C3AC6786-04B8-4259-B0D1-603F16F871E7}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssetPlugins", "Apps\AssetPlugins\AssetPlugins.vcxproj", "{C3AC6786-04B8-4259-B0D1-603F16F871E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atlas", "Apps\Atlas\Atlas.vcxproj", "{2D65810D-5D3E-4B81-A6B8-07DE3605728B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "Base\Base.vcxproj", "{079E042C-4CE5-43AE-B813-9EA0DE379F93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD} = {FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileToByteArray", "Apps\FileToByteArray\FileToByteArray.vcxproj", "{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLauncher", "Apps\GameLauncher\GameLauncher.vcxproj", "{2B234E09-610C-42B9-9946-AD3B43ABE518}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{6343622F-810F-4BB3-B970-872B68255EC4} = {6343622F-810F-4BB3-B970-872B68255EC4}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaterialGen", "Apps\MaterialGen\MaterialGen.vcxproj", "{46637750-0456-4187-9E1B-AC60157D62BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE} = {4E6F5A21-390C-4853-9E11-9354F81A7BCE}
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MayaPlugin", "Apps\MayaPlugin\MayaPlugin.vcxproj", "{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B} = {DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigAI", "Apps\SigAI\SigAI.vcxproj", "{4389F2FA-34DD-4F70-B65B-8B4847033E5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE} = {4E6F5A21-390C-4853-9E11-9354F81A7BCE}
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigAnim", "Apps\SigAnim\SigAnim.vcxproj", "{52E9F703-ACC6-4E21-A0E8-10038139267F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigEd", "Apps\SigEd\SigEd.vcxproj", "{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigFx", "Apps\SigFx\SigFx.vcxproj", "{98D96DD4-A3B1-48ED-A72E-259098326734}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigScript", "Apps\SigScript\SigScript.vcxproj", "{A868E10E-E446-45F4-A349-0E8D5E6D526F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shade", "Apps\Shade\Shade.vcxproj", "{FE46DAD6-3525-4768-9924-A7F2AA9B811D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{DF7AB566-883C-46E5-9F51-FC87625F0AF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools", "Tools\Tools.vcxproj", "{A322A0BF-0F02-46A5-B733-32D8C6A682FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{6343622F-810F-4BB3-B970-872B68255EC4} = {6343622F-810F-4BB3-B970-872B68255EC4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToolsGui", "ToolsGui\ToolsGui.vcxproj", "{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToolsXdk", "ToolsXdk\ToolsXdk.vcxproj", "{6343622F-810F-4BB3-B970-872B68255EC4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigUI", "Apps\SigUI\SigUI.vcxproj", "{8F50AEF3-65BB-467A-A1E4-B86D4510424B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SigTile", "Apps\SigTile\SigTile.vcxproj", "{E4510FB4-14B7-4D75-A18F-5AD61170C788}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA} = {A322A0BF-0F02-46A5-B733-32D8C6A682FA}
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157} = {4A76EDDA-CE5D-44A1-B47A-037E3B85D157}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyncCompare", "Apps\SyncCompare\SyncCompare.vcxproj", "{3F2827BF-B260-46D8-87C2-EF3F48575F35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "External", "..\External\External_VS2012.vcxproj", "{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		game_debug|Win32 = game_debug|Win32
+		game_internal|Win32 = game_internal|Win32
+		game_release|Win32 = game_release|Win32
+		tools_pcdx9_debug|Win32 = tools_pcdx9_debug|Win32
+		tools_pcdx9_release|Win32 = tools_pcdx9_release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4E6F5A21-390C-4853-9E11-9354F81A7BCE}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{C3AC6786-04B8-4259-B0D1-603F16F871E7}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2D65810D-5D3E-4B81-A6B8-07DE3605728B}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_debug|Win32.ActiveCfg = game_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_debug|Win32.Build.0 = game_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_internal|Win32.ActiveCfg = game_internal|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_internal|Win32.Build.0 = game_internal|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_release|Win32.ActiveCfg = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_release|Win32.Build.0 = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DB91C6F2-4A6C-476F-9CDC-EE82E5555A7B}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{2B234E09-610C-42B9-9946-AD3B43ABE518}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{46637750-0456-4187-9E1B-AC60157D62BB}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4389F2FA-34DD-4F70-B65B-8B4847033E5D}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{52E9F703-ACC6-4E21-A0E8-10038139267F}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{98D96DD4-A3B1-48ED-A72E-259098326734}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A868E10E-E446-45F4-A349-0E8D5E6D526F}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FE46DAD6-3525-4768-9924-A7F2AA9B811D}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{DF7AB566-883C-46E5-9F51-FC87625F0AF1}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{A322A0BF-0F02-46A5-B733-32D8C6A682FA}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{6343622F-810F-4BB3-B970-872B68255EC4}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{8F50AEF3-65BB-467A-A1E4-B86D4510424B}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{E4510FB4-14B7-4D75-A18F-5AD61170C788}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_debug|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_debug|Win32.Build.0 = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_internal|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_internal|Win32.Build.0 = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.game_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{3F2827BF-B260-46D8-87C2-EF3F48575F35}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_debug|Win32.ActiveCfg = game_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_debug|Win32.Build.0 = game_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_internal|Win32.ActiveCfg = game_internal|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_internal|Win32.Build.0 = game_internal|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_release|Win32.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_release|Win32.Build.0 = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

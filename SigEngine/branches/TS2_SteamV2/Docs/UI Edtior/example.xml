@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Control>
+  <TypeName>BaseControl</TypeName>
+  <Inherits/>
+  <Properties>
+    <Property name="Name" type="string" default="NoName" />
+    <Property name="Enable" type="bool" default="true" />
+    <Property name="Pos" type="vec2" default="0,0" />
+    <Property name="Size" type="vec2" default="10,10" />
+    <Property name="Tint" type="vec4" default="1,1,1,1" />
+    <Property name="CursorDown" type="bool" default="false" />
+    <Property name="CursorOver" type="bool" default="false" />
+  </Properties>
+  <Events>
+    <Event name="Load"/>
+    <Event name="Unload"/>
+    <Event name="Tick"/>
+  </Events>
+  <ChildControls/>
+  <ScriptVariables/>
+  <ScriptMethods/>
+  <EventOverrides/>
+</Control>
+
+<Control>
+  <TypeName>Button</TypeName>
+  <Inherits>BaseControl.xml</Inherits>
+  <Properties>
+    <Property name="Toggleable" type="bool" default="false" />
+  </Properties>
+  <Events/>
+  <ChildControls>
+    <Base>
+      <Property name="Name" value="button1" />
+    </Base>
+    <Control path="TexturedQuad.xml">
+      <Property name="Name" value="Icon" />
+      <Property name="BGTexture" value="blingbling.bmp" />
+      <Property name="Size" value="(22,30)" />
+      <Property name="Pos" value="(10,20)" />
+    </Control>
+    <Control path="Text.xml">
+      <Property name="Name" value="Label" />
+      <Property name="Text" value="I'm a button." />
+    </Control>
+  </ChildControls>
+  <ScriptVariables/>
+  <ScriptMethods/>
+  <EventOverrides>
+    <Event name="Base:CursorDown:Set">
+      if( value ) Label.Text = "I'm Down."
+      else Label.Text = "I'm a button."
+    </Event>
+  </EventOverrides>
+</Control>
+
+<Control>
+  <TypeName>ProgressBar</TypeName>
+  <Inherits>BaseControl.xml</Inherits>
+  <Properties>
+    <Property name="Percentage" type="float" default="0" />
+  </Properties>
+  <Events/>
+  <ChildControls>
+    <Base>
+      <Property name="Name" value="pgb1" />
+    </Base>
+    <Control path="ColoredQuad.xml">
+      <Property name="Name" value="Bar" />
+      <Property name="Tint" value="1,0,0,1" />
+      <Property name="Size" value="(22,30)" />
+      <Property name="Pos" value="(10,20)" />
+    </Control>
+    <Control path="Text.xml">
+      <Property name="Name" value="Label" />
+      <Property name="Text" value="0 %" />
+    </Control>
+  </ChildControls>
+  <ScriptVariables>
+    <Variable name="blink" type="bool" value="false" />
+    <Variable name="blinkTime" type="float" value="0" />
+  </ScriptVariables>
+  <ScriptMethods>
+    function EnableBlink( enable )
+    {
+      blink = enable;
+    }
+  </ScriptMethods>
+  <EventOverrides>
+    <Event name="Base:Size:Set">
+      base.Size = value; //inheritly this causes recursion. prevent it somehow
+      Percentage = Percentage //reapply percentage
+    </Event>
+    <Event name="Percentage:Set">
+      local baseSize = base.Size
+      
+      Bar.Size = vec2.Make( base.x * value, base.y )
+      Label.Text = value + " %"
+    </Event>
+    <Event name="Base:Tick">
+      if( blink )
+      {
+        blinkTime += dt
+        local tint = base.Tint
+        tint.x = sin( blinkTime ) * 0.5 + 0.5
+        base.Tint = tint
+      }
+    </Event>
+  </EventOverrides>
+</Control>

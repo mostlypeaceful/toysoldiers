@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF7AB566-883C-46E5-9F51-FC87625F0AF1}</ProjectGuid>
+    <RootNamespace>unittests_pc</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\toolsexec++_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\toolsexec++_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Command />
+    </CustomBuildStep>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\External\Squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>UnitTestsPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>false</OptimizeReferences>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Command />
+    </CustomBuildStep>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\External\Squirrel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>UnitTestsPch.hpp</PrecompiledHeaderFile>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>false</OptimizeReferences>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <CustomBuild Include="TestSerializable.hpp" />
+    <ClInclude Include="UnitTests.rtti.hpp" />
+    <ClInclude Include="UnitTestsPch.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestAsyncFileRead.cpp" />
+    <ClCompile Include="TestBase64.cpp" />
+    <ClCompile Include="TestDelegate.cpp" />
+    <ClCompile Include="TestFilePackage.cpp" />
+    <ClCompile Include="TestFixedBitArray.cpp" />
+    <ClCompile Include="TestGrowableArray.cpp" />
+    <ClCompile Include="TestHashTable.cpp" />
+    <ClCompile Include="TestLocklessQueue.cpp" />
+    <ClCompile Include="TestMath.cpp">
+      <ExpandAttributedSource Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">false</ExpandAttributedSource>
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+      </AssemblerOutput>
+      <ExpandAttributedSource Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">false</ExpandAttributedSource>
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+      </AssemblerOutput>
+      <AssemblerListingLocation Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">%(RootDir)%(Directory)\</AssemblerListingLocation>
+    </ClCompile>
+    <ClCompile Include="TestMeshSimplify.cpp" />
+    <ClCompile Include="TestPriorityQueue.cpp" />
+    <ClCompile Include="TestRandom.cpp" />
+    <ClCompile Include="TestRingBuffer.cpp" />
+    <ClCompile Include="TestRtti.cpp" />
+    <ClCompile Include="TestRttiTypeDesc.cpp" />
+    <ClCompile Include="TestScripts.cpp" />
+    <ClCompile Include="TestSerializable.cpp" />
+    <ClCompile Include="TestStringPtr.cpp" />
+    <ClCompile Include="TestToolsPaths.cpp" />
+    <ClCompile Include="TestXmlFile.cpp" />
+    <ClCompile Include="UnitTests.cpp" />
+    <ClCompile Include="UnitTests.rtti.cpp" />
+    <ClCompile Include="UnitTestsPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UnitTests_pc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UnitTests.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UnitTests.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

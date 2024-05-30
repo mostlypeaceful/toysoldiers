@@ -1,0 +1,11 @@
+
+
+sampler2D gSource0 : register( s0 );
+
+
+void main( in float4 vInUv : TEXCOORD0, out float4 oColor : COLOR0 )
+{
+	// todo get this from a constant
+	float2 rcpFrame = float2( 1.0 / 1024.0, 1.0 / 768.0 );
+	oColor = float4( FxaaPixelShader( vInUv.xy, gSource0, rcpFrame.xy ), 1.0f );
+}

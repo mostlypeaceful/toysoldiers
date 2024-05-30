@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC4F8497-FAD3-43C2-AD7C-156DA0BBFD44}</ProjectGuid>
+    <RootNamespace>MayaPlugin</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsdllc++_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsdllc++_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Utilities\Bin\x86;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(DXSDK_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">SigMaya2013</TargetName>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Utilities\Bin\x86;$(VCInstallDir)bin;$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(DXSDK_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">.mll</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">SigMaya2013</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">.mll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)ToolsXdk;$(SolutionDir)..\External\Maya2013\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MayaPluginPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;wxmsw28d_core.lib;wxbase28d.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)SigMaya2013.mll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\maya2013\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)ToolsXdk;$(SolutionDir)..\External\Maya2013\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>MayaPluginPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;OpenMayaRender.lib;wxmsw28_core.lib;wxbase28.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregex.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)SigMaya2013.mll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\maya2013\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="SigEngineShelfCreation.mel">
+      <FileType>Document</FileType>
+      <Message Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Converting mel script %(Filename) to header file...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">FileToByteArrayd -i %(FullPath) -o %(RootDir)%(Directory)%(Filename).h -n
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">%(RootDir)%(Directory)%(Filename).h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Converting mel script %(Filename) to header file...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">FileToByteArray -i %(FullPath) -o %(RootDir)%(Directory)%(Filename).h -n
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">%(RootDir)%(Directory)%(Filename).h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MayaPlugin.cpp" />
+    <ClCompile Include="MayaUtil.cpp" />
+    <ClCompile Include="tMayaUIApp.cpp" />
+    <ClCompile Include="MayaPluginPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">MayaPluginPch.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">MayaPluginPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="tMayaAttributeCheckBox.cpp" />
+    <ClCompile Include="tMayaAttributeEnumBox.cpp" />
+    <ClCompile Include="tMayaAttributeFileListBox.cpp" />
+    <ClCompile Include="tMayaAttributeFloatBox.cpp" />
+    <ClCompile Include="tMayaAttributeListBox.cpp" />
+    <ClCompile Include="tMayaAttributeMaskBox.cpp" />
+    <ClCompile Include="tMayaAttributeMultiEnumBox.cpp" />
+    <ClCompile Include="tMayaAttributeTextBox.cpp" />
+    <ClCompile Include="tMayaCheckOutButton.cpp" />
+    <ClCompile Include="tMayaDialogGroupBox.cpp" />
+    <ClCompile Include="tMayaDialogTab.cpp" />
+    <ClCompile Include="tMayaEvent.cpp" />
+    <ClCompile Include="tMayaExporterToolbox.cpp" />
+    <ClCompile Include="tMayaGuiBase.cpp" />
+    <ClCompile Include="tMayaMatEdWindow.cpp" />
+    <ClCompile Include="tMayaSigmlQuickExport.cpp" />
+    <ClCompile Include="tMayaStatePreview.cpp" />
+    <ClCompile Include="tMayaTexturePathFixerButton.cpp" />
+    <ClCompile Include="tMayaSklmlExporter.cpp" />
+    <ClCompile Include="tMayaSigmlExporter.cpp" />
+    <ClCompile Include="tMayaDermlMaterial.cpp" />
+    <ClCompile Include="tMayaAnimlExporter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MayaUtil.hpp" />
+    <ClInclude Include="tMayaPlugin.hpp" />
+    <ClInclude Include="tMayaUIApp.hpp" />
+    <ClInclude Include="MayaPluginPch.hpp" />
+    <ClInclude Include="tMayaAttributeCheckBox.hpp" />
+    <ClInclude Include="tMayaAttributeEnumBox.hpp" />
+    <ClInclude Include="tMayaAttributeFileListBox.hpp" />
+    <ClInclude Include="tMayaAttributeFloatBox.hpp" />
+    <ClInclude Include="tMayaAttributeListBox.hpp" />
+    <ClInclude Include="tMayaAttributeMaskBox.hpp" />
+    <ClInclude Include="tMayaAttributeMultiEnumBox.hpp" />
+    <ClInclude Include="tMayaAttributeTextBox.hpp" />
+    <ClInclude Include="tMayaAttributeValueTracker.hpp" />
+    <ClInclude Include="tMayaCheckOutButton.hpp" />
+    <ClInclude Include="tMayaDialogGroupBox.hpp" />
+    <ClInclude Include="tMayaDialogTab.hpp" />
+    <ClInclude Include="tMayaEvent.hpp" />
+    <ClInclude Include="tMayaExporterToolbox.hpp" />
+    <ClInclude Include="tMayaGuiBase.hpp" />
+    <ClInclude Include="tMayaMatEdWindow.hpp" />
+    <ClInclude Include="tMayaSigmlQuickExport.hpp" />
+    <ClInclude Include="tMayaStatePreview.hpp" />
+    <ClInclude Include="tMayaTexturePathFixerButton.hpp" />
+    <ClInclude Include="tMayaSklmlExporter.hpp" />
+    <ClInclude Include="tMayaSigmlExporter.hpp" />
+    <ClInclude Include="tMayaDermlMaterial.hpp" />
+    <ClInclude Include="tMayaAnimlExporter.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\FileToByteArray\FileToByteArray.vcxproj">
+      <Project>{db91c6f2-4a6c-476f-9cdc-ee82e5555a7b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A76EDDA-CE5D-44A1-B47A-037E3B85D157}</ProjectGuid>
+    <RootNamespace>ToolsGui</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>toolsgui_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsGuiPch.hpp</PrecompiledHeaderFile>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_stc.lib;wxmsw28d_adv.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName)d.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\maya2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>toolsgui_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsGuiPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;Foundation.lib;OpenMayaUI.lib;OpenMaya.lib;OpenMayaAnim.lib;wxmsw28_core.lib;wxbase28.lib;wxmsw28_stc.lib;wxmsw28_adv.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\maya2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="tBrowseControl.cpp" />
+    <ClCompile Include="tConfigurableBrowserTree.cpp" />
+    <ClCompile Include="tEditorCursorController.cpp" />
+    <ClCompile Include="tEditorCursorControllerButton.cpp" />
+    <ClCompile Include="tEditorHotKey.cpp" />
+    <ClCompile Include="tExplicitDependenciesDialog.cpp" />
+    <ClCompile Include="tFindInDialogBase.cpp" />
+    <ClCompile Include="tGizmoGeometry.cpp" />
+    <ClCompile Include="tGlobalLightDirGizmo.cpp" />
+    <ClCompile Include="tGlobalLightDirGizmoGeometry.cpp" />
+    <ClCompile Include="tManipulationGizmo.cpp" />
+    <ClCompile Include="tManipulationGizmoAction.cpp" />
+    <ClCompile Include="tMouseFollowCursor.cpp" />
+    <ClCompile Include="tMouseFollowGizmoGeometry.cpp" />
+    <ClCompile Include="ToolsGuiPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tPlaceObjectCursor.cpp" />
+    <ClCompile Include="tProjectXMLDialog.cpp" />
+    <ClCompile Include="tRenderOnlyGizmo.cpp" />
+    <ClCompile Include="tRotationGizmo.cpp" />
+    <ClCompile Include="tRotationGizmoGeometry.cpp" />
+    <ClCompile Include="tScaleGizmo.cpp" />
+    <ClCompile Include="tScaleGizmoGeometry.cpp" />
+    <ClCompile Include="tScriptContextStack.cpp" />
+    <ClCompile Include="tScriptExportDialog.cpp" />
+    <ClCompile Include="tScriptExportParser.cpp" />
+    <ClCompile Include="tScriptProfilerDialog.cpp" />
+    <ClCompile Include="tSearchableOpenFilesDialog.cpp" />
+    <ClCompile Include="tSelectObjectsCursor.cpp" />
+    <ClCompile Include="tSingleVectorGizmoGeometry.cpp" />
+    <ClCompile Include="tToolsGuiApp.cpp" />
+    <ClCompile Include="tToolsGuiMainWindow.cpp" />
+    <ClCompile Include="tToolsMouseAndKbCamera.cpp" />
+    <ClCompile Include="tTranslationGizmo.cpp" />
+    <ClCompile Include="tTranslationGizmoGeometry.cpp" />
+    <ClCompile Include="tWxColumnListBox.cpp" />
+    <ClCompile Include="tWxDrawPanel.cpp" />
+    <ClCompile Include="tWxRenderPanel.cpp" />
+    <ClCompile Include="tWxRenderPanelContainer.cpp" />
+    <ClCompile Include="tWxRenderPanelGridSettings.cpp" />
+    <ClCompile Include="tWxScriptDesigner.cpp" />
+    <ClCompile Include="tWxToolsPanel.cpp" />
+    <ClCompile Include="tWxToolsPanelContainer.cpp" />
+    <ClCompile Include="tWxToolsPanelSlider.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tBrowseControl.hpp" />
+    <ClInclude Include="tConfigurableBrowserTree.hpp" />
+    <ClInclude Include="tEditorCursorController.hpp" />
+    <ClInclude Include="tEditorCursorControllerButton.hpp" />
+    <ClInclude Include="tEditorHotKey.hpp" />
+    <ClInclude Include="tExplicitDependenciesDialog.hpp" />
+    <ClInclude Include="tFindInDialogBase.hpp" />
+    <ClInclude Include="tGizmoGeometry.hpp" />
+    <ClInclude Include="tGlobalLightDirGizmo.hpp" />
+    <ClInclude Include="tGlobalLightDirGizmoGeometry.hpp" />
+    <ClInclude Include="tManipulationGizmo.hpp" />
+    <ClInclude Include="tManipulationGizmoAction.hpp" />
+    <ClInclude Include="tMouseFollowCursor.hpp" />
+    <ClInclude Include="tMouseFollowGizmoGeometry.hpp" />
+    <ClInclude Include="ToolsGuiPch.hpp" />
+    <ClInclude Include="tPlaceObjectCursor.hpp" />
+    <ClInclude Include="tProjectXMLDialog.hpp" />
+    <ClInclude Include="tRenderOnlyGizmo.hpp" />
+    <ClInclude Include="tRotationGizmo.hpp" />
+    <ClInclude Include="tRotationGizmoGeometry.hpp" />
+    <ClInclude Include="tScaleGizmo.hpp" />
+    <ClInclude Include="tScaleGizmoGeometry.hpp" />
+    <ClInclude Include="tScriptContextStack.hpp" />
+    <ClInclude Include="tScriptExportDialog.hpp" />
+    <ClInclude Include="tScriptExportParser.hpp" />
+    <ClInclude Include="tScriptProfilerDialog.hpp" />
+    <ClInclude Include="tSearchableOpenFilesDialog.hpp" />
+    <ClInclude Include="tSelectObjectsCursor.hpp" />
+    <ClInclude Include="tSingleVectorGizmoGeometry.hpp" />
+    <ClInclude Include="tToolsGuiApp.hpp" />
+    <ClInclude Include="tToolsGuiMainWindow.hpp" />
+    <ClInclude Include="tToolsMouseAndKbCamera.hpp" />
+    <ClInclude Include="tTranslationGizmo.hpp" />
+    <ClInclude Include="tTranslationGizmoGeometry.hpp" />
+    <ClInclude Include="tWxColumnListBox.hpp" />
+    <ClInclude Include="tWxDrawPanel.hpp" />
+    <ClInclude Include="tWxRenderPanel.hpp" />
+    <ClInclude Include="tWxRenderPanelContainer.hpp" />
+    <ClInclude Include="tWxRenderPanelGridSettings.hpp" />
+    <ClInclude Include="tWxScriptDesigner.hpp" />
+    <ClInclude Include="tWxToolsPanel.hpp" />
+    <ClInclude Include="tWxToolsPanelContainer.hpp" />
+    <ClInclude Include="tWxToolsPanelSlider.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

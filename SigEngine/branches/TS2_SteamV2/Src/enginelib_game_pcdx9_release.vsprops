@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="enginelib_game_pcdx9_release"
+	OutputDirectory="$(SolutionDir)Obj\$(PlatformName)\$(ProjectName)\$(ConfigurationName)"
+	IntermediateDirectory="$(SolutionDir)Obj\$(PlatformName)\$(ProjectName)\$(ConfigurationName)"
+	InheritedPropertySheets=".\game_pcdx9_release.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories=""
+		PreprocessorDefinitions="_LIB"
+	/>
+</VisualStudioPropertySheet>

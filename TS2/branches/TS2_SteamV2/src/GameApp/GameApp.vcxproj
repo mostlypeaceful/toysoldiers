@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="game_debug|Win32">
+      <Configuration>game_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_internal|Win32">
+      <Configuration>game_internal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_playtest|Win32">
+      <Configuration>game_playtest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_profile|Win32">
+      <Configuration>game_profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_release|Win32">
+      <Configuration>game_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}</ProjectGuid>
+    <RootNamespace>GameApp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SigEngine)\Src\gameexe_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SigEngine)\Src\gameexe_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SigEngine)\Src\gameexe_game_pcdx9_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SigEngine)\Src\gameexe_game_pcdx9_internal.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SigEngine)\Src\gameexe_game_pcdx9_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">
+    <OutDir>$(SolutionDir)..\Bin\game_pcdx9_playtest\</OutDir>
+    <IntDir>$(SolutionDir)Obj\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>Game</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">
+    <TargetName>Game</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">
+    <TargetName>Game</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">
+    <TargetName>Game</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">
+    <TargetName>Game</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SigEngine)\Src\External\Theora\include;$(SigEngine)\Src\External\wwise\include; $(SigCurrentProject)\Src\GameApp; $(SigCurrentProject)\Src\GameApp\Extra;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Base.lib;version.lib;legacy_stdio_definitions.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Obj\$(PlatformName)\Base\$(Configuration);$(SigEngine)\Src\External\Theora\lib;$(SigEngine)\Src\External\lib\game_pcdx9_release;$(SigEngine)\Src\External\wwise\Win32_vc90\Release(StaticCRT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SigEngine)\Src\External\Theora\lib\libogg.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libvorbis.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libtheora.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\steam\redistributable_bin\steam_api.dll" "$(TargetDir)" /Y
+echo 480 &gt; "$(TargetDir)steam_appid.txt"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SigEngine)\Src\External\Theora\include;$(SigEngine)\Src\External\wwise\include; $(SigCurrentProject)\Src\GameApp; $(SigCurrentProject)\Src\GameApp\Extra;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Base.lib;version.lib;legacy_stdio_definitions.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;CommunicationCentral.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Obj\$(PlatformName)\Base\$(Configuration);$(SigEngine)\Src\External\Theora\lib;$(SigEngine)\Src\External\lib\game_pcdx9_internal;$(SigEngine)\Src\External\wwise\Win32_vc90\Profile(StaticCRT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SigEngine)\Src\External\Theora\lib\libogg.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libvorbis.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libtheora.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\steam\redistributable_bin\steam_api.dll" "$(TargetDir)" /Y
+echo 480 &gt; "$(TargetDir)steam_appid.txt"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SigEngine)\Src\External\Theora\include;$(SigEngine)\Src\External\wwise\include; $(SigCurrentProject)\Src\GameApp; $(SigCurrentProject)\Src\GameApp\Extra;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;build_debug;platform_pcdx9;target_game;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Base.lib;version.lib;legacy_stdio_definitions.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;CommunicationCentral.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Obj\$(PlatformName)\Base\$(Configuration);$(SigEngine)\Src\External\Theora\lib;$(SigEngine)\Src\External\lib\game_pcdx9_debug;$(SigEngine)\Src\External\wwise\Win32_vc90\Debug(StaticCRT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SigEngine)\Src\External\Theora\lib\libogg.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libvorbis.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libtheora.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\steam\redistributable_bin\steam_api.dll" "$(TargetDir)" /Y
+echo 480 &gt; "$(TargetDir)steam_appid.txt"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SigEngine)\Src\External\Theora\include;$(SigEngine)\Src\External\wwise\include; $(SigCurrentProject)\Src\GameApp; $(SigCurrentProject)\Src\GameApp\Extra;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;build_release;platform_pcdx9;target_game;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Base.lib;version.lib;legacy_stdio_definitions.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;CommunicationCentral.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Obj\$(PlatformName)\Base\$(Configuration);$(SigEngine)\Src\External\Theora\lib;$(SigEngine)\Src\External\lib\game_pcdx9_release;$(SigEngine)\Src\External\wwise\Win32_vc90\Release(StaticCRT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SigEngine)\Src\External\Theora\lib\libogg.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libvorbis.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libtheora.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\steam\redistributable_bin\steam_api.dll" "$(TargetDir)" /Y
+echo 480 &gt; "$(TargetDir)steam_appid.txt"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SigEngine)\Src\External\Theora\include;$(SigEngine)\Src\External\wwise\include; $(SigCurrentProject)\Src\GameApp; $(SigCurrentProject)\Src\GameApp\Extra;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Base.lib;version.lib;legacy_stdio_definitions.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Obj\$(PlatformName)\Base\$(Configuration);$(SigEngine)\Src\External\Theora\lib;$(SigEngine)\Src\External\lib\game_pcdx9_release;$(SigEngine)\Src\External\wwise\Win32_vc90\Release(StaticCRT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SigEngine)\Src\External\Theora\lib\libogg.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libvorbis.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\Theora\lib\libtheora.dll" "$(TargetDir)" /Y
+xcopy "$(SigEngine)\Src\External\steam\redistributable_bin\steam_api.dll" "$(TargetDir)" /Y
+echo 480 &gt; "$(TargetDir)steam_appid.txt"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gameflags.cpp" />
+    <ClCompile Include="Extra\tRPGCamera.cpp" />
+    <ClCompile Include="GameApp.rtti.cpp" />
+    <ClCompile Include="GameAppPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GameNetMessages.cpp" />
+    <ClCompile Include="GameSession_pc.cpp" />
+    <ClCompile Include="GameSession_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="tAchievementBuyNotification.cpp" />
+    <ClCompile Include="tAirborneAnimTrack.cpp" />
+    <ClCompile Include="tAirborneLogic.cpp" />
+    <ClCompile Include="tAirbornePathFollowing.cpp" />
+    <ClCompile Include="tAnimGoalLogic.cpp" />
+    <ClCompile Include="tAppGraphicsSettings.cpp" />
+    <ClCompile Include="tAreaDamageLogic.cpp" />
+    <ClCompile Include="tBarrage.cpp" />
+    <ClCompile Include="tBarrageController.cpp" />
+    <ClCompile Include="tBarrageImp.cpp" />
+    <ClCompile Include="tBarrageUI.cpp" />
+    <ClCompile Include="tBatteryCharger.cpp" />
+    <ClCompile Include="tBatteryMeter.cpp" />
+    <ClCompile Include="tBombDropOverlay.cpp" />
+    <ClCompile Include="tBreakableLogic.cpp" />
+    <ClCompile Include="tBuildSiteLogic.cpp" />
+    <ClCompile Include="tBulletLogic.cpp" />
+    <ClCompile Include="tCachedScoreWriterSession.cpp" />
+    <ClCompile Include="tCannonWeapon.cpp" />
+    <ClCompile Include="tCharacterAimAnimTrack.cpp" />
+    <ClCompile Include="tCharacterLogic.cpp" />
+    <ClCompile Include="tCharacterMoveAnimTrack.cpp" />
+    <ClCompile Include="tCharacterMoveAnimTrackFPS.cpp" />
+    <ClCompile Include="tComboTimerUI.cpp" />
+    <ClCompile Include="tDamageContext.cpp" />
+    <ClCompile Include="tDebrisLogic.cpp" />
+    <ClCompile Include="tDecalManager.cpp" />
+    <ClCompile Include="tDeviceSelector_pc.cpp" />
+    <ClCompile Include="tDeviceSelector_xbox360.cpp" />
+    <ClCompile Include="tDialogBox.cpp" />
+    <ClCompile Include="tDLCEnumerator.cpp" />
+    <ClCompile Include="tDropLogic.cpp" />
+    <ClCompile Include="tEnemiesAliveList.cpp" />
+    <ClCompile Include="tExplosionLogic.cpp" />
+    <ClCompile Include="tFocalPrompt.cpp" />
+    <ClCompile Include="tFocusCamera.cpp" />
+    <ClCompile Include="tFrontEndCamera.cpp" />
+    <ClCompile Include="tGameApp.cpp" />
+    <ClCompile Include="tGameAppSession.cpp" />
+    <ClCompile Include="tGameApp_GenLeaderboardDesc_pc.cpp" />
+    <ClCompile Include="tGameApp_GenLeaderboardDesc_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tGameController.cpp" />
+    <ClCompile Include="tGameLoadAppState.cpp" />
+    <ClCompile Include="tGamePostEffectMgr.cpp" />
+    <ClCompile Include="tGameSessionStats.cpp" />
+    <ClCompile Include="tGameSimulationAppState.cpp" />
+    <ClCompile Include="tGeneratorLogic.cpp" />
+    <ClCompile Include="tGeneratorWave.cpp" />
+    <ClCompile Include="tGoalBoxLogic.cpp" />
+    <ClCompile Include="tGunWeapon.cpp" />
+    <ClCompile Include="tHealthBar.cpp" />
+    <ClCompile Include="tHoverLogic.cpp" />
+    <ClCompile Include="tHoverPathFollowing.cpp" />
+    <ClCompile Include="tHoverText.cpp" />
+    <ClCompile Include="tHoverTimer.cpp" />
+    <ClCompile Include="tInUseIndicator.cpp" />
+    <ClCompile Include="tLandMineLogic.cpp" />
+    <ClCompile Include="tLevelEventHandler.cpp" />
+    <ClCompile Include="tLevelLogic.cpp" />
+    <ClCompile Include="tLightEffectLogic.cpp" />
+    <ClCompile Include="tLightningLogic.cpp" />
+    <ClCompile Include="tLightningWeapon.cpp" />
+    <ClCompile Include="tMiniMap.cpp" />
+    <ClCompile Include="tMobileTurretLogic.cpp" />
+    <ClCompile Include="tMortarWeapon.cpp" />
+    <ClCompile Include="tNetUI.cpp" />
+    <ClCompile Include="tOutOfBoundsIndicator.cpp" />
+    <ClCompile Include="tPersonalBestUI.cpp" />
+    <ClCompile Include="tPitchBlendAnimTrack.cpp" />
+    <ClCompile Include="tPitchBlendMuzzleAnimTrack.cpp" />
+    <ClCompile Include="tPlayer.cpp" />
+    <ClCompile Include="tPointCaptureUI.cpp" />
+    <ClCompile Include="tPowerPoolUI.cpp" />
+    <ClCompile Include="tPowerUpLogic.cpp" />
+    <ClCompile Include="tProjectileLogic.cpp" />
+    <ClCompile Include="tProximityLogic.cpp" />
+    <ClCompile Include="tRadialMenu.cpp" />
+    <ClCompile Include="tRailGunLogic.cpp" />
+    <ClCompile Include="tRainLogic.cpp" />
+    <ClCompile Include="tRationTicketUI.cpp" />
+    <ClCompile Include="tRocketLogic.cpp" />
+    <ClCompile Include="tRtsCamera.cpp" />
+    <ClCompile Include="tRtsCursorDisplay.cpp" />
+    <ClCompile Include="tRtsCursorLogic.cpp" />
+    <ClCompile Include="tRtsCursorUI.cpp" />
+    <ClCompile Include="tSaveGame.cpp" />
+    <ClCompile Include="tScoreUI.cpp" />
+    <ClCompile Include="tScreenSpaceHealthBarList.cpp" />
+    <ClCompile Include="tScreenSpaceNotification.cpp" />
+    <ClCompile Include="tShellCamera.cpp" />
+    <ClCompile Include="tShellLogic.cpp" />
+    <ClCompile Include="tSinglePlayerWaveList.cpp" />
+    <ClCompile Include="tTankPalette.cpp" />
+    <ClCompile Include="tTankTreadAnimTrack.cpp" />
+    <ClCompile Include="tTeleporterLogic.cpp" />
+    <ClCompile Include="tTimedCallback.cpp" />
+    <ClCompile Include="tTimedSpawnLogic.cpp" />
+    <ClCompile Include="tTransitionCamera.cpp" />
+    <ClCompile Include="tTurretCameraMovement.cpp" />
+    <ClCompile Include="tTurretLogic.cpp" />
+    <ClCompile Include="tTurretOrientAnimTrack.cpp" />
+    <ClCompile Include="tTurretUpgradeIndicator.cpp" />
+    <ClCompile Include="tUnitContextAlignAnimTrack.cpp" />
+    <ClCompile Include="tUnitInterpolatePathAnimTrack.cpp" />
+    <ClCompile Include="tUnitInterpolatePathAnimTrack3D.cpp" />
+    <ClCompile Include="tUnitLogic.cpp" />
+    <ClCompile Include="tUnitPath.cpp" />
+    <ClCompile Include="tUnitPathAnimTrack.cpp" />
+    <ClCompile Include="tUseAirborneCamera.cpp" />
+    <ClCompile Include="tUseHoverCamera.cpp" />
+    <ClCompile Include="tUseInfantryCamera.cpp" />
+    <ClCompile Include="tUserControllableCharacterLogic.cpp" />
+    <ClCompile Include="tUserProfile.cpp" />
+    <ClCompile Include="tUseTurretCamera.cpp" />
+    <ClCompile Include="tUseUnitCamera.cpp" />
+    <ClCompile Include="tUseVehicleCamera.cpp" />
+    <ClCompile Include="tVehicleLagCamera.cpp" />
+    <ClCompile Include="tVehicleLogic.cpp" />
+    <ClCompile Include="tVehiclePassengerAnimTrack.cpp" />
+    <ClCompile Include="tVehiclePassengerLogic.cpp" />
+    <ClCompile Include="tVehiclePathFollowing.cpp" />
+    <ClCompile Include="tVelocityBlendAnimTrack.cpp" />
+    <ClCompile Include="tVerreyLightLogic.cpp" />
+    <ClCompile Include="tVersusWaveList.cpp" />
+    <ClCompile Include="tVersusWaveManager.cpp" />
+    <ClCompile Include="tWaveLaunchArrowUI.cpp" />
+    <ClCompile Include="tWaveList.cpp" />
+    <ClCompile Include="tWaveManager.cpp" />
+    <ClCompile Include="tWaypointLogic.cpp" />
+    <ClCompile Include="tWeapon.cpp" />
+    <ClCompile Include="tWeaponStation.cpp" />
+    <ClCompile Include="tWeaponUI.cpp" />
+    <ClCompile Include="tWheeledVehicleLogic.cpp" />
+    <ClCompile Include="tWorldSpaceArc.cpp" />
+    <ClCompile Include="tWorldSpaceFloatingText.cpp" />
+    <ClCompile Include="tWorldSpaceFlyingText.cpp" />
+    <ClCompile Include="XLSP\LSPConnection.cpp" />
+    <ClCompile Include="XLSP\stubs.cpp" />
+    <ClCompile Include="XLSP\XLSP.cpp" />
+    <ClCompile Include="XLSP\XlspManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\XBLA\FullGame\LiveFiles\ts2.spa.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="..\gameflags.hpp" />
+    <ClInclude Include="Extra\tRPGCamera.hpp" />
+    <ClInclude Include="GameApp.rtti.hpp" />
+    <ClInclude Include="GameAppPch.hpp" />
+    <ClInclude Include="GameLogFlags.hpp" />
+    <ClInclude Include="GameNetMessages.hpp" />
+    <ClInclude Include="GameSession.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="tAchievementBuyNotification.hpp" />
+    <ClInclude Include="tAirborneAnimTrack.hpp" />
+    <ClInclude Include="tAirborneLogic.hpp" />
+    <ClInclude Include="tAirbornePathFollowing.hpp" />
+    <ClInclude Include="tAnimGoalLogic.hpp" />
+    <ClInclude Include="tAppGraphicsSettings.hpp" />
+    <ClInclude Include="tAreaDamageLogic.hpp" />
+    <ClInclude Include="tBarrage.hpp" />
+    <ClInclude Include="tBarrageController.hpp" />
+    <ClInclude Include="tBarrageImp.hpp" />
+    <ClInclude Include="tBarrageUI.hpp" />
+    <ClInclude Include="tBatteryCharger.hpp" />
+    <ClInclude Include="tBatteryMeter.hpp" />
+    <ClInclude Include="tBombDropOverlay.hpp" />
+    <ClInclude Include="tBreakableLogic.hpp" />
+    <ClInclude Include="tBuildSiteLogic.hpp" />
+    <ClInclude Include="tBulletLogic.hpp" />
+    <ClInclude Include="tCachedScoreWriterSession.hpp" />
+    <ClInclude Include="tCannonWeapon.hpp" />
+    <ClInclude Include="tCharacterAimAnimTrack.hpp" />
+    <ClInclude Include="tCharacterLogic.hpp" />
+    <ClInclude Include="tCharacterMoveAnimTrack.hpp" />
+    <ClInclude Include="tCharacterMoveAnimTrackFPS.hpp" />
+    <ClInclude Include="tComboTimerUI.hpp" />
+    <ClInclude Include="tDamageContext.hpp" />
+    <ClInclude Include="tDebrisLogic.hpp" />
+    <ClInclude Include="tDebrisLogicDef.hpp" />
+    <ClInclude Include="tDecalManager.hpp" />
+    <ClInclude Include="tDeviceSelector.hpp" />
+    <ClInclude Include="tDialogBox.hpp" />
+    <ClInclude Include="tDLCEnumerator.hpp" />
+    <ClInclude Include="tDropLogic.hpp" />
+    <ClInclude Include="tEnemiesAliveList.hpp" />
+    <ClInclude Include="tExplosionLogic.hpp" />
+    <ClInclude Include="tFocalPrompt.hpp" />
+    <ClInclude Include="tFocusCamera.hpp" />
+    <ClInclude Include="tFrontEndCamera.hpp" />
+    <ClInclude Include="tGameApp.hpp" />
+    <ClInclude Include="tGameAppSession.hpp" />
+    <ClInclude Include="tGameController.hpp" />
+    <ClInclude Include="tGameLoadAppState.hpp" />
+    <ClInclude Include="tGamePostEffectMgr.hpp" />
+    <ClInclude Include="tGameSessionStats.hpp" />
+    <ClInclude Include="tGameSimulationAppState.hpp" />
+    <ClInclude Include="tGeneratorLogic.hpp" />
+    <ClInclude Include="tGeneratorWave.hpp" />
+    <ClInclude Include="tGoalBoxLogic.hpp" />
+    <ClInclude Include="tGunWeapon.hpp" />
+    <ClInclude Include="tHealthBar.hpp" />
+    <ClInclude Include="tHoverLogic.hpp" />
+    <ClInclude Include="tHoverPathFollowing.hpp" />
+    <ClInclude Include="tHoverText.hpp" />
+    <ClInclude Include="tHoverTimer.hpp" />
+    <ClInclude Include="tInUseIndicator.hpp" />
+    <ClInclude Include="tLandMineLogic.hpp" />
+    <ClInclude Include="tLevelEventHandler.hpp" />
+    <ClInclude Include="tLevelLoadInfo.hpp" />
+    <ClInclude Include="tLevelLogic.hpp" />
+    <ClInclude Include="tLightEffectLogic.hpp" />
+    <ClInclude Include="tLightningLogic.hpp" />
+    <ClInclude Include="tLightningWeapon.hpp" />
+    <ClInclude Include="tMiniMap.hpp" />
+    <ClInclude Include="tMobileTurretLogic.hpp" />
+    <ClInclude Include="tMortarWeapon.hpp" />
+    <ClInclude Include="tNetUI.hpp" />
+    <ClInclude Include="tOutOfBoundsIndicator.hpp" />
+    <ClInclude Include="tPersonalBestUI.hpp" />
+    <ClInclude Include="tPitchBlendAnimTrack.hpp" />
+    <ClInclude Include="tPitchBlendMuzzleAnimTrack.hpp" />
+    <ClInclude Include="tPlayer.hpp" />
+    <ClInclude Include="tPointCaptureUI.hpp" />
+    <ClInclude Include="tPowerPoolUI.hpp" />
+    <ClInclude Include="tPowerUpLogic.hpp" />
+    <ClInclude Include="tProjectileLogic.hpp" />
+    <ClInclude Include="tProximityLogic.hpp" />
+    <ClInclude Include="tRadialMenu.hpp" />
+    <ClInclude Include="tRailGunLogic.hpp" />
+    <ClInclude Include="tRainLogic.hpp" />
+    <ClInclude Include="tRationTicketUI.hpp" />
+    <ClInclude Include="tRocketLogic.hpp" />
+    <ClInclude Include="tRtsCamera.hpp" />
+    <ClInclude Include="tRtsCursorDisplay.hpp" />
+    <ClInclude Include="tRtsCursorLogic.hpp" />
+    <ClInclude Include="tRtsCursorUI.hpp" />
+    <ClInclude Include="tSaveGame.hpp" />
+    <ClInclude Include="tScoreUI.hpp" />
+    <ClInclude Include="tScreenSpaceHealthBarList.hpp" />
+    <ClInclude Include="tScreenSpaceNotification.hpp" />
+    <ClInclude Include="tShellCamera.hpp" />
+    <ClInclude Include="tShellLogic.hpp" />
+    <ClInclude Include="tSinglePlayerWaveList.hpp" />
+    <ClInclude Include="tTankPalette.hpp" />
+    <ClInclude Include="tTankTreadAnimTrack.hpp" />
+    <ClInclude Include="tTeleporterLogic.hpp" />
+    <ClInclude Include="tTimedCallback.hpp" />
+    <ClInclude Include="tTimedSpawnLogic.hpp" />
+    <ClInclude Include="tTransitionCamera.hpp" />
+    <ClInclude Include="tTurretCameraMovement.hpp" />
+    <ClInclude Include="tTurretLogic.hpp" />
+    <ClInclude Include="tTurretOrientAnimTrack.hpp" />
+    <ClInclude Include="tTurretUpgradeIndicator.hpp" />
+    <ClInclude Include="tUnitContextAlignAnimTrack.hpp" />
+    <ClInclude Include="tUnitInterpolatePathAnimTrack.hpp" />
+    <ClInclude Include="tUnitInterpolatePathAnimTrack3D.hpp" />
+    <ClInclude Include="tUnitLogic.hpp" />
+    <ClInclude Include="tUnitPath.hpp" />
+    <ClInclude Include="tUnitPathAnimTrack.hpp" />
+    <ClInclude Include="tUseAirborneCamera.hpp" />
+    <ClInclude Include="tUseHoverCamera.hpp" />
+    <ClInclude Include="tUseInfantryCamera.hpp" />
+    <ClInclude Include="tUserControllableCharacterLogic.hpp" />
+    <ClInclude Include="tUserProfile.hpp" />
+    <ClInclude Include="tUseTurretCamera.hpp" />
+    <ClInclude Include="tUseUnitCamera.hpp" />
+    <ClInclude Include="tUseVehicleCamera.hpp" />
+    <ClInclude Include="tVehicleLagCamera.hpp" />
+    <ClInclude Include="tVehicleLogic.hpp" />
+    <ClInclude Include="tVehiclePassengerAnimTrack.hpp" />
+    <ClInclude Include="tVehiclePassengerLogic.hpp" />
+    <ClInclude Include="tVehiclePathFollowing.hpp" />
+    <ClInclude Include="tVelocityBlendAnimTrack.hpp" />
+    <ClInclude Include="tVerreyLightLogic.hpp" />
+    <ClInclude Include="tVersusWaveList.hpp" />
+    <ClInclude Include="tVersusWaveManager.hpp" />
+    <ClInclude Include="tWaveLaunchArrowUI.hpp" />
+    <ClInclude Include="tWaveList.hpp" />
+    <ClInclude Include="tWaveManager.hpp" />
+    <ClInclude Include="tWaypointLogic.hpp" />
+    <ClInclude Include="tWeapon.hpp" />
+    <ClInclude Include="tWeaponStation.hpp" />
+    <ClInclude Include="tWeaponUI.hpp" />
+    <ClInclude Include="tWheeledVehicleLogic.hpp" />
+    <ClInclude Include="tWorldSpaceArc.hpp" />
+    <ClInclude Include="tWorldSpaceFloatingText.hpp" />
+    <ClInclude Include="tWorldSpaceFlyingText.hpp" />
+    <ClInclude Include="Wwise_IDs.h" />
+    <ClInclude Include="XLSP\LSPConnection.h" />
+    <ClInclude Include="XLSP\stubs.h" />
+    <ClInclude Include="XLSP\XLSP.h" />
+    <ClInclude Include="XLSP\XlspManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp_pc.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\project.xml" />
+    <CustomBuild Include="..\..\XBLA\FullGame\LiveFiles\ArcadeInfo.xml">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\cleanbuild" />
+    <None Include="..\..\res\user.ini" />
+    <CustomBuild Include="..\..\XBLA\FullGame\LiveFiles\ts2.gameconfig">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\XBLA\FullGame\LiveFiles\ts2.spa">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SigEngine)\Src\Internal\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

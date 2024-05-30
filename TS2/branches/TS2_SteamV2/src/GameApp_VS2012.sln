@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameApp", "GameApp\GameApp.vcxproj", "{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93} = {079E042C-4CE5-43AE-B813-9EA0DE379F93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\..\SigEngine\Src\Internal\Base\Base.vcxproj", "{079E042C-4CE5-43AE-B813-9EA0DE379F93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD} = {FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "External", "..\..\SigEngine\Src\External\External_VS2012.vcxproj", "{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		game_debug|Win32 = game_debug|Win32
+		game_debug|Xbox 360 = game_debug|Xbox 360
+		game_internal|Win32 = game_internal|Win32
+		game_internal|Xbox 360 = game_internal|Xbox 360
+		game_playtest|Win32 = game_playtest|Win32
+		game_playtest|Xbox 360 = game_playtest|Xbox 360
+		game_profile|Win32 = game_profile|Win32
+		game_profile|Xbox 360 = game_profile|Xbox 360
+		game_release|Win32 = game_release|Win32
+		game_release|Xbox 360 = game_release|Xbox 360
+		tools_pcdx9_debug|Win32 = tools_pcdx9_debug|Win32
+		tools_pcdx9_debug|Xbox 360 = tools_pcdx9_debug|Xbox 360
+		tools_pcdx9_release|Win32 = tools_pcdx9_release|Win32
+		tools_pcdx9_release|Xbox 360 = tools_pcdx9_release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_debug|Win32.ActiveCfg = game_debug|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_debug|Win32.Build.0 = game_debug|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_debug|Xbox 360.ActiveCfg = game_debug|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_internal|Win32.ActiveCfg = game_internal|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_internal|Win32.Build.0 = game_internal|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_internal|Xbox 360.ActiveCfg = game_internal|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_playtest|Win32.ActiveCfg = game_playtest|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_playtest|Win32.Build.0 = game_playtest|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_playtest|Xbox 360.ActiveCfg = game_playtest|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_profile|Win32.ActiveCfg = game_profile|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_profile|Win32.Build.0 = game_profile|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_profile|Xbox 360.ActiveCfg = game_profile|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_release|Win32.ActiveCfg = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_release|Win32.Build.0 = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.game_release|Xbox 360.ActiveCfg = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_debug|Win32.ActiveCfg = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_debug|Win32.Build.0 = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_debug|Xbox 360.ActiveCfg = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_release|Win32.ActiveCfg = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_release|Win32.Build.0 = game_release|Win32
+		{45AF49BA-A48C-4E82-92F1-0AFC9DEDEB87}.tools_pcdx9_release|Xbox 360.ActiveCfg = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_debug|Win32.ActiveCfg = game_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_debug|Win32.Build.0 = game_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_debug|Xbox 360.ActiveCfg = game_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_internal|Win32.ActiveCfg = game_internal|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_internal|Win32.Build.0 = game_internal|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_internal|Xbox 360.ActiveCfg = game_internal|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_playtest|Win32.ActiveCfg = game_playtest|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_playtest|Win32.Build.0 = game_playtest|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_playtest|Xbox 360.ActiveCfg = game_playtest|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_profile|Win32.ActiveCfg = game_profile|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_profile|Win32.Build.0 = game_profile|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_profile|Xbox 360.ActiveCfg = game_profile|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_release|Win32.ActiveCfg = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_release|Win32.Build.0 = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.game_release|Xbox 360.ActiveCfg = game_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_debug|Xbox 360.ActiveCfg = tools_pcdx9_debug|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{079E042C-4CE5-43AE-B813-9EA0DE379F93}.tools_pcdx9_release|Xbox 360.ActiveCfg = tools_pcdx9_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_debug|Win32.ActiveCfg = game_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_debug|Win32.Build.0 = game_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_debug|Xbox 360.ActiveCfg = game_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_internal|Win32.ActiveCfg = game_internal|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_internal|Win32.Build.0 = game_internal|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_internal|Xbox 360.ActiveCfg = game_internal|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_playtest|Win32.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_playtest|Win32.Build.0 = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_playtest|Xbox 360.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_profile|Win32.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_profile|Win32.Build.0 = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_profile|Xbox 360.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_release|Win32.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_release|Win32.Build.0 = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.game_release|Xbox 360.ActiveCfg = game_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_debug|Win32.ActiveCfg = tools_pcdx9_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_debug|Win32.Build.0 = tools_pcdx9_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_debug|Xbox 360.ActiveCfg = tools_pcdx9_debug|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_release|Win32.ActiveCfg = tools_pcdx9_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_release|Win32.Build.0 = tools_pcdx9_release|Win32
+		{FC140F59-E2D4-4AD4-83F0-6992A6BE8ECD}.tools_pcdx9_release|Xbox 360.ActiveCfg = tools_pcdx9_release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FC21BA-CFD9-4274-B549-3F6D421C2C51}
+	EndGlobalSection
+EndGlobal

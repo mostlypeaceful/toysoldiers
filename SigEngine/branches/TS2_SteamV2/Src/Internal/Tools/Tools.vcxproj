@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A322A0BF-0F02-46A5-B733-32D8C6A682FA}</ProjectGuid>
+    <RootNamespace>Tools</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)ToolsXdk;$(SolutionDir)..\External\bullet-2.66\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>tools_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsPch.hpp</PrecompiledHeaderFile>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_stc.lib;wxmsw28d_aui.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName)d.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)ToolsXdk;$(SolutionDir)..\External\bullet-2.66\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>tools_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ToolsPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SigExternal.lib;wxmsw28_core.lib;wxbase28.lib;wxmsw28_stc.lib;wxmsw28_aui.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Anifig.cpp" />
+    <ClCompile Include="Animl.cpp" />
+    <ClCompile Include="Anipk.cpp" />
+    <ClCompile Include="DerivedAINodes.cpp" />
+    <ClCompile Include="DerivedShadeNodes.cpp" />
+    <ClCompile Include="Derml.cpp" />
+    <ClCompile Include="Dx9Util.cpp" />
+    <ClCompile Include="Editor\tEditable3dGridEntity.cpp" />
+    <ClCompile Include="Editor\tEditableAttachmentEntity.cpp" />
+    <ClCompile Include="Editor\tEditableGroundCoverCloud.cpp" />
+    <ClCompile Include="Editor\tEditableLightEntity.cpp" />
+    <ClCompile Include="Editor\tEditableNavGraphNodeEntity.cpp" />
+    <ClCompile Include="Editor\tEditableObject.cpp" />
+    <ClCompile Include="Editor\tEditableObjectContainer.cpp" />
+    <ClCompile Include="Editor\tEditablePathDecalWaypointEntity.cpp" />
+    <ClCompile Include="Editor\tEditableProperty.cpp" />
+    <ClCompile Include="Editor\tEditablePropertyColor.cpp" />
+    <ClCompile Include="Editor\tEditablePropertyTypes.cpp" />
+    <ClCompile Include="Editor\tEditableSgFileRefEntity.cpp" />
+    <ClCompile Include="Editor\tEditableShapeEntity.cpp" />
+    <ClCompile Include="Editor\tEditableTerrainEntity.cpp" />
+    <ClCompile Include="Editor\tEditableTileDb.cpp" />
+    <ClCompile Include="Editor\tEditableTileEntity.cpp" />
+    <ClCompile Include="Editor\tEditableTileSetPigment.cpp" />
+    <ClCompile Include="Editor\tEditableWaypointBase.cpp" />
+    <ClCompile Include="Editor\tEditableWaypointEntity.cpp" />
+    <ClCompile Include="Editor\tEditorAction.cpp" />
+    <ClCompile Include="Editor\tEditorContextAction.cpp" />
+    <ClCompile Include="Editor\tEditorSelectionList.cpp" />
+    <ClCompile Include="Editor\tEditScriptSnippetDialog.cpp" />
+    <ClCompile Include="Editor\tFxmlReferenceEntity.cpp" />
+    <ClCompile Include="Editor\tRenameFilepathDialog.cpp" />
+    <ClCompile Include="Editor\tTerrainGeometry.cpp" />
+    <ClCompile Include="Editor\tWxTextEditor.cpp" />
+    <ClCompile Include="FxEditor\tSigFxAttractor.cpp" />
+    <ClCompile Include="FxEditor\tSigFxMeshSystem.cpp" />
+    <ClCompile Include="FxEditor\tSigFxParticleSystem.cpp" />
+    <ClCompile Include="Fxml.cpp" />
+    <ClCompile Include="Goaml.cpp" />
+    <ClCompile Include="Guid.cpp" />
+    <ClCompile Include="HlslGen\tHlslGenTree.cpp" />
+    <ClCompile Include="HlslGen\tHlslOutput.cpp" />
+    <ClCompile Include="HlslGen\tHlslVariable.cpp" />
+    <ClCompile Include="HlslGen\tHlslWriter.cpp" />
+    <ClCompile Include="HlslGen\tPixelShaderVars.cpp" />
+    <ClCompile Include="HlslGen\tVertexShaderVars.cpp" />
+    <ClCompile Include="iAssetGenPlugin.cpp" />
+    <ClCompile Include="iSigEdPlugin.cpp" />
+    <ClCompile Include="Locml.cpp" />
+    <ClCompile Include="MeshPrimitives.cpp" />
+    <ClCompile Include="MeshSimplify.cpp" />
+    <ClCompile Include="Sacml.cpp" />
+    <ClCompile Include="Sigml.cpp" />
+    <ClCompile Include="Sklml.cpp" />
+    <ClCompile Include="tAINode.cpp" />
+    <ClCompile Include="tAnimlAssetPlugin.cpp" />
+    <ClCompile Include="tAnimlConverter.cpp" />
+    <ClCompile Include="tAssetGenScanner.cpp" />
+    <ClCompile Include="tAssetPluginDll.cpp" />
+    <ClCompile Include="Tatml.cpp" />
+    <ClCompile Include="tDAGNode.cpp" />
+    <ClCompile Include="tDAGNodeCanvas.cpp" />
+    <ClCompile Include="tDataTableAssetPlugin.cpp" />
+    <ClCompile Include="tDataTableConverter.cpp" />
+    <ClCompile Include="tDecalMaterialGen.cpp" />
+    <ClCompile Include="tDefaultMaterialGen.cpp" />
+    <ClCompile Include="tDermlAssetPlugin.cpp" />
+    <ClCompile Include="tEditableScriptNodeDef.cpp" />
+    <ClCompile Include="tEditableScriptNodeEntity.cpp" />
+    <ClCompile Include="tExporterToolbox.cpp" />
+    <ClCompile Include="tFilePackageCreator.cpp" />
+    <ClCompile Include="tFntmlConverter.cpp" />
+    <ClCompile Include="tFontGen.cpp" />
+    <ClCompile Include="tFontMaterialGen.cpp" />
+    <ClCompile Include="tFullBrightMaterialGen.cpp" />
+    <ClCompile Include="tFxmlAssetPlugin.cpp" />
+    <ClCompile Include="tFxmlConverter.cpp" />
+    <ClCompile Include="tGoamlAssetPlugin.cpp" />
+    <ClCompile Include="tHeightFieldMaterialGen.cpp" />
+    <ClCompile Include="tHeightFieldMeshObject.cpp" />
+    <ClCompile Include="Tieml.cpp" />
+    <ClCompile Include="Tiledb.cpp" />
+    <ClCompile Include="tLoadInPlaceSerializer.cpp" />
+    <ClCompile Include="tLocmlAssetPlugin.cpp" />
+    <ClCompile Include="tLocmlConverter.cpp" />
+    <ClCompile Include="tMatEdMainWindow.cpp" />
+    <ClCompile Include="tMaterialGenBase.cpp" />
+    <ClCompile Include="tMaterialPreviewBundle.cpp" />
+    <ClCompile Include="tMaterialPreviewPanel.cpp" />
+    <ClCompile Include="ToolsPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tParticleMaterialGen.cpp" />
+    <ClCompile Include="tPhongMaterialGen.cpp" />
+    <ClCompile Include="tPhongShadeNode.cpp" />
+    <ClCompile Include="tPlanePreviewGeometry.cpp" />
+    <ClCompile Include="tPostEffectsMaterialGen.cpp" />
+    <ClCompile Include="tScriptFileConverter.cpp" />
+    <ClCompile Include="tShadeMaterialGen.cpp" />
+    <ClCompile Include="tShadeNode.cpp" />
+    <ClCompile Include="tSigmlAssetPlugin.cpp" />
+    <ClCompile Include="tSigmlConverter.cpp" />
+    <ClCompile Include="tSklmlAssetPlugin.cpp" />
+    <ClCompile Include="tSklmlConverter.cpp" />
+    <ClCompile Include="tSolidColorMaterialGen.cpp" />
+    <ClCompile Include="tSpherePreviewGeometry.cpp" />
+    <ClCompile Include="tStandardAssetPlugin.cpp" />
+    <ClCompile Include="tTextureGen.cpp" />
+    <ClCompile Include="tTextureSysRam.cpp" />
+    <ClCompile Include="tTiemlAssetPlugin.cpp" />
+    <ClCompile Include="tTiemlConverter.cpp" />
+    <ClCompile Include="tWxAutoDelete.cpp" />
+    <ClCompile Include="tWxDirectoryBrowser.cpp" />
+    <ClCompile Include="tWxNumericText.cpp" />
+    <ClCompile Include="tWxProgressDialog.cpp" />
+    <ClCompile Include="tWxSavedLayout.cpp" />
+    <ClCompile Include="tWxSelectStringDialog.cpp" />
+    <ClCompile Include="tWxSlapOnAddRemoveChoicesListBox.cpp" />
+    <ClCompile Include="tWxSlapOnAddRemoveListBox.cpp" />
+    <ClCompile Include="tWxSlapOnButton.cpp" />
+    <ClCompile Include="tWxSlapOnCheckBox.cpp" />
+    <ClCompile Include="tWxSlapOnChoice.cpp" />
+    <ClCompile Include="tWxSlapOnColorPicker.cpp" />
+    <ClCompile Include="tWxSlapOnComboBox.cpp" />
+    <ClCompile Include="tWxSlapOnControl.cpp" />
+    <ClCompile Include="tWxSlapOnDialog.cpp" />
+    <ClCompile Include="tWxSlapOnGroup.cpp" />
+    <ClCompile Include="tWxSlapOnListBox.cpp" />
+    <ClCompile Include="tWxSlapOnMask.cpp" />
+    <ClCompile Include="tWxSlapOnPanel.cpp" />
+    <ClCompile Include="tWxSlapOnQuickExport.cpp" />
+    <ClCompile Include="tWxSlapOnRadioBitmapButton.cpp" />
+    <ClCompile Include="tWxSlapOnSpinner.cpp" />
+    <ClCompile Include="tWxSlapOnTabSet.cpp" />
+    <ClCompile Include="tWxSlapOnTextBox.cpp" />
+    <ClCompile Include="tXmlAssetPlugin.cpp" />
+    <ClCompile Include="WxUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Anifig.hpp" />
+    <ClInclude Include="Animl.hpp" />
+    <ClInclude Include="Anipk.hpp" />
+    <ClInclude Include="DerivedAINodes.hpp" />
+    <ClInclude Include="DerivedShadeNodes.hpp" />
+    <ClInclude Include="Derml.hpp" />
+    <ClInclude Include="Dx9Util.hpp" />
+    <ClInclude Include="Editor\tEditable3dGridEntity.hpp" />
+    <ClInclude Include="Editor\tEditableAttachmentEntity.hpp" />
+    <ClInclude Include="Editor\tEditableGroundCoverCloud.hpp" />
+    <ClInclude Include="Editor\tEditableLightEntity.hpp" />
+    <ClInclude Include="Editor\tEditableNavGraphNodeEntity.hpp" />
+    <ClInclude Include="Editor\tEditableObject.hpp" />
+    <ClInclude Include="Editor\tEditableObjectContainer.hpp" />
+    <ClInclude Include="Editor\tEditablePathDecalWaypointEntity.hpp" />
+    <ClInclude Include="Editor\tEditableProperty.hpp" />
+    <ClInclude Include="Editor\tEditablePropertyColor.hpp" />
+    <ClInclude Include="Editor\tEditablePropertyTypes.hpp" />
+    <ClInclude Include="Editor\tEditableSgFileRefEntity.hpp" />
+    <ClInclude Include="Editor\tEditableShapeEntity.hpp" />
+    <ClInclude Include="Editor\tEditableTerrainEntity.hpp" />
+    <ClInclude Include="Editor\tEditableTileDb.hpp" />
+    <ClInclude Include="Editor\tEditableTileEntity.hpp" />
+    <ClInclude Include="Editor\tEditableTileSetPigment.hpp" />
+    <ClInclude Include="Editor\tEditableWaypointBase.hpp" />
+    <ClInclude Include="Editor\tEditableWaypointEntity.hpp" />
+    <ClInclude Include="Editor\tEditorAction.hpp" />
+    <ClInclude Include="Editor\tEditorContextAction.hpp" />
+    <ClInclude Include="Editor\tEditorSelectionList.hpp" />
+    <ClInclude Include="Editor\tEditScriptSnippetDialog.hpp" />
+    <ClInclude Include="Editor\tFxmlReferenceEntity.hpp" />
+    <ClInclude Include="Editor\tRenameFilepathDialog.hpp" />
+    <ClInclude Include="Editor\tTerrainGeometry.hpp" />
+    <ClInclude Include="Editor\tWxTextEditor.hpp" />
+    <ClInclude Include="FxEditor\tSigFxAttractor.hpp" />
+    <ClInclude Include="FxEditor\tSigFxMeshSystem.hpp" />
+    <ClInclude Include="FxEditor\tSigFxParticleSystem.hpp" />
+    <CustomBuild Include="Fxml.hpp" />
+    <ClInclude Include="Goaml.hpp" />
+    <ClInclude Include="Guid.hpp" />
+    <ClInclude Include="HlslGen\tHlslGenTree.hpp" />
+    <ClInclude Include="HlslGen\tHlslOutput.hpp" />
+    <ClInclude Include="HlslGen\tHlslVariable.hpp" />
+    <ClInclude Include="HlslGen\tHlslWriter.hpp" />
+    <ClInclude Include="HlslGen\tPixelShaderVars.hpp" />
+    <ClInclude Include="HlslGen\tVertexShaderVars.hpp" />
+    <ClInclude Include="iAssetGenPlugin.hpp" />
+    <ClInclude Include="iAssetPlugin.hpp" />
+    <ClInclude Include="iMaterialGenPlugin.hpp" />
+    <ClInclude Include="iSigEdPlugin.hpp" />
+    <ClInclude Include="Locml.hpp" />
+    <ClInclude Include="MeshPrimitives.hpp" />
+    <ClInclude Include="MeshSimplify.hpp" />
+    <ClInclude Include="Sacml.hpp" />
+    <ClInclude Include="Sigml.hpp" />
+    <ClInclude Include="Sklml.hpp" />
+    <ClInclude Include="tAINode.hpp" />
+    <ClInclude Include="tAnimlAssetPlugin.hpp" />
+    <ClInclude Include="tAnimlConverter.hpp" />
+    <ClInclude Include="tAssetGenScanner.hpp" />
+    <ClInclude Include="tAssetPluginDll.hpp" />
+    <ClInclude Include="Tatml.hpp" />
+    <ClInclude Include="tDAGNode.hpp" />
+    <ClInclude Include="tDAGNodeCanvas.hpp" />
+    <ClInclude Include="tDataTableAssetPlugin.hpp" />
+    <ClInclude Include="tDataTableConverter.hpp" />
+    <ClInclude Include="tDecalMaterialGen.hpp" />
+    <ClInclude Include="tDefaultMaterialGen.hpp" />
+    <ClInclude Include="tDermlAssetPlugin.hpp" />
+    <ClInclude Include="tEditableScriptNodeDef.hpp" />
+    <ClInclude Include="tEditableScriptNodeEntity.hpp" />
+    <ClInclude Include="tExporterGuiFactory.hpp" />
+    <ClInclude Include="tExporterToolbox.hpp" />
+    <ClInclude Include="tFilePackageCreator.hpp" />
+    <ClInclude Include="tFntmlConverter.hpp" />
+    <ClInclude Include="tFontGen.hpp" />
+    <ClInclude Include="tFontMaterialGen.hpp" />
+    <ClInclude Include="tFullBrightMaterialGen.hpp" />
+    <CustomBuild Include="tFxmlAssetPlugin.hpp" />
+    <CustomBuild Include="tFxmlConverter.hpp" />
+    <ClInclude Include="tGoamlAssetPlugin.hpp" />
+    <ClInclude Include="tHeightFieldMaterialGen.hpp" />
+    <ClInclude Include="tHeightFieldMeshObject.hpp" />
+    <ClInclude Include="Tieml.hpp" />
+    <ClInclude Include="Tiledb.hpp" />
+    <ClInclude Include="tLoadInPlaceSerializer.hpp" />
+    <ClInclude Include="tLocmlAssetPlugin.hpp" />
+    <ClInclude Include="tLocmlConverter.hpp" />
+    <ClInclude Include="tMatEdMainWindow.hpp" />
+    <ClInclude Include="tMaterialGenBase.hpp" />
+    <ClInclude Include="tMaterialPreviewBundle.hpp" />
+    <ClInclude Include="tMaterialPreviewPanel.hpp" />
+    <ClInclude Include="ToolsPch.hpp" />
+    <ClInclude Include="tParticleMaterialGen.hpp" />
+    <ClInclude Include="tPhongMaterialGen.hpp" />
+    <ClInclude Include="tPhongShadeNode.hpp" />
+    <ClInclude Include="tPlanePreviewGeometry.hpp" />
+    <ClInclude Include="tPostEffectsMaterialGen.hpp" />
+    <ClInclude Include="tScriptFileConverter.hpp" />
+    <ClInclude Include="tShadeMaterialGen.hpp" />
+    <ClInclude Include="tShadeNode.hpp" />
+    <ClInclude Include="tSigmlAssetPlugin.hpp" />
+    <ClInclude Include="tSigmlConverter.hpp" />
+    <ClInclude Include="tSklmlAssetPlugin.hpp" />
+    <ClInclude Include="tSklmlConverter.hpp" />
+    <ClInclude Include="tSolidColorMaterialGen.hpp" />
+    <ClInclude Include="tSpherePreviewGeometry.hpp" />
+    <ClInclude Include="tStandardAssetPlugin.hpp" />
+    <ClInclude Include="tTextureGen.hpp" />
+    <ClInclude Include="tTextureSysRam.hpp" />
+    <ClInclude Include="tTiemlAssetPlugin.hpp" />
+    <ClInclude Include="tTiemlConverter.hpp" />
+    <ClInclude Include="tWxAutoDelete.hpp" />
+    <ClInclude Include="tWxDirectoryBrowser.hpp" />
+    <ClInclude Include="tWxNumericText.hpp" />
+    <ClInclude Include="tWxProgressDialog.hpp" />
+    <ClInclude Include="tWxSavedLayout.hpp" />
+    <ClInclude Include="tWxSelectStringDialog.hpp" />
+    <ClInclude Include="tWxSlapOnAddRemoveChoicesListBox.hpp" />
+    <ClInclude Include="tWxSlapOnAddRemoveListBox.hpp" />
+    <ClInclude Include="tWxSlapOnButton.hpp" />
+    <ClInclude Include="tWxSlapOnCheckBox.hpp" />
+    <ClInclude Include="tWxSlapOnChoice.hpp" />
+    <ClInclude Include="tWxSlapOnColorPicker.hpp" />
+    <ClInclude Include="tWxSlapOnComboBox.hpp" />
+    <ClInclude Include="tWxSlapOnControl.hpp" />
+    <ClInclude Include="tWxSlapOnDialog.hpp" />
+    <ClInclude Include="tWxSlapOnGroup.hpp" />
+    <ClInclude Include="tWxSlapOnListBox.hpp" />
+    <ClInclude Include="tWxSlapOnMask.hpp" />
+    <ClInclude Include="tWxSlapOnPanel.hpp" />
+    <ClInclude Include="tWxSlapOnQuickExport.hpp" />
+    <ClInclude Include="tWxSlapOnRadioBitmapButton.hpp" />
+    <ClInclude Include="tWxSlapOnSpinner.hpp" />
+    <ClInclude Include="tWxSlapOnTabSet.hpp" />
+    <ClInclude Include="tWxSlapOnTextBox.hpp" />
+    <ClInclude Include="tXmlAssetPlugin.hpp" />
+    <ClInclude Include="WxUtil.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Apps\FileToByteArray\FileToByteArray.vcxproj">
+      <Project>{db91c6f2-4a6c-476f-9cdc-ee82e5555a7b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolsXdk\ToolsXdk.vcxproj">
+      <Project>{6343622f-810f-4bb3-b970-872b68255ec4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

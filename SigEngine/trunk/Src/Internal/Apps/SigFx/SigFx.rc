@@ -1,0 +1,94 @@
+
+appicon          ICON        "icons/appicon.ico"
+
+ParticleSystemPlace BITMAP "icons/particleSystem.bmp"
+ParticleSystemPlaceSel BITMAP "icons/particleSystemSel.bmp"
+
+AttractorPlace BITMAP "icons/NewAttractor.bmp"
+AttractorPlaceSel BITMAP "icons/NewAttractorSelected.bmp"
+
+LightPlace BITMAP "icons/NewAttractor.bmp"
+LightPlaceSel BITMAP "icons/NewAttractorSelected.bmp"
+
+MeshSystemPlace BITMAP "icons/meshSystem.bmp"
+MeshSystemPlaceSel BITMAP "icons/meshSystemSel.bmp"
+
+BoxEmitterSel BITMAP "icons/boxEmitter.bmp"
+BoxEmitterDes BITMAP "icons/boxEmitterDes.bmp"
+SphereEmitterSel BITMAP "icons/sphereEmitter.bmp"
+SphereEmitterDes BITMAP "icons/sphereEmitterDes.bmp"
+PointEmitterSel BITMAP "icons/pointEmitter.bmp"
+PointEmitterDes BITMAP "icons/pointEmitterDes.bmp"
+WiggleDonutEmitterSel BITMAP "icons/wiggleDonutEmitter.bmp"
+WiggleDonutEmitterDes BITMAP "icons/wiggleDonutEmitterDes.bmp"
+
+PlaceObj BITMAP "icons/CreateIcon.bmp"
+BrowseObj BITMAP "icons/Browser.bmp"
+Gizmo BITMAP "icons/AllIcon.bmp"
+Layer BITMAP "icons/Layer.bmp"
+TerrainHeight BITMAP "icons/TerrainHeight.bmp"
+TerrainPaint BITMAP "icons/TerrainPainting.bmp"
+
+FxmlProps BITMAP "icons/CreateIcon.bmp"
+
+LightProps BITMAP "icons/CreateIcon.bmp"
+
+IconPlayNormal        BITMAP      "icons/icon_play_normal.bmp"
+IconPlayHover        BITMAP      "icons/icon_play_hover.bmp"
+IconPlaySelected        BITMAP      "icons/icon_play_selected.bmp"
+
+IconOauseNormal        BITMAP      "icons/icon_pause_normal.bmp"
+IconPauseHover			BITMAP      "icons/icon_pause_hover.bmp"
+IconPauseSelected        BITMAP      "icons/icon_pause_selected.bmp"
+
+PlaceObjTypeTerrainSel        BITMAP      "icons/TerrainIcon.bmp"
+PlaceObjTypeTerrainDeSel      BITMAP      "icons/TerrainIcon_des.bmp"
+PlaceObjTypeAttachmentSel        BITMAP      "icons/AttachmentIcon.bmp"
+PlaceObjTypeAttachmentDeSel      BITMAP      "icons/AttachmentIcon_des.bmp"
+PlaceObjTypeLightSel        BITMAP      "icons/LightIcon.bmp"
+PlaceObjTypeLightDeSel      BITMAP      "icons/LightIcon_des.bmp"
+PlaceObjTypeDummySel        BITMAP      "icons/DummyIcon.bmp"
+PlaceObjTypeDummyDeSel      BITMAP      "icons/DummyIcon_des.bmp"
+
+PaintTerrainUpSel BITMAP "icons/TerrainUpIcon.bmp"
+PaintTerrainUpDeSel BITMAP "icons/TerrainUpIcon_des.bmp"
+PaintTerrainDownSel BITMAP "icons/TerrainDownIcon.bmp"
+PaintTerrainDownDeSel BITMAP "icons/TerrainDownIcon_des.bmp"
+PaintTerrainAverageSel BITMAP "icons/TerrainSmoothIcon.bmp"
+PaintTerrainAverageDeSel BITMAP "icons/TerrainSmoothIcon_des.bmp"
+PaintTerrainSampleSel BITMAP "icons/TerrainSampleIcon.bmp"
+PaintTerrainSampleDeSel BITMAP "icons/TerrainSampleIcon_des.bmp"
+PaintTerrainTrenchSel BITMAP "icons/TerrainTrenchIcon.bmp"
+PaintTerrainTrenchDeSel BITMAP "icons/TerrainTrenchIcon_des.bmp"
+PaintTerrainMaterialSel BITMAP "icons/TerrainMatIcon.bmp"
+PaintTerrainMaterialDeSel BITMAP "icons/TerrainMatIcon_des.bmp"
+
+ManipulateSelectionSel BITMAP "icons/SelectIcon.bmp"
+ManipulateSelectionDeSel BITMAP "icons/SelectIcon_des.bmp"
+ManipulateTranslateSel BITMAP "icons/TranslateIcon.bmp"
+ManipulateTranslateDeSel BITMAP "icons/TranslateIcon_des.bmp"
+ManipulateRotateSel BITMAP "icons/RotateIcon.bmp"
+ManipulateRotateDeSel BITMAP "icons/RotateIcon_des.bmp"
+ManipulateScaleSel BITMAP "icons/ScaleIcon.bmp"
+ManipulateScaleDeSel BITMAP "icons/ScaleIcon_des.bmp"
+
+newdoc           BITMAP      "icons/document.bmp"
+opendoc          BITMAP      "icons/open.bmp"
+savedoc          BITMAP      "icons/save.bmp"
+build			 BITMAP		 "icons/build.bmp"
+record			 BITMAP		 "icons/camera.bmp"
+stoprecord		 BITMAP		 "icons/camerastop.bmp"
+
+undo             BITMAP      "icons/undo.bmp"
+redo		     BITMAP      "icons/redo.bmp"
+
+help             BITMAP      "icons/help.bmp"
+
+framesel             BITMAP      "icons/framesel.bmp"
+frameall		     BITMAP      "icons/frameall.bmp"
+
+objectproperties	BITMAP      "icons/objectproperties.bmp"
+globalproperties	BITMAP      "icons/globalproperties.bmp"
+remaprefs			BITMAP      "icons/remaprefs.bmp"
+
+SigEdAppIcon			BITMAP      "icons/SigEd_16.bmp"

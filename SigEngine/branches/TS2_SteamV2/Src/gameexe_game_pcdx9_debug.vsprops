@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="gameexe_game_pcdx9_debug"
+	OutputDirectory="$(SolutionDir)..\Bin\game_pcdx9_debug"
+	IntermediateDirectory="$(SolutionDir)Obj\$(PlatformName)\$(ProjectName)\$(ConfigurationName)"
+	InheritedPropertySheets=".\game_pcdx9_debug.vsprops"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="SigExternal.lib xinput.lib d3d9.lib d3dx9.lib comctl32.lib psapi.lib"
+		OutputFile="$(OutDir)\Game.exe"
+		AdditionalLibraryDirectories="&quot;$(SigEngine)\Src\External\lib\game_pcdx9_debug&quot;;&quot;$(SigEngine)\Src\External\wwise\Win32_vc90\Debug(StaticCRT)\lib&quot;"
+	/>
+</VisualStudioPropertySheet>

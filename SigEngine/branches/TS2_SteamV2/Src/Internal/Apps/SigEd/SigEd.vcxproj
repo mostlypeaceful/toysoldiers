@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20BF5D19-10D4-41CF-8C4A-E555B5689AD6}</ProjectGuid>
+    <RootNamespace>SigEd</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsexec++_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\toolsexec++_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;$(SolutionDir)ToolsGui;$(SolutionDir)ToolsXdk;$(SolutionDir)Tools\Editor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>SigEdPch.hpp</PrecompiledHeaderFile>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_stc.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Tools;$(SolutionDir)ToolsGui;$(SolutionDir)ToolsXdk;$(SolutionDir)Tools\Editor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>SigEdPch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28_core.lib;wxbase28.lib;wxmsw28_stc.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregex.lib;wxexpat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DecalToolsPanels.cpp" />
+    <ClCompile Include="SigEd.cpp" />
+    <ClCompile Include="SigEdPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tCreateObjectPanel.cpp" />
+    <ClCompile Include="tEditableObjectProperties.cpp" />
+    <ClCompile Include="tEditorAppWindow.cpp" />
+    <ClCompile Include="tEditorDialog.cpp" />
+    <ClCompile Include="tGroundCoverPanel.cpp" />
+    <ClCompile Include="tHeightFieldMaterialButton.cpp" />
+    <ClCompile Include="tHeightFieldMaterialPaintPanel.cpp" />
+    <ClCompile Include="tHeightFieldPaintCursor.cpp" />
+    <ClCompile Include="tHeightFieldVertexPaintPanel.cpp" />
+    <ClCompile Include="tLayerPanel.cpp" />
+    <ClCompile Include="tManipulateObjectPanel.cpp" />
+    <ClCompile Include="tNavGraphToolsPanel.cpp" />
+    <ClCompile Include="tObjectBrowserDialog.cpp" />
+    <ClCompile Include="tPathToolsPanel.cpp" />
+    <ClCompile Include="tReferenceObjectPanel.cpp" />
+    <ClCompile Include="tRemapReferencesDialog.cpp" />
+    <ClCompile Include="tResetHeightFieldMaterialButton.cpp" />
+    <ClCompile Include="tSigEdExplicitDependenciesDialog.cpp" />
+    <ClCompile Include="tSigEdMainWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SigEd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DecalToolsPanels.hpp" />
+    <ClInclude Include="SigEdPch.hpp" />
+    <ClInclude Include="tCreateObjectPanel.hpp" />
+    <ClInclude Include="tEditableObjectProperties.hpp" />
+    <ClInclude Include="tEditorAppWindow.hpp" />
+    <ClInclude Include="tEditorAppWindowContextActions.hpp" />
+    <ClInclude Include="tEditorAppWindowHotKeys.hpp" />
+    <ClInclude Include="tEditorDialog.hpp" />
+    <ClInclude Include="tGroundCoverPanel.hpp" />
+    <ClInclude Include="tHeightFieldMaterialButton.hpp" />
+    <ClInclude Include="tHeightFieldMaterialPaintPanel.hpp" />
+    <ClInclude Include="tHeightFieldPaintCursor.hpp" />
+    <ClInclude Include="tHeightFieldVertexPaintPanel.hpp" />
+    <ClInclude Include="tLayerPanel.hpp" />
+    <ClInclude Include="tManipulateObjectPanel.hpp" />
+    <ClInclude Include="tNavGraphToolsPanel.hpp" />
+    <ClInclude Include="tObjectBrowserDialog.hpp" />
+    <ClInclude Include="tPathToolsPanel.hpp" />
+    <ClInclude Include="tReferenceObjectPanel.hpp" />
+    <ClInclude Include="tRemapReferencesDialog.hpp" />
+    <ClInclude Include="tResetHeightFieldMaterialButton.hpp" />
+    <ClInclude Include="tSigEdExplicitDependenciesDialog.hpp" />
+    <ClInclude Include="tSigEdMainWindow.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.vcxproj">
+      <Project>{079e042c-4ce5-43ae-b813-9ea0de379f93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ToolsGui\ToolsGui.vcxproj">
+      <Project>{4a76edda-ce5d-44a1-b47a-037e3b85d157}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tools\Tools.vcxproj">
+      <Project>{a322a0bf-0f02-46a5-b733-32d8c6a682fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

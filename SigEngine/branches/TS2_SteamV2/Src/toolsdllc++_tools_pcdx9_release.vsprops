@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="toolsdllc++_tools_pcdx9_release"
+	OutputDirectory="$(SolutionDir)..\..\Bin"
+	IntermediateDirectory="$(SolutionDir)Obj\$(ProjectName)\$(ConfigurationName)"
+	InheritedPropertySheets=".\tools_pcdx9_release.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)Tools&quot;"
+		PreprocessorDefinitions="_USRDLL"
+	/>
+</VisualStudioPropertySheet>

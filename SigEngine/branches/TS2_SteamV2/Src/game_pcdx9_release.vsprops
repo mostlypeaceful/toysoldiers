@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="game_pcdx9_release"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalOptions="/MP"
+		Optimization="3"
+		InlineFunctionExpansion="2"
+		EnableIntrinsicFunctions="true"
+		FavorSizeOrSpeed="2"
+		EnableFiberSafeOptimizations="true"
+		AdditionalIncludeDirectories="&quot;$(SigEngine)\Src\External\steam\public\steam&quot;;&quot;$(SigEngine)\Src\External\Microsoft DirectX SDK (June 2010)\Include&quot;;&quot;$(SigEngine)\Src\Internal\Base&quot;;&quot;$(SigEngine)\Src\External\squirrel\include&quot;;&quot;$(SigEngine)\Src\External\zlib123&quot;;&quot;$(SigEngine)\Src\External\tinyxml&quot;;&quot;$(SigEngine)\Src\External\enet-1.3.0\include&quot;"
+		PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;build_release;platform_pcdx9;target_game"
+		StringPooling="true"
+		MinimalRebuild="false"
+		ExceptionHandling="0"
+		BufferSecurityCheck="false"
+		EnableEnhancedInstructionSet="2"
+		FloatingPointModel="0"
+		RuntimeTypeInfo="false"
+		UsePrecompiledHeader="2"
+		PrecompiledHeaderThrough="$(ProjectName)Pch.hpp"
+		WarningLevel="3"
+		DebugInformationFormat="3"
+		DisableSpecificWarnings="4530"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		LinkIncremental="1"
+		AdditionalLibraryDirectories="&quot;$(SigEngine)\Src\External\Microsoft DirectX SDK (June 2010)\Lib\x86&quot;"
+		GenerateDebugInformation="true"
+		OptimizeReferences="2"
+		EnableCOMDATFolding="2"
+	/>
+</VisualStudioPropertySheet>

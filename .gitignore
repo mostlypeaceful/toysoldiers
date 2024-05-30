@@ -1,0 +1,37 @@
+# Ignore temporary files
+tmp/
+*.tmp
+
+# Ignore build directories
+build/
+Bin/
+
+# Ignore Visual Studio specific files
+*.user
+*.suo
+*.vcxproj.user
+*.vcxproj.filters
+*.log
+*.tlog
+*.ipch
+*.obj
+*.pch
+*.idb
+*.pdb
+*.exe
+*.dll
+*.lib
+*.ilk
+.vs/
+.vscode/
+
+# Ignore compiled output
+*.exe
+*.so
+*.dylib
+*.dll
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+'*.ilk' 

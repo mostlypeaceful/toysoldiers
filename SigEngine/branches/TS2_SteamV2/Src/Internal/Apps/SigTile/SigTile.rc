@@ -1,0 +1,35 @@
+appicon          ICON        "icons/appicon.ico"
+
+newdoc           BITMAP      "icons/document.bmp"
+opendoc          BITMAP      "icons/open.bmp"
+savedoc          BITMAP      "icons/save.bmp"
+
+undo             BITMAP      "icons/undo.bmp"
+redo		     BITMAP      "icons/redo.bmp"
+
+bakerandom       BITMAP      "icons/block.bmp"
+
+tilesetbrushdialog BITMAP    "icons/palette.bmp"
+
+help             BITMAP      "icons/help.bmp"
+
+
+TilePainting     BITMAP      "icons/TilePainting.bmp"
+TileDB           BITMAP      "icons/TileDB.bmp"
+DesignMarkup     BITMAP      "icons/DesignMarkup.bmp"
+
+TileFloorAutoDeSel    BITMAP      "icons/TileFloorAuto_des.bmp"
+TileFloorAutoSel      BITMAP      "icons/TileFloorAuto.bmp"
+TileFloorDeSel   BITMAP      "icons/TileFloor_des.bmp"
+TileFloorSel     BITMAP      "icons/TileFloor.bmp"
+TileCornerDesel  BITMAP      "icons/TileCorner_des.bmp"
+TileCornerSel    BITMAP      "icons/TileCorner.bmp"
+TileNicheDeSel   BITMAP      "icons/TileNiche_des.bmp"
+TileNicheSel     BITMAP      "icons/TileNiche.bmp"
+TileWallDeSel    BITMAP      "icons/TileWall_des.bmp"
+TileWallSel      BITMAP      "icons/TileWall.bmp"
+TileUniqueDeSel  BITMAP      "icons/TileUnique_des.bmp"
+TileUniqueSel    BITMAP      "icons/TileUnique.bmp"
+
+EraseTileSel     BITMAP      "icons/TileErase.bmp"
+EraseTileDeSel   BITMAP      "icons/TileErase_des.bmp"

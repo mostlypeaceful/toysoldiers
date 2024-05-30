@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="game_debug|Win32">
+      <Configuration>game_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_internal|Win32">
+      <Configuration>game_internal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_playtest|Win32">
+      <Configuration>game_playtest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_profile|Win32">
+      <Configuration>game_profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="game_release|Win32">
+      <Configuration>game_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_debug|Win32">
+      <Configuration>tools_pcdx9_debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="tools_pcdx9_release|Win32">
+      <Configuration>tools_pcdx9_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{079E042C-4CE5-43AE-B813-9EA0DE379F93}</ProjectGuid>
+    <RootNamespace>base</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_game_pcdx9_internal.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_game_pcdx9_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_game_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\enginelib_tools_pcdx9_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28307.799</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <OutDir>$(SolutionDir)..\..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">
+    <OutDir>$(SolutionDir)Obj\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Obj\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>base_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>BasePch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;SigExternal.lib;xinput.lib;d3d9.lib;d3dx9.lib;comctl32.lib;psapi.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;CommunicationCentral.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName)d.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\wwise\Win32_vc90\Debug\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>dbghelp.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>base_lib;AK_OPTIMIZED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>BasePch.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;SigExternal.lib;xinput.lib;d3d9.lib;d3dx9.lib;comctl32.lib;psapi.lib;AkSoundEngine.lib;AkMusicEngine.lib;AkMemoryMgr.lib;AkStreamMgr.lib;AkVorbisDecoder.lib;AkRoomVerbFX.lib;AkParametricEQFX.lib;AkPeakLimiterFX.lib;AkAudioInputSource.lib;AkSilenceSource.lib;dsound.lib;dxguid.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Sig$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\External\lib\$(Configuration);$(SolutionDir)..\External\wwise\Win32_vc90\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>dbghelp.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\Theora\include;$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>base_lib; AK_OPTIMIZED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libogg.lib;libvorbis.lib;libtheora.lib;sdkencryptedappticket.lib;steam_api.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\External\steam\public\steam\lib\win32;$(ProjectDir)..\..\External\steam\redistributable_bin;$(ProjectDir)..\..\External\Theora\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\Theora\include;$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>base_lib;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\External\steam\public\steam\lib\win32;$(ProjectDir)..\..\External\steam\redistributable_bin;$(ProjectDir)..\..\External\Theora\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libogg.lib;libvorbis.lib;libtheora.lib;sdkencryptedappticket.lib;steam_api.lib;</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\Theora\include;$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libogg.lib;libvorbis.lib;libtheora.lib;sdkencryptedappticket.lib;steam_api.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\External\steam\public\steam\lib\win32;$(ProjectDir)..\..\External\steam\redistributable_bin;$(ProjectDir)..\..\External\Theora\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\Theora\include;$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libogg.lib;libvorbis.lib;libtheora.lib;sdkencryptedappticket.lib;steam_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\External\steam\public\steam\lib\win32;$(ProjectDir)..\..\External\steam\redistributable_bin;$(ProjectDir)..\..\External\Theora\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\External\Theora\include;$(ProjectDir)..\..\External\wwise\include;$(ProjectDir)..\..\External\cml-1_0_2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>base_lib; AK_OPTIMIZED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libogg.lib;libvorbis.lib;libtheora.lib;sdkencryptedappticket.lib;steam_api.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\External\steam\public\steam\lib\win32;$(ProjectDir)..\..\External\steam\redistributable_bin;$(ProjectDir)..\..\External\Theora\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\External\enet-1.3.0\callbacks.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\host.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\list.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\packet.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\peer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\protocol.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\unix.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\win32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\External\enet-1.3.0\xbox360.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="AI\tBuiltNavGraph.cpp" />
+    <ClCompile Include="AI\tGoal.cpp" />
+    <ClCompile Include="AI\tMotionGoal.cpp" />
+    <ClCompile Include="AI\tNavGraph.cpp" />
+    <ClCompile Include="AI\tScriptableGoal.cpp" />
+    <ClCompile Include="AI\tSigAIGoal.cpp" />
+    <ClCompile Include="AI\tWaypointPath.cpp" />
+    <ClCompile Include="Audio\IO\Common\AkDefaultLowLevelIODispatcher.cpp" />
+    <ClCompile Include="Audio\IO\Common\AkFileLocationBase.cpp" />
+    <ClCompile Include="Audio\IO\Common\AkFilePackage.cpp" />
+    <ClCompile Include="Audio\IO\Common\AkFilePackageLUT.cpp" />
+    <ClCompile Include="Audio\IO\Win32\AkDefaultIOHookBlocking.cpp" />
+    <ClCompile Include="Audio\IO\Win32\AkDefaultIOHookDeferred.cpp" />
+    <ClCompile Include="Audio\IO\XBox360\AkDefaultIOHookBlocking.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Audio\IO\XBox360\AkDefaultIOHookDeferred.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Audio\tAudioLogic.cpp" />
+    <ClCompile Include="Audio\tListener.cpp" />
+    <ClCompile Include="Audio\tSource.cpp" />
+    <ClCompile Include="Audio\tSystem.cpp" />
+    <ClCompile Include="Base.rtti.cpp" />
+    <ClCompile Include="BasePch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Core_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Core_pc_xbox360.cpp" />
+    <ClCompile Include="EndianUtil.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="FileSystem_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FileSystem_pc_xbox360.cpp" />
+    <ClCompile Include="FX\tEmitters.cpp" />
+    <ClCompile Include="FX\tFxFile.cpp" />
+    <ClCompile Include="FX\tFxGraph.cpp" />
+    <ClCompile Include="FX\tFxKeyframe.cpp" />
+    <ClCompile Include="FX\tMeshParticleList.cpp" />
+    <ClCompile Include="FX\tMeshSystem.cpp" />
+    <ClCompile Include="FX\tParticle.cpp" />
+    <ClCompile Include="FX\tParticleAttractor.cpp" />
+    <ClCompile Include="FX\tParticleSystem.cpp" />
+    <ClCompile Include="FX\tParticleSystemStates.cpp" />
+    <ClCompile Include="FX\tQuadParticleList.cpp" />
+    <ClCompile Include="FX\tQuadTrailEntity.cpp" />
+    <ClCompile Include="FX\tTracerTrailEntity.cpp" />
+    <ClCompile Include="GameArchiveString.cpp" />
+    <ClCompile Include="Gfx\DerivedShadeMaterialGlue.cpp" />
+    <ClCompile Include="Gfx\tCamera.cpp" />
+    <ClCompile Include="Gfx\tCameraController.cpp" />
+    <ClCompile Include="Gfx\tCameraControllerStack.cpp" />
+    <ClCompile Include="Gfx\tDebugFreeCamera.cpp" />
+    <ClCompile Include="Gfx\tDebugGeometry.cpp" />
+    <ClCompile Include="Gfx\tDecalMaterial.cpp" />
+    <ClCompile Include="Gfx\tDefaultAllocators.cpp" />
+    <ClCompile Include="Gfx\tDefaultMaterial.cpp" />
+    <ClCompile Include="Gfx\tDevice.cpp" />
+    <ClCompile Include="Gfx\tDeviceResource.cpp" />
+    <ClCompile Include="Gfx\tDevice_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tDevice_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tDevice_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tDisplayList.cpp" />
+    <ClCompile Include="Gfx\tDrawCall.cpp" />
+    <ClCompile Include="Gfx\tDynamicGeometry.cpp" />
+    <ClCompile Include="Gfx\tDynamicTextureVRam.cpp" />
+    <ClCompile Include="Gfx\tEdramTilingDesc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tFollowPathCamera.cpp" />
+    <ClCompile Include="Gfx\tFontMaterial.cpp" />
+    <ClCompile Include="Gfx\tFreeCamera.cpp" />
+    <ClCompile Include="Gfx\tFullBrightMaterial.cpp" />
+    <ClCompile Include="Gfx\tGeometryBufferSysRam.cpp" />
+    <ClCompile Include="Gfx\tGeometryBufferVRam.cpp" />
+    <ClCompile Include="Gfx\tGeometryBufferVRamSlice.cpp" />
+    <ClCompile Include="Gfx\tGeometryBufferVRam_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tGeometryBufferVRam_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tGeometryBufferVRam_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tGeometryFile.cpp" />
+    <ClCompile Include="Gfx\tGroundCoverCloud.cpp" />
+    <ClCompile Include="Gfx\tHeightFieldMaterial.cpp" />
+    <ClCompile Include="Gfx\tIndexBufferSysRam.cpp" />
+    <ClCompile Include="Gfx\tIndexBufferVRam.cpp" />
+    <ClCompile Include="Gfx\tIndexBufferVRamSlice.cpp" />
+    <ClCompile Include="Gfx\tIndexBufferVRam_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tIndexBufferVRam_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tIndexBufferVRam_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tIndexFormat.cpp" />
+    <ClCompile Include="Gfx\tInstancedDataBuffer.cpp" />
+    <ClCompile Include="Gfx\tLight.cpp" />
+    <ClCompile Include="Gfx\tLightCombo.cpp" />
+    <ClCompile Include="Gfx\tLightEntity.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Gfx\tMaterial.cpp" />
+    <ClCompile Include="Gfx\tMaterialFile.cpp" />
+    <ClCompile Include="Gfx\tMaterialFile_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tMaterialFile_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tMaterialFile_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tMaterial_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tMaterial_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tMaterial_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tParticleMaterial.cpp" />
+    <ClCompile Include="Gfx\tPhongMaterial.cpp" />
+    <ClCompile Include="Gfx\tPostEffect.cpp" />
+    <ClCompile Include="Gfx\tPostEffectsMaterial.cpp" />
+    <ClCompile Include="Gfx\tRenderableEntity.cpp" />
+    <ClCompile Include="Gfx\tRenderBatch.cpp" />
+    <ClCompile Include="Gfx\tRenderContext.cpp" />
+    <ClCompile Include="Gfx\tRenderInstance.cpp" />
+    <ClCompile Include="Gfx\tRenderState.cpp" />
+    <ClCompile Include="Gfx\tRenderState_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tRenderState_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tRenderState_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tRenderTarget.cpp" />
+    <ClCompile Include="Gfx\tRenderTarget_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tRenderTarget_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tRenderTarget_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tRenderToTexture.cpp" />
+    <ClCompile Include="Gfx\tRenderToTexture_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tRenderToTexture_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tRenderToTexture_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tScreen.cpp" />
+    <ClCompile Include="Gfx\tScreenWorkerThread.cpp" />
+    <ClCompile Include="Gfx\tScreen_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tScreen_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tScreen_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tShadeMaterial.cpp" />
+    <ClCompile Include="Gfx\tSolidColorBox.cpp" />
+    <ClCompile Include="Gfx\tSolidColorGeometry.cpp" />
+    <ClCompile Include="Gfx\tSolidColorGrid.cpp" />
+    <ClCompile Include="Gfx\tSolidColorLines.cpp" />
+    <ClCompile Include="Gfx\tSolidColorMaterial.cpp" />
+    <ClCompile Include="Gfx\tSolidColorQuads.cpp" />
+    <ClCompile Include="Gfx\tSolidColorSphere.cpp" />
+    <ClCompile Include="Gfx\tStaticDecalTris.cpp" />
+    <ClCompile Include="Gfx\tTextureFile.cpp" />
+    <ClCompile Include="Gfx\tTextureFile_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tTextureFile_pcdx9.cpp" />
+    <ClCompile Include="Gfx\tTextureFile_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tTextureReference.cpp" />
+    <ClCompile Include="Gfx\tTintStack.cpp" />
+    <ClCompile Include="Gfx\tVertexFormat.cpp" />
+    <ClCompile Include="Gfx\tVertexFormatVRam.cpp" />
+    <ClCompile Include="Gfx\tVertexFormatVRam_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Gfx\tVertexFormatVRam_pcdx9_xbox360.cpp" />
+    <ClCompile Include="Gfx\tViewport.cpp" />
+    <ClCompile Include="Gfx\tWorldSpaceDecal.cpp" />
+    <ClCompile Include="Gfx\tWorldSpaceLines.cpp" />
+    <ClCompile Include="Gfx\tWorldSpaceQuads.cpp" />
+    <ClCompile Include="Gui\tAsyncTexturedQuad.cpp" />
+    <ClCompile Include="Gui\tCanvas.cpp" />
+    <ClCompile Include="Gui\tCanvasFrameOutline.cpp" />
+    <ClCompile Include="Gui\tColoredQuad.cpp" />
+    <ClCompile Include="Gui\tFont.cpp" />
+    <ClCompile Include="Gui\tFpsText.cpp" />
+    <ClCompile Include="Gui\tGamerPictureQuad.cpp" />
+    <ClCompile Include="Gui\tLineList.cpp" />
+    <ClCompile Include="Gui\tLoadScreen.cpp" />
+    <ClCompile Include="Gui\tMovieQuad.cpp" />
+    <ClCompile Include="Gui\tMutableTexturedQuad.cpp" />
+    <ClCompile Include="Gui\tRenderableCanvas.cpp" />
+    <ClCompile Include="Gui\tSaveUI.cpp" />
+    <ClCompile Include="Gui\tScreenSpaceFxSystem.cpp" />
+    <ClCompile Include="Gui\tScriptedControl.cpp" />
+    <ClCompile Include="Gui\tText.cpp" />
+    <ClCompile Include="Gui\tTexturedQuad.cpp" />
+    <ClCompile Include="Gui\tWorldSpaceScriptedControl.cpp" />
+    <ClCompile Include="Gui\tWorldSpaceText.cpp" />
+    <ClCompile Include="IK\tIK.cpp" />
+    <ClCompile Include="Input\tGamepad.cpp" />
+    <ClCompile Include="Input\tGamepad_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Input\tGamepad_pc_xbox360.cpp" />
+    <ClCompile Include="Input\tKeyboard.cpp" />
+    <ClCompile Include="Input\tKeyboard_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Input\tKeyboard_pc.cpp" />
+    <ClCompile Include="Input\tKeyboard_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Input\tMouse.cpp" />
+    <ClCompile Include="Input\tMouse_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Input\tMouse_pc.cpp" />
+    <ClCompile Include="Input\tMouse_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Input\tRumbleManager.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Logic\tAnimatable.cpp" />
+    <ClCompile Include="Logic\tDamageable.cpp" />
+    <ClCompile Include="Logic\tGoalDriven.cpp" />
+    <ClCompile Include="Logic\tPhysical.cpp" />
+    <ClCompile Include="Log_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Log_pc.cpp" />
+    <ClCompile Include="Log_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp" />
+    <ClCompile Include="Math\MatrixUtil.cpp" />
+    <ClCompile Include="Math\ProjectileUtility.cpp" />
+    <ClCompile Include="Math\tDamped.cpp" />
+    <ClCompile Include="Math\tIntersectionObbObb.cpp" />
+    <ClCompile Include="Math\tRay.cpp" />
+    <ClCompile Include="Memory\DebugMemory.cpp" />
+    <ClCompile Include="Memory\DebugMemory_pc.cpp" />
+    <ClCompile Include="Memory\DebugMemory_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Memory\MemoryUtil.cpp" />
+    <ClCompile Include="Memory\tChunkySubHeap.cpp" />
+    <ClCompile Include="Memory\tExternalHeap.cpp" />
+    <ClCompile Include="Memory\tExternalSubHeap.cpp" />
+    <ClCompile Include="Memory\tHeap.cpp" />
+    <ClCompile Include="Memory\tMainMemoryProvider.cpp" />
+    <ClCompile Include="Memory\tMemoryDump.cpp" />
+    <ClCompile Include="Memory\tPool.cpp" />
+    <ClCompile Include="Memory\tResourceMemoryProvider.cpp" />
+    <ClCompile Include="Net\tHost.cpp" />
+    <ClCompile Include="Net\tP2PNetwork.cpp" />
+    <ClCompile Include="Net\tPeer.cpp" />
+    <ClCompile Include="Net\tRemoteConnection.cpp" />
+    <ClCompile Include="Net\tVoiceNetwork.cpp" />
+    <ClCompile Include="Physics\tAirbornePhysics.cpp" />
+    <ClCompile Include="Physics\tCharacterPhysics.cpp" />
+    <ClCompile Include="Physics\tCollidingRigidBody.cpp" />
+    <ClCompile Include="Physics\tConstraint.cpp" />
+    <ClCompile Include="Physics\tGroundRayCastCallback.cpp" />
+    <ClCompile Include="Physics\tHinge.cpp" />
+    <ClCompile Include="Physics\tHoverPhysics.cpp" />
+    <ClCompile Include="Physics\tPinConstraint.cpp" />
+    <ClCompile Include="Physics\tRigidBody.cpp" />
+    <ClCompile Include="Physics\tSprungMass.cpp" />
+    <ClCompile Include="Physics\tVehiclePhysics.cpp" />
+    <ClCompile Include="Rtti.cpp" />
+    <ClCompile Include="Scripts\tScript64.cpp" />
+    <ClCompile Include="Scripts\tScriptExportData.cpp" />
+    <ClCompile Include="Scripts\tScriptFile.cpp" />
+    <ClCompile Include="Scripts\tScriptVm.cpp" />
+    <ClCompile Include="StringUtil.cpp" />
+    <ClCompile Include="t3dGridEntity.cpp" />
+    <ClCompile Include="tAchievements.cpp" />
+    <ClCompile Include="tAchievements_pc.cpp" />
+    <ClCompile Include="tAchievements_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tAnimatedQuad.cpp" />
+    <ClCompile Include="tAnimatedSkeleton.cpp" />
+    <ClCompile Include="tAnimPackFile.cpp" />
+    <ClCompile Include="tAnimTrack.cpp" />
+    <ClCompile Include="tApplication.cpp" />
+    <ClCompile Include="tApplication_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tApplication_pc.cpp" />
+    <ClCompile Include="tApplication_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tAppStateDefault.cpp" />
+    <ClCompile Include="tAppStateLevelLoad.cpp" />
+    <ClCompile Include="tAsyncFileReader.cpp" />
+    <ClCompile Include="tAsyncFileReaderQueue.cpp" />
+    <ClCompile Include="tAsyncFileReader_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tAsyncFileReader_pc.cpp" />
+    <ClCompile Include="tAsyncFileReader_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tAttachmentEntity.cpp" />
+    <ClCompile Include="tBase64.cpp" />
+    <ClCompile Include="tBinaryFileBase.cpp" />
+    <ClCompile Include="tBlendAnimTrack.cpp" />
+    <ClCompile Include="tByteFile.cpp" />
+    <ClCompile Include="tCallStack.cpp" />
+    <ClCompile Include="tCallStack_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tCallStack_pc.cpp" />
+    <ClCompile Include="tCallStack_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tCmdLineOption.cpp" />
+    <ClCompile Include="tCompressor.cpp" />
+    <ClCompile Include="tConsoleApp.cpp" />
+    <ClCompile Include="tContent.cpp" />
+    <ClCompile Include="tContentEnumerator.cpp" />
+    <ClCompile Include="tContentEnumerator_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tContentEnumerator_pcdx9.cpp" />
+    <ClCompile Include="tContentEnumerator_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tContent_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tContent_pcdx9.cpp" />
+    <ClCompile Include="tContent_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tDataTableFile.cpp" />
+    <ClCompile Include="tDecompressor.cpp" />
+    <ClCompile Include="tDevMenu.cpp" />
+    <ClCompile Include="tDevMenuIni.cpp" />
+    <ClCompile Include="tDevVarTypes.cpp" />
+    <ClCompile Include="tDynamicOctree.cpp" />
+    <ClCompile Include="tDynamicQuadtree.cpp" />
+    <ClCompile Include="tEncryption.cpp" />
+    <ClCompile Include="tEntity.cpp" />
+    <ClCompile Include="tEntityCloud.cpp" />
+    <ClCompile Include="tEntityDef.cpp" />
+    <ClCompile Include="tFilePackage.cpp" />
+    <ClCompile Include="tFilePackageFile.cpp" />
+    <ClCompile Include="tFilePackageHeaderResourceLoader.cpp" />
+    <ClCompile Include="tFilePackageResourceLoader.cpp" />
+    <ClCompile Include="tFilePathPtr.cpp" />
+    <ClCompile Include="tFileReader.cpp" />
+    <ClCompile Include="tFileWriter.cpp" />
+    <ClCompile Include="tFpsCounter.cpp" />
+    <ClCompile Include="tFxFileRefEntity.cpp" />
+    <ClCompile Include="tGameAppBase.cpp" />
+    <ClCompile Include="tGameArchive.cpp" />
+    <ClCompile Include="tGameEffects.cpp" />
+    <ClCompile Include="tGameSession.cpp" />
+    <ClCompile Include="tGameSessionNetwork.cpp" />
+    <ClCompile Include="tGameSessionSearch.cpp" />
+    <ClCompile Include="tGameSessionSearch_pc.cpp" />
+    <ClCompile Include="tGameSessionSearch_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tGameSession_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tGameSession_pc.cpp" />
+    <ClCompile Include="tGameSession_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tHashTable.cpp" />
+    <ClCompile Include="tHeightFieldMesh.cpp" />
+    <ClCompile Include="tHeightFieldMeshEntity.cpp" />
+    <ClCompile Include="tHeightFieldQuadTree.cpp" />
+    <ClCompile Include="Threads\LocalStorage_pc_xbox360.cpp" />
+    <ClCompile Include="Threads\tCriticalSection_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Threads\tCriticalSection_pc_xbox360.cpp" />
+    <ClCompile Include="Threads\tJobPool.cpp" />
+    <ClCompile Include="Threads\tMutex_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Threads\tMutex_pc_xbox360.cpp" />
+    <ClCompile Include="Threads\tProcess_pc.cpp" />
+    <ClCompile Include="Threads\tSemaphore_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Threads\tSemaphore_pc_xbox360.cpp" />
+    <ClCompile Include="Threads\tThread.cpp" />
+    <ClCompile Include="Threads\tThread_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Threads\tThread_pc_xbox360.cpp" />
+    <ClCompile Include="Threads\tWorkerThread.cpp" />
+    <ClCompile Include="tIKAnimTrackBase.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Time_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Time_pc_xbox360.cpp" />
+    <ClCompile Include="tKdTree.cpp" />
+    <ClCompile Include="tKeyFrameAnimation.cpp" />
+    <ClCompile Include="tKeyFrameAnimTrack.cpp" />
+    <ClCompile Include="tLeaderboard.cpp" />
+    <ClCompile Include="tLeaderboard_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tLeaderboard_pc.cpp" />
+    <ClCompile Include="tLeaderboard_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tLoadInPlaceDeserializer.cpp" />
+    <ClCompile Include="tLoadInPlaceFileBase.cpp" />
+    <ClCompile Include="tLoadInPlaceResourceBuffer.cpp" />
+    <ClCompile Include="tLocalizationFile.cpp" />
+    <ClCompile Include="tLogic.cpp" />
+    <ClCompile Include="tLogicEvent.cpp" />
+    <ClCompile Include="tLogicPtr.cpp" />
+    <ClCompile Include="tLogicThreadPool.cpp" />
+    <ClCompile Include="tMersenneGenerator.cpp" />
+    <ClCompile Include="tMesh.cpp" />
+    <ClCompile Include="tMeshEntity.cpp" />
+    <ClCompile Include="tModuleHelper.cpp" />
+    <ClCompile Include="tModuleHelper_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tModuleHelper_pc.cpp" />
+    <ClCompile Include="tModuleHelper_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tMotionMap.cpp" />
+    <ClCompile Include="tMoviePlayer.cpp" />
+    <ClCompile Include="tMoviePlayer_pc.cpp" />
+    <ClCompile Include="tMoviePlayer_xbox360.cpp" />
+    <ClCompile Include="tNavGraphEntity.cpp" />
+    <ClCompile Include="tOctree.cpp" />
+    <ClCompile Include="ToolsPaths.cpp" />
+    <ClCompile Include="tOrientAnimTrack.cpp" />
+    <ClCompile Include="tOrientBasisAnimTrack.cpp" />
+    <ClCompile Include="tPathDecalEntityDef.cpp" />
+    <ClCompile Include="tPathEntity.cpp" />
+    <ClCompile Include="tPixProfiler.cpp" />
+    <ClCompile Include="tPolySoupKDTree.cpp" />
+    <ClCompile Include="tPolySoupOctree.cpp" />
+    <ClCompile Include="tProfiler.cpp" />
+    <ClCompile Include="tProjectFile.cpp" />
+    <ClCompile Include="tProximity.cpp" />
+    <ClCompile Include="tQuadtree.cpp" />
+    <ClCompile Include="tRandom.cpp" />
+    <ClCompile Include="tReferenceFrameEntity.cpp" />
+    <ClCompile Include="tReplay.cpp" />
+    <ClCompile Include="tResource.cpp" />
+    <ClCompile Include="tResourceDepot.cpp" />
+    <ClCompile Include="tResourceLoader.cpp" />
+    <ClCompile Include="tResourceLoadList.cpp" />
+    <ClCompile Include="tRotateAnimTrack.cpp" />
+    <ClCompile Include="tSaveGameStorage.cpp" />
+    <ClCompile Include="tSaveGameStorage_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tSaveGameStorage_pc.cpp" />
+    <ClCompile Include="tSaveGameStorage_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tSceneGraph.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="tSceneGraphFile.cpp" />
+    <ClCompile Include="tSceneRefEntity.cpp" />
+    <ClCompile Include="tSgFileRefEntity.cpp" />
+    <ClCompile Include="tShapeEntity.cpp" />
+    <ClCompile Include="tSharedStringBase.cpp" />
+    <ClCompile Include="tSharedStringTable.cpp" />
+    <ClCompile Include="tSkeletonFile.cpp" />
+    <ClCompile Include="tSkeletonVisualizer.cpp" />
+    <ClCompile Include="tSkinMap.cpp" />
+    <ClCompile Include="tSpatialEntity.cpp" />
+    <ClCompile Include="tStandardResourceLoader.cpp" />
+    <ClCompile Include="tStateableEntity.cpp" />
+    <ClCompile Include="tSteamManager.cpp" />
+    <ClCompile Include="tStringPtr.cpp" />
+    <ClCompile Include="tSymbolHelper.cpp" />
+    <ClCompile Include="tSymbolHelper_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tSymbolHelper_pc.cpp" />
+    <ClCompile Include="tSymbolHelper_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tSync.cpp" />
+    <ClCompile Include="tTileEntity.cpp" />
+    <ClCompile Include="tUberBreakableClump.cpp" />
+    <ClCompile Include="tUberBreakableDebris.cpp" />
+    <ClCompile Include="tUberBreakableLogic.cpp" />
+    <ClCompile Include="tUberBreakablePiece.cpp" />
+    <ClCompile Include="tUnitTest.cpp" />
+    <ClCompile Include="tUser.cpp" />
+    <ClCompile Include="tUser_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tUser_pc.cpp" />
+    <ClCompile Include="tUser_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tVarProperty.cpp" />
+    <ClCompile Include="tVoice.cpp" />
+    <ClCompile Include="tVoice_ios.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tVoice_pc.cpp" />
+    <ClCompile Include="tVoice_xbox360.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tWin32Window.cpp" />
+    <ClCompile Include="tXmlDeserializer.cpp" />
+    <ClCompile Include="tXmlFile.cpp" />
+    <ClCompile Include="tXmlSerializer.cpp" />
+    <ClCompile Include="Win32Util.cpp" />
+    <ClCompile Include="XtlUtil.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\callbacks.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\enet.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\list.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\protocol.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\time.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\types.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\unix.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\utility.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\win32.h" />
+    <ClInclude Include="..\..\External\enet-1.3.0\include\enet\xbox360.h" />
+    <ClInclude Include="AI\tBuiltNavGraph.hpp" />
+    <ClInclude Include="AI\tGoal.hpp" />
+    <ClInclude Include="AI\tMotionGoal.hpp" />
+    <ClInclude Include="AI\tNavGraph.hpp" />
+    <ClInclude Include="AI\tScriptableGoal.hpp" />
+    <ClInclude Include="AI\tSigAIGoal.hpp" />
+    <ClInclude Include="AI\tWaypointPath.hpp" />
+    <ClInclude Include="ApplicationEvents.hpp" />
+    <ClInclude Include="Audio\IO\Common\AkDefaultLowLevelIODispatcher.h" />
+    <ClInclude Include="Audio\IO\Common\AkFileLocationBase.h" />
+    <ClInclude Include="Audio\IO\Common\AkFilePackage.h" />
+    <ClInclude Include="Audio\IO\Common\AkFilePackageLowLevelIO.h" />
+    <ClInclude Include="Audio\IO\Common\AkFilePackageLUT.h" />
+    <ClInclude Include="Audio\IO\Win32\AkDefaultIOHookBlocking.h" />
+    <ClInclude Include="Audio\IO\Win32\AkDefaultIOHookDeferred.h" />
+    <ClInclude Include="Audio\IO\Win32\AkFileHelpers.h" />
+    <ClInclude Include="Audio\IO\Win32\AkFilePackageLowLevelIOBlocking.h" />
+    <ClInclude Include="Audio\IO\Win32\AkFilePackageLowLevelIODeferred.h" />
+    <ClInclude Include="Audio\IO\XBox360\AkDefaultIOHookBlocking.h" />
+    <ClInclude Include="Audio\IO\XBox360\AkDefaultIOHookDeferred.h" />
+    <ClInclude Include="Audio\IO\XBox360\AkFileHelpers.h" />
+    <ClInclude Include="Audio\IO\XBox360\AkFilePackageLowLevelIOBlocking.h" />
+    <ClInclude Include="Audio\IO\XBox360\AkFilePackageLowLevelIODeferred.h" />
+    <ClInclude Include="Audio\tAudioLogic.hpp" />
+    <ClInclude Include="Audio\tListener.hpp" />
+    <ClInclude Include="Audio\tSource.hpp" />
+    <ClInclude Include="Audio\tSystem.hpp" />
+    <ClInclude Include="Base.rtti.hpp" />
+    <ClInclude Include="BasePch.hpp" />
+    <ClInclude Include="BuildConfig.hpp" />
+    <ClInclude Include="ClassRegistration.hpp" />
+    <ClInclude Include="CodeStandards.hpp" />
+    <ClInclude Include="Core.hpp" />
+    <ClInclude Include="DisableOpts.hpp" />
+    <ClInclude Include="EndianUtil.hpp" />
+    <ClInclude Include="FileSystem.hpp" />
+    <ClInclude Include="FX\tEmitters.hpp" />
+    <ClInclude Include="FX\tFxFile.hpp" />
+    <ClInclude Include="FX\tFxGraph.hpp" />
+    <ClInclude Include="FX\tFxKeyframe.hpp" />
+    <ClInclude Include="FX\tMeshParticleList.hpp" />
+    <ClInclude Include="FX\tMeshSystem.hpp" />
+    <ClInclude Include="FX\tParticle.hpp" />
+    <ClInclude Include="FX\tParticleAttractor.hpp" />
+    <ClInclude Include="FX\tParticleList.hpp" />
+    <ClInclude Include="FX\tParticleSystem.hpp" />
+    <ClInclude Include="FX\tParticleSystemStates.hpp" />
+    <ClInclude Include="FX\tQuadParticleList.hpp" />
+    <ClInclude Include="FX\tQuadTrailEntity.hpp" />
+    <ClInclude Include="FX\tTracerTrailDef.hpp" />
+    <ClInclude Include="FX\tTracerTrailEntity.hpp" />
+    <ClInclude Include="GameArchiveString.hpp" />
+    <ClInclude Include="GameArchiveUtils.hpp" />
+    <ClInclude Include="Gfx\DerivedShadeMaterialGlue.hpp" />
+    <ClInclude Include="Gfx\tCamera.hpp" />
+    <ClInclude Include="Gfx\tCameraController.hpp" />
+    <ClInclude Include="Gfx\tCameraControllerStack.hpp" />
+    <ClInclude Include="Gfx\tDebugFreeCamera.hpp" />
+    <ClInclude Include="Gfx\tDebugGeometry.hpp" />
+    <ClInclude Include="Gfx\tDecalMaterial.hpp" />
+    <ClInclude Include="Gfx\tDefaultAllocators.hpp" />
+    <ClInclude Include="Gfx\tDefaultMaterial.hpp" />
+    <ClInclude Include="Gfx\tDevice.hpp" />
+    <ClInclude Include="Gfx\tDeviceResource.hpp" />
+    <CustomBuild Include="Gfx\tDevice_ios.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tDevice_pcdx9.hpp" />
+    <CustomBuild Include="Gfx\tDevice_xbox360.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tDisplayList.hpp" />
+    <ClInclude Include="Gfx\tDrawCall.hpp" />
+    <ClInclude Include="Gfx\tDynamicGeometry.hpp" />
+    <ClInclude Include="Gfx\tDynamicTextureVRam.hpp" />
+    <CustomBuild Include="Gfx\tEdramTilingDesc.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tFollowPathCamera.hpp" />
+    <ClInclude Include="Gfx\tFontMaterial.hpp" />
+    <ClInclude Include="Gfx\tFreeCamera.hpp" />
+    <ClInclude Include="Gfx\tFullBrightMaterial.hpp" />
+    <ClInclude Include="Gfx\tGeometryBufferSysRam.hpp" />
+    <ClInclude Include="Gfx\tGeometryBufferVRam.hpp" />
+    <ClInclude Include="Gfx\tGeometryBufferVRamSlice.hpp" />
+    <ClInclude Include="Gfx\tGeometryFile.hpp" />
+    <ClInclude Include="Gfx\tGroundCoverCloud.hpp" />
+    <ClInclude Include="Gfx\tHeightFieldMaterial.hpp" />
+    <ClInclude Include="Gfx\tIndexBufferSysRam.hpp" />
+    <ClInclude Include="Gfx\tIndexBufferVRam.hpp" />
+    <ClInclude Include="Gfx\tIndexBufferVRamSlice.hpp" />
+    <ClInclude Include="Gfx\tIndexFormat.hpp" />
+    <ClInclude Include="Gfx\tInstancedDataBuffer.hpp" />
+    <ClInclude Include="Gfx\tLight.hpp" />
+    <ClInclude Include="Gfx\tLightCombo.hpp" />
+    <ClInclude Include="Gfx\tLightEntity.hpp" />
+    <ClInclude Include="Gfx\tMaterial.hpp" />
+    <ClInclude Include="Gfx\tMaterialFile.hpp" />
+    <ClInclude Include="Gfx\tParticleMaterial.hpp" />
+    <ClInclude Include="Gfx\tPhongMaterial.hpp" />
+    <ClInclude Include="Gfx\tPostEffect.hpp" />
+    <ClInclude Include="Gfx\tPostEffectsMaterial.hpp" />
+    <ClInclude Include="Gfx\tRenderableEntity.hpp" />
+    <ClInclude Include="Gfx\tRenderBatch.hpp" />
+    <ClInclude Include="Gfx\tRenderContext.hpp" />
+    <ClInclude Include="Gfx\tRenderInstance.hpp" />
+    <ClInclude Include="Gfx\tRenderState.hpp" />
+    <ClInclude Include="Gfx\tRenderTarget.hpp" />
+    <CustomBuild Include="Gfx\tRenderTarget_ios.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tRenderTarget_pcdx9.hpp" />
+    <CustomBuild Include="Gfx\tRenderTarget_xbox360.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tRenderToTexture.hpp" />
+    <CustomBuild Include="Gfx\tRenderToTexture_ios.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tRenderToTexture_pcdx9.hpp" />
+    <CustomBuild Include="Gfx\tRenderToTexture_xbox360.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tScreen.hpp" />
+    <ClInclude Include="Gfx\tScreenWorkerThread.hpp" />
+    <CustomBuild Include="Gfx\tScreen_ios.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tScreen_pcdx9.hpp" />
+    <CustomBuild Include="Gfx\tScreen_xbox360.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="Gfx\tShadeMaterial.hpp" />
+    <ClInclude Include="Gfx\tSolidColorBox.hpp" />
+    <ClInclude Include="Gfx\tSolidColorGeometry.hpp" />
+    <ClInclude Include="Gfx\tSolidColorGrid.hpp" />
+    <ClInclude Include="Gfx\tSolidColorLines.hpp" />
+    <ClInclude Include="Gfx\tSolidColorMaterial.hpp" />
+    <ClInclude Include="Gfx\tSolidColorQuads.hpp" />
+    <ClInclude Include="Gfx\tSolidColorSphere.hpp" />
+    <ClInclude Include="Gfx\tStaticDecalTris.hpp" />
+    <ClInclude Include="Gfx\tTextureFile.hpp" />
+    <ClInclude Include="Gfx\tTextureReference.hpp" />
+    <ClInclude Include="Gfx\tTintStack.hpp" />
+    <ClInclude Include="Gfx\tVertexFormat.hpp" />
+    <ClInclude Include="Gfx\tVertexFormatVRam.hpp" />
+    <ClInclude Include="Gfx\tViewport.hpp" />
+    <ClInclude Include="Gfx\tWorldSpaceDecal.hpp" />
+    <ClInclude Include="Gfx\tWorldSpaceLines.hpp" />
+    <ClInclude Include="Gfx\tWorldSpaceQuads.hpp" />
+    <ClInclude Include="Gui\tAsyncTexturedQuad.hpp" />
+    <ClInclude Include="Gui\tCanvas.hpp" />
+    <ClInclude Include="Gui\tCanvasFrameOutline.hpp" />
+    <ClInclude Include="Gui\tColoredQuad.hpp" />
+    <ClInclude Include="Gui\tFont.hpp" />
+    <ClInclude Include="Gui\tFpsText.hpp" />
+    <ClInclude Include="Gui\tGamerPictureQuad.hpp" />
+    <ClInclude Include="Gui\tLineList.hpp" />
+    <ClInclude Include="Gui\tLoadScreen.hpp" />
+    <ClInclude Include="Gui\tMovieQuad.hpp" />
+    <ClInclude Include="Gui\tMutableTexturedQuad.hpp" />
+    <ClInclude Include="Gui\tRenderableCanvas.hpp" />
+    <ClInclude Include="Gui\tSaveUI.hpp" />
+    <ClInclude Include="Gui\tScreenSpaceFxSystem.hpp" />
+    <ClInclude Include="Gui\tScriptedControl.hpp" />
+    <ClInclude Include="Gui\tText.hpp" />
+    <ClInclude Include="Gui\tTexturedQuad.hpp" />
+    <ClInclude Include="Gui\tWorldSpaceScriptedControl.hpp" />
+    <ClInclude Include="Gui\tWorldSpaceText.hpp" />
+    <ClInclude Include="IK\tIK.hpp" />
+    <ClInclude Include="Input\tGamepad.hpp" />
+    <ClInclude Include="Input\tKeyboard.hpp" />
+    <ClInclude Include="Input\tMouse.hpp" />
+    <ClInclude Include="Input\tRumbleManager.hpp" />
+    <ClInclude Include="Log.hpp" />
+    <ClInclude Include="LogFlags.hpp" />
+    <ClInclude Include="LogFlagsMacros.hpp" />
+    <ClInclude Include="Logic\AnimationEvents.hpp" />
+    <ClInclude Include="Logic\LogicEventMacros.hpp" />
+    <ClInclude Include="Logic\PhysicalEvents.hpp" />
+    <ClInclude Include="Logic\tAnimatable.hpp" />
+    <ClInclude Include="Logic\tDamageable.hpp" />
+    <ClInclude Include="Logic\tGoalDriven.hpp" />
+    <ClInclude Include="Logic\tPhysical.hpp" />
+    <ClInclude Include="Math\Math.hpp" />
+    <ClInclude Include="Math\MatrixUtil.hpp" />
+    <ClInclude Include="Math\ProjectileUtility.hpp" />
+    <ClInclude Include="Math\tAabb.hpp" />
+    <ClInclude Include="Math\tDamped.hpp" />
+    <ClInclude Include="Math\tFrustum.hpp" />
+    <ClInclude Include="Math\tIntegratedX.hpp" />
+    <ClInclude Include="Math\tIntersectionAabbAabb.hpp" />
+    <ClInclude Include="Math\tIntersectionAabbFrustum.hpp" />
+    <ClInclude Include="Math\tIntersectionAabbObb.hpp" />
+    <ClInclude Include="Math\tIntersectionAabbSphere.hpp" />
+    <ClInclude Include="Math\tIntersectionAabbTriangle.hpp" />
+    <ClInclude Include="Math\tIntersectionObbObb.hpp" />
+    <ClInclude Include="Math\tIntersectionRayAabb.hpp" />
+    <ClInclude Include="Math\tIntersectionRayObb.hpp" />
+    <ClInclude Include="Math\tIntersectionRayPlane.hpp" />
+    <ClInclude Include="Math\tIntersectionRaySphere.hpp" />
+    <ClInclude Include="Math\tIntersectionRayTriangle.hpp" />
+    <ClInclude Include="Math\tIntersectionSphereFrustum.hpp" />
+    <ClInclude Include="Math\tIntersectionSphereObb.hpp" />
+    <ClInclude Include="Math\tIntersectionSphereSphere.hpp" />
+    <ClInclude Include="Math\tIntersectionTriangleFrustum.hpp" />
+    <ClInclude Include="Math\tKeyInterpolator.hpp" />
+    <ClInclude Include="Math\tMatrix.hpp" />
+    <ClInclude Include="Math\tObb.hpp" />
+    <ClInclude Include="Math\tPlane.hpp" />
+    <ClInclude Include="Math\tPRSXform.hpp" />
+    <ClInclude Include="Math\tQuaternion.hpp" />
+    <ClInclude Include="Math\tRay.hpp" />
+    <ClInclude Include="Math\tRect.hpp" />
+    <ClInclude Include="Math\tSphere.hpp" />
+    <ClInclude Include="Math\tTriangle.hpp" />
+    <ClInclude Include="Math\tVector.hpp" />
+    <ClInclude Include="Memory\DebugMemory.hpp" />
+    <ClInclude Include="Memory\MemoryUtil.hpp" />
+    <ClInclude Include="Memory\tChunkyHeap.hpp" />
+    <ClInclude Include="Memory\tChunkySubHeap.hpp" />
+    <ClInclude Include="Memory\tExternalHeap.hpp" />
+    <ClInclude Include="Memory\tExternalSubHeap.hpp" />
+    <ClInclude Include="Memory\tHeap.hpp" />
+    <ClInclude Include="Memory\tMainMemoryProvider.hpp" />
+    <ClInclude Include="Memory\tMemoryDump.hpp" />
+    <ClInclude Include="Memory\tPool.hpp" />
+    <ClInclude Include="Memory\tResourceMemoryProvider.hpp" />
+    <ClInclude Include="Net\tHost.hpp" />
+    <ClInclude Include="Net\tP2PNetwork.hpp" />
+    <ClInclude Include="Net\tPeer.hpp" />
+    <ClInclude Include="Net\tRemoteConnection.hpp" />
+    <ClInclude Include="Net\tVoiceNetwork.hpp" />
+    <ClInclude Include="Physics\tAirbornePhysics.hpp" />
+    <ClInclude Include="Physics\tCharacterPhysics.hpp" />
+    <ClInclude Include="Physics\tCollidingRigidBody.hpp" />
+    <ClInclude Include="Physics\tConstraint.hpp" />
+    <ClInclude Include="Physics\tContactPoint.hpp" />
+    <ClInclude Include="Physics\tGroundRayCastCallback.hpp" />
+    <ClInclude Include="Physics\tHinge.hpp" />
+    <ClInclude Include="Physics\tHoverPhysics.hpp" />
+    <ClInclude Include="Physics\tLongRangeRaycaster.hpp" />
+    <ClInclude Include="Physics\tPinConstraint.hpp" />
+    <ClInclude Include="Physics\tRigidBody.hpp" />
+    <ClInclude Include="Physics\tSprungMass.hpp" />
+    <ClInclude Include="Physics\tVehiclePhysics.hpp" />
+    <ClInclude Include="Rtti.hpp" />
+    <ClInclude Include="RttiClassHierarchy.hpp" />
+    <ClInclude Include="RttiDetail.hpp" />
+    <ClInclude Include="RttiFactory.hpp" />
+    <ClInclude Include="RttiReflection.hpp" />
+    <ClInclude Include="Scripts\SqratInclude.hpp" />
+    <ClInclude Include="Scripts\sqrat\sqratAllocator.h" />
+    <ClInclude Include="Scripts\sqrat\sqratClass.h" />
+    <ClInclude Include="Scripts\sqrat\sqratClassType.h" />
+    <ClInclude Include="Scripts\sqrat\sqratConst.h" />
+    <ClInclude Include="Scripts\sqrat\sqratFunction.h" />
+    <ClInclude Include="Scripts\sqrat\sqratGlobalMemberMethods.h" />
+    <ClInclude Include="Scripts\sqrat\sqratGlobalMethods.h" />
+    <ClInclude Include="Scripts\sqrat\sqratMemberMethods.h" />
+    <ClInclude Include="Scripts\sqrat\sqratObject.h" />
+    <ClInclude Include="Scripts\sqrat\sqratOverloadMethods.h" />
+    <ClInclude Include="Scripts\sqrat\sqratScript.h" />
+    <ClInclude Include="Scripts\sqrat\sqratTable.h" />
+    <ClInclude Include="Scripts\sqrat\sqratTypes.h" />
+    <ClInclude Include="Scripts\sqrat\sqratUtil.h" />
+    <ClInclude Include="Scripts\tScript64.hpp" />
+    <ClInclude Include="Scripts\tScriptExportData.hpp" />
+    <ClInclude Include="Scripts\tScriptFile.hpp" />
+    <ClInclude Include="Scripts\tScriptVm.hpp" />
+    <ClInclude Include="StringUtil.hpp" />
+    <ClInclude Include="t3dGridEntity.hpp" />
+    <ClInclude Include="tAchievements.hpp" />
+    <ClInclude Include="tAnimatedQuad.hpp" />
+    <ClInclude Include="tAnimatedSkeleton.hpp" />
+    <ClInclude Include="tAnimPackFile.hpp" />
+    <ClInclude Include="tAnimTrack.hpp" />
+    <ClInclude Include="tApplication.hpp" />
+    <CustomBuild Include="tApplication_ios.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_profile|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="tApplication_pc.hpp" />
+    <CustomBuild Include="tApplication_xbox360.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="tAppStateDefault.hpp" />
+    <ClInclude Include="tAppStateLevelLoad.hpp" />
+    <ClInclude Include="tArray.hpp" />
+    <ClInclude Include="tAsyncFileReader.hpp" />
+    <ClInclude Include="tAsyncFileReaderQueue.hpp" />
+    <ClInclude Include="tAttachmentEntity.hpp" />
+    <ClInclude Include="tBase64.hpp" />
+    <ClInclude Include="tBinaryFileBase.hpp" />
+    <ClInclude Include="tBlendAnimTrack.hpp" />
+    <ClInclude Include="tByteFile.hpp" />
+    <ClInclude Include="tCallStack.hpp" />
+    <ClInclude Include="tCmdLineOption.hpp" />
+    <ClInclude Include="tCodeResource.hpp" />
+    <ClInclude Include="tCompressor.hpp" />
+    <ClInclude Include="tConsoleApp.hpp" />
+    <ClInclude Include="tContent.hpp" />
+    <ClInclude Include="tContentEnumerator.hpp" />
+    <ClInclude Include="tDataTableFile.hpp" />
+    <ClInclude Include="tDecompressor.hpp" />
+    <ClInclude Include="tDelegate.hpp" />
+    <ClInclude Include="tDelegateTemplate.hpp" />
+    <ClInclude Include="tDevMenu.hpp" />
+    <ClInclude Include="tDevMenuIni.hpp" />
+    <ClInclude Include="tDevVarTypes.hpp" />
+    <ClInclude Include="tDynamicBitArray.hpp" />
+    <ClInclude Include="tDynamicOctree.hpp" />
+    <ClInclude Include="tDynamicQuadtree.hpp" />
+    <ClInclude Include="tEncryption.hpp" />
+    <ClInclude Include="tEntity.hpp" />
+    <ClInclude Include="tEntityCloud.hpp" />
+    <ClInclude Include="tEntityDef.hpp" />
+    <ClInclude Include="tFilePackage.hpp" />
+    <ClInclude Include="tFilePackageFile.hpp" />
+    <ClInclude Include="tFilePackageHeaderResourceLoader.hpp" />
+    <ClInclude Include="tFilePackageResourceLoader.hpp" />
+    <ClInclude Include="tFilePathPtr.hpp" />
+    <ClInclude Include="tFileReader.hpp" />
+    <ClInclude Include="tFileWriter.hpp" />
+    <ClInclude Include="tFixedBitArray.hpp" />
+    <ClInclude Include="tFpsCounter.hpp" />
+    <ClInclude Include="tFxFileRefEntity.hpp" />
+    <ClInclude Include="tGameAppBase.hpp" />
+    <ClInclude Include="tGameArchive.hpp" />
+    <ClInclude Include="tGameEffects.hpp" />
+    <ClInclude Include="tGameSession.hpp" />
+    <ClInclude Include="tGameSessionNetwork.hpp" />
+    <ClInclude Include="tGameSessionSearch.hpp" />
+    <ClInclude Include="tGameSessionSearchResult.hpp" />
+    <ClInclude Include="tGenericBuffer.hpp" />
+    <ClInclude Include="tGloballyAccessible.hpp" />
+    <ClInclude Include="tHashTable.hpp" />
+    <ClInclude Include="tHeightFieldMesh.hpp" />
+    <ClInclude Include="tHeightFieldMeshEntity.hpp" />
+    <ClInclude Include="tHeightFieldQuadTree.hpp" />
+    <ClInclude Include="Threads\LocalStorage.hpp" />
+    <ClInclude Include="Threads\tCriticalSection.hpp" />
+    <ClInclude Include="Threads\tJobPool.hpp" />
+    <ClInclude Include="Threads\tLocklessQueue.hpp" />
+    <ClInclude Include="Threads\tMutex.hpp" />
+    <ClInclude Include="Threads\tProcess.hpp" />
+    <ClInclude Include="Threads\tSemaphore.hpp" />
+    <ClInclude Include="Threads\tThread.hpp" />
+    <ClInclude Include="Threads\tWorkerThread.hpp" />
+    <ClInclude Include="tIKAnimTrackBase.hpp" />
+    <ClInclude Include="Time.hpp" />
+    <ClInclude Include="tKdTree.hpp" />
+    <ClInclude Include="tKeyFrameAnimation.hpp" />
+    <ClInclude Include="tKeyFrameAnimTrack.hpp" />
+    <ClInclude Include="tLeaderboard.hpp" />
+    <ClInclude Include="tLoadInPlaceDeserializer.hpp" />
+    <ClInclude Include="tLoadInPlaceFileBase.hpp" />
+    <ClInclude Include="tLoadInPlaceObjects.hpp" />
+    <ClInclude Include="tLoadInPlaceResourceBuffer.hpp" />
+    <ClInclude Include="tLoadInPlaceSerializerBase.hpp" />
+    <ClInclude Include="tLocalizationFile.hpp" />
+    <ClInclude Include="tLogic.hpp" />
+    <ClInclude Include="tLogicEvent.hpp" />
+    <ClInclude Include="tLogicPtr.hpp" />
+    <ClInclude Include="tLogicThreadPool.hpp" />
+    <ClInclude Include="tMasterPtr.hpp" />
+    <ClInclude Include="tMersenneGenerator.hpp" />
+    <ClInclude Include="tMesh.hpp" />
+    <ClInclude Include="tMeshEntity.hpp" />
+    <ClInclude Include="tModuleHelper.hpp" />
+    <ClInclude Include="tMotionMap.hpp" />
+    <ClInclude Include="tMoviePlayer.hpp" />
+    <ClInclude Include="tMoviePlayer_pc.hpp" />
+    <ClInclude Include="tMoviePlayer_xbox360.hpp" />
+    <ClInclude Include="tNavGraphEntity.hpp" />
+    <ClInclude Include="tOctree.hpp" />
+    <ClInclude Include="ToolsPaths.hpp" />
+    <ClInclude Include="tOrientAnimTrack.hpp" />
+    <ClInclude Include="tOrientBasisAnimTrack.hpp" />
+    <ClInclude Include="tPathDecalEntityDef.hpp" />
+    <ClInclude Include="tPathEntity.hpp" />
+    <ClInclude Include="tPixProfiler.hpp" />
+    <ClInclude Include="tPolySoupKDTree.hpp" />
+    <ClInclude Include="tPolySoupOctree.hpp" />
+    <ClInclude Include="tPolySoupRaycastHit.hpp" />
+    <ClInclude Include="tPriorityQueue.hpp" />
+    <ClInclude Include="tProfiler.hpp" />
+    <ClInclude Include="tProjectFile.hpp" />
+    <ClInclude Include="tProximity.hpp" />
+    <ClInclude Include="tQuadtree.hpp" />
+    <ClInclude Include="tRandom.hpp" />
+    <ClInclude Include="tRefCounterPtr.hpp" />
+    <ClInclude Include="tReferenceFrameEntity.hpp" />
+    <ClInclude Include="tReplay.hpp" />
+    <ClInclude Include="tResource.hpp" />
+    <ClInclude Include="tResourceDepot.hpp" />
+    <ClInclude Include="tResourceId.hpp" />
+    <ClInclude Include="tResourceLoader.hpp" />
+    <ClInclude Include="tResourceLoadList.hpp" />
+    <ClInclude Include="tRingBuffer.hpp" />
+    <ClInclude Include="tRotateAnimTrack.hpp" />
+    <ClInclude Include="tSaveGameStorage.hpp" />
+    <ClInclude Include="tSceneGraph.hpp" />
+    <ClInclude Include="tSceneGraphCollectTris.hpp" />
+    <ClInclude Include="tSceneGraphFile.hpp" />
+    <ClInclude Include="tSceneRefEntity.hpp" />
+    <ClInclude Include="tSgFileRefEntity.hpp" />
+    <ClInclude Include="tShapeEntity.hpp" />
+    <ClInclude Include="tSharedStringBase.hpp" />
+    <ClInclude Include="tSharedStringTable.hpp" />
+    <ClInclude Include="tSkeletonFile.hpp" />
+    <ClInclude Include="tSkeletonVisualizer.hpp" />
+    <ClInclude Include="tSkinMap.hpp" />
+    <ClInclude Include="tSpatialEntity.hpp" />
+    <ClInclude Include="tSpatialTree.hpp" />
+    <ClInclude Include="tStack.hpp" />
+    <ClInclude Include="tStandardResourceLoader.hpp" />
+    <ClInclude Include="tStateableEntity.hpp" />
+    <ClInclude Include="tSteamManager.hpp" />
+    <ClInclude Include="tStringPtr.hpp" />
+    <ClInclude Include="tStrongPtr.hpp" />
+    <ClInclude Include="tSymbolHelper.hpp" />
+    <ClInclude Include="tSync.hpp" />
+    <ClInclude Include="tTileEntity.hpp" />
+    <ClInclude Include="tUberBreakableClump.hpp" />
+    <ClInclude Include="tUberBreakableDebris.hpp" />
+    <ClInclude Include="tUberBreakableLogic.hpp" />
+    <ClInclude Include="tUberBreakablePiece.hpp" />
+    <ClInclude Include="tUnitTest.hpp" />
+    <ClInclude Include="tUser.hpp" />
+    <ClInclude Include="tVarProperty.hpp" />
+    <ClInclude Include="tVoice.hpp" />
+    <ClInclude Include="tWeakPtr.hpp" />
+    <ClInclude Include="tWin32Window.hpp" />
+    <ClInclude Include="tXmlBase64.hpp" />
+    <ClInclude Include="tXmlDeserializeMath.hpp" />
+    <ClInclude Include="tXmlDeserializer.hpp" />
+    <ClInclude Include="tXmlFile.hpp" />
+    <ClInclude Include="tXmlSerializeMath.hpp" />
+    <ClInclude Include="tXmlSerializer.hpp" />
+    <ClInclude Include="tXmlSerializerBase.hpp" />
+    <ClInclude Include="Win32Include.hpp" />
+    <ClInclude Include="Win32Util.hpp" />
+    <CustomBuild Include="XtlUtil.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_internal|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_playtest|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='game_release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='tools_pcdx9_release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Audio\IO\Common\AkFilePackageLowLevelIO.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
