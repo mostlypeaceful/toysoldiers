@@ -1,0 +1,3850 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<SigProj>
+    <ShadowMapLayerCount>2</ShadowMapLayerCount>
+    <AssetGenConfig>
+        <UseEnginePlugins>1</UseEnginePlugins>
+        <AdditionalPluginPaths count="1">
+            <i><![CDATA[bin]]></i>
+        </AdditionalPluginPaths>
+    </AssetGenConfig>
+    <GameFlags count="31">
+        <i>
+            <Name><![CDATA[Ground]]></Name>
+            <Key>0</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Selectable]]></Name>
+            <Key>1</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Dummy]]></Name>
+            <Key>2</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Collision]]></Name>
+            <Key>3</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Context Animation]]></Name>
+            <Key>4</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Saveable]]></Name>
+            <Key>5</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Park Vehicle]]></Name>
+            <Key>6</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Drop Cargo]]></Name>
+            <Key>7</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Turret Base]]></Name>
+            <Key>8</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Proxy Collision Root]]></Name>
+            <Key>10</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Proxy Collision Shape]]></Name>
+            <Key>11</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Default End Transition]]></Name>
+            <Key>12</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Dont Stop Bullets]]></Name>
+            <Key>13</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Vehicle Face Path Direction]]></Name>
+            <Key>14</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Dont Inherit State Change]]></Name>
+            <Key>16</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Spawn As Debris]]></Name>
+            <Key>17</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Inward Collision]]></Name>
+            <Key>18</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Doesnt End In Goalbox]]></Name>
+            <Key>19</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Locked]]></Name>
+            <Key>20</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Show Range Rings]]></Name>
+            <Key>21</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Wall Volume]]></Name>
+            <Key>22</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Wall Placement Zone]]></Name>
+            <Key>23</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Detach Flying Base]]></Name>
+            <Key>24</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Dont Insta Destroy]]></Name>
+            <Key>25</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Minigame Unit]]></Name>
+            <Key>26</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Doesnt Take Damage]]></Name>
+            <Key>27</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Insta Destroy]]></Name>
+            <Key>28</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Focal Prompt]]></Name>
+            <Key>29</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Bullet Proof]]></Name>
+            <Key>30</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Stop AI]]></Name>
+            <Key>31</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Loop]]></Name>
+            <Key>32</Key>
+        </i>
+    </GameFlags>
+    <GameEnumeratedValues count="55">
+        <i>
+            <Name><![CDATA[Team]]></Name>
+            <Key>1</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Red]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Blue]]></Name>
+                    <Key>2</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Type]]></Name>
+            <Key>2</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="14">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Air]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Light Prop]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heavy Prop]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[I Need a Unit ID And Country]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[I Need a breakable Unit ID And default Country]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Target]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Toy Box]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Pickup]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Passenger]]></Name>
+                    <Key>18</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Level Deprecated]]></Name>
+            <Key>3</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[6]]></Name>
+                    <Key>5</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Unit ID]]></Name>
+            <Key>4</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="134">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>31</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_MG_01]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_MG_02]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_MG_03]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Mortar_01]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Mortar_02]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Mortar_03]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AT_01]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AT_02]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AT_03]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Arty_01]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Arty_02]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_Arty_03]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AA_01]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AA_02]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret_AA_03]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Flame 01]]></Name>
+                    <Key>54</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Flame 02]]></Name>
+                    <Key>55</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Flame 03]]></Name>
+                    <Key>56</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry_Basic_01]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic 02]]></Name>
+                    <Key>48</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic 03]]></Name>
+                    <Key>57</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic 04]]></Name>
+                    <Key>58</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Cowboy 01]]></Name>
+                    <Key>112</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry_Elite_01]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Elite 02]]></Name>
+                    <Key>49</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry_Mobile_01]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Mobile 02]]></Name>
+                    <Key>50</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry ATV]]></Name>
+                    <Key>59</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Car_01]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC_MG_01]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC_AT_01]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC_ARTY_01]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC_AA_01]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC_IFV_01]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank_Medium_01]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank_Heavy_01]]></Name>
+                    <Key>25</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Helo_Transport_01]]></Name>
+                    <Key>26</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Helo_Transport_02]]></Name>
+                    <Key>32</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Helo_Attack_01]]></Name>
+                    <Key>27</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Plane_Transport_01]]></Name>
+                    <Key>28</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Plane_Fighter_01]]></Name>
+                    <Key>29</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Plane Fighter 02]]></Name>
+                    <Key>71</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Plane_Bomber_01]]></Name>
+                    <Key>30</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 1]]></Name>
+                    <Key>33</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 2]]></Name>
+                    <Key>34</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 3]]></Name>
+                    <Key>35</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 4]]></Name>
+                    <Key>36</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 5]]></Name>
+                    <Key>37</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 6]]></Name>
+                    <Key>38</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 7]]></Name>
+                    <Key>39</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 8]]></Name>
+                    <Key>40</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 9]]></Name>
+                    <Key>41</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prop 10]]></Name>
+                    <Key>42</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Generator]]></Name>
+                    <Key>43</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Armor Generator]]></Name>
+                    <Key>44</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Air Generator]]></Name>
+                    <Key>45</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss_Mi12]]></Name>
+                    <Key>46</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Wall Wire]]></Name>
+                    <Key>47</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Mi12 AA]]></Name>
+                    <Key>51</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Mi12 MG]]></Name>
+                    <Key>52</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Mi12 Rotor]]></Name>
+                    <Key>53</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Tank]]></Name>
+                    <Key>65</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Tank Turret]]></Name>
+                    <Key>67</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Tank Engine]]></Name>
+                    <Key>68</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Sub]]></Name>
+                    <Key>66</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Sub Tower]]></Name>
+                    <Key>69</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Sub Silos]]></Name>
+                    <Key>70</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SubBoss Tank 01]]></Name>
+                    <Key>60</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SubBoss Tank 02]]></Name>
+                    <Key>61</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SubBoss Tank 03]]></Name>
+                    <Key>62</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SubBoss Tank 04]]></Name>
+                    <Key>63</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SubBoss Helicopter 01]]></Name>
+                    <Key>64</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Officer 01]]></Name>
+                    <Key>72</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Extra Vehicle 1]]></Name>
+                    <Key>73</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Extra Vehicle 2]]></Name>
+                    <Key>74</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Extra Gyrocopter]]></Name>
+                    <Key>75</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Extra Papagallo]]></Name>
+                    <Key>76</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss FlyingTank]]></Name>
+                    <Key>77</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss FlyingTank AA]]></Name>
+                    <Key>78</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss FlyingTank MG]]></Name>
+                    <Key>80</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank Screw 01]]></Name>
+                    <Key>79</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Target 100]]></Name>
+                    <Key>81</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Target 200]]></Name>
+                    <Key>82</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Target 300]]></Name>
+                    <Key>83</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Build Site]]></Name>
+                    <Key>84</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE ARTILLERY]]></Name>
+                    <Key>85</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE RAMBO]]></Name>
+                    <Key>86</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE AC130 MG]]></Name>
+                    <Key>87</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE AC130 CANNON]]></Name>
+                    <Key>88</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE AC130 AUTOGUN]]></Name>
+                    <Key>89</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TANK ROCKET 01]]></Name>
+                    <Key>90</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TANK NUKEPROOF 01]]></Name>
+                    <Key>91</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE AC130]]></Name>
+                    <Key>92</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BARRAGE F117]]></Name>
+                    <Key>93</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[FlyingTank Airbase]]></Name>
+                    <Key>94</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[INFANTRY CAPTAIN 01]]></Name>
+                    <Key>95</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[INFANTRY CAPTAIN 02]]></Name>
+                    <Key>96</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[INFANTRY CAPTAIN 03]]></Name>
+                    <Key>97</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry ATV Full Physics]]></Name>
+                    <Key>98</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Car 01 Full Physics]]></Name>
+                    <Key>99</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss FlyingTank WeakPoint]]></Name>
+                    <Key>100</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Toy Box]]></Name>
+                    <Key>101</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fly Small 01]]></Name>
+                    <Key>102</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fly Medium 01]]></Name>
+                    <Key>103</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fly Large 01]]></Name>
+                    <Key>104</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fly Gold 01]]></Name>
+                    <Key>105</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Battery 01]]></Name>
+                    <Key>106</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Battery 02]]></Name>
+                    <Key>107</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Passenger]]></Name>
+                    <Key>108</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Passenger 01]]></Name>
+                    <Key>109</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Spin]]></Name>
+                    <Key>110</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Battery Charger]]></Name>
+                    <Key>111</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Prop 1]]></Name>
+                    <Key>113</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Prop 2]]></Name>
+                    <Key>114</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Prop 3]]></Name>
+                    <Key>115</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Prop 4]]></Name>
+                    <Key>116</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Prop 5]]></Name>
+                    <Key>117</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Supertank]]></Name>
+                    <Key>118</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USA Barrage Bomber]]></Name>
+                    <Key>119</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR Barrage Bomber]]></Name>
+                    <Key>120</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Cycle]]></Name>
+                    <Key>121</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Helo Super Hormone]]></Name>
+                    <Key>122</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Supertank Phalanx]]></Name>
+                    <Key>123</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Supertank Rockets]]></Name>
+                    <Key>124</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Whac Pig]]></Name>
+                    <Key>125</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Whac Babushka]]></Name>
+                    <Key>126</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TANK ROCKET 02]]></Name>
+                    <Key>127</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Truck Convoy 01]]></Name>
+                    <Key>128</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Civilian 01]]></Name>
+                    <Key>129</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[HELO TRANSPORT CHOPLIFTER 01]]></Name>
+                    <Key>130</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[HELO CHOPLIFTER 01]]></Name>
+                    <Key>131</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Pig]]></Name>
+                    <Key>132</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[JET PACK]]></Name>
+                    <Key>133</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Build Site]]></Name>
+            <Key>5</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="2">
+                <i>
+                    <Name><![CDATA[Small]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Large]]></Name>
+                    <Key>1</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Map Type]]></Name>
+            <Key>6</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[FrontEnd]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Campaign]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[HeadToHead]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Survival]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DevSinglePlayer]]></Name>
+                    <Key>9</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Artillery Soldier]]></Name>
+            <Key>8</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[Default]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Dynamic]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Inconsequential]]></Name>
+                    <Key>2</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Country]]></Name>
+            <Key>9</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[Default]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USA]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR]]></Name>
+                    <Key>2</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Special Level Object]]></Name>
+            <Key>11</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="2">
+                <i>
+                    <Name><![CDATA[Default]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss]]></Name>
+                    <Key>1</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Damage Type]]></Name>
+            <Key>12</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="7">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Explosion]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Impact]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fire]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Stab]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Area]]></Name>
+                    <Key>6</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Triggered Break State]]></Name>
+            <Key>13</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="10">
+                <i>
+                    <Name><![CDATA[State0]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State1]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State2]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State3]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State4]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State5]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State6]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State7]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State8]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[State9]]></Name>
+                    <Key>9</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Debris Type]]></Name>
+            <Key>14</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="8">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Character]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Small]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Medium]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Large]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Shell Casing]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Exploding Barrel]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane Wreckage]]></Name>
+                    <Key>7</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Context Anim Type]]></Name>
+            <Key>15</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="8">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barbed Wire]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Jump Direction]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Ladder Climb]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Teleport]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Step Up]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Wall Climb]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vault Over]]></Name>
+                    <Key>12</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Ground Type DEPRICATED]]></Name>
+            <Key>16</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="4">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Dirt]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Water]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Mud]]></Name>
+                    <Key>3</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Level Event]]></Name>
+            <Key>18</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Unit Destroyed]]></Name>
+                    <Key>4294967295</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Reached Goal]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Reached End of Path]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Zero Hitpoints]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boss Stage Changed]]></Name>
+                    <Key>3</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Linked Hitpoints]]></Name>
+            <Key>19</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Direct]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Transfer]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[On Destroyed]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Direct And On Destroyed]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Transfer Only Direct]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Tracer Type]]></Name>
+            <Key>20</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="16">
+                <i>
+                    <Name><![CDATA[Shell 1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Shell 2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Shell 3]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Shell 4]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet 1]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet 2]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet 3]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet 4]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet Trail 1]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet Trail 2]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet Trail 3]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullet Trail 4]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rocket 1]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rocket 2]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rocket 3]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rocket 4]]></Name>
+                    <Key>15</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Difficulty]]></Name>
+            <Key>21</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Casual]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Normal]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hard]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Elite]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[General]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Cargo Index]]></Name>
+            <Key>22</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Weapon Index]]></Name>
+            <Key>23</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="16">
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[6]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[7]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[8]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[9]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[10]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[11]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[12]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[13]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[14]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[15]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[16]]></Name>
+                    <Key>15</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Throttle]]></Name>
+            <Key>24</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="11">
+                <i>
+                    <Name><![CDATA[0]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[6]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[7]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[8]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[9]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[10]]></Name>
+                    <Key>10</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Weapon Action]]></Name>
+            <Key>25</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="8">
+                <i>
+                    <Name><![CDATA[Fire]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[End Fire]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fire Internal]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[End Fire Internal]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Enable]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Disable]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Enable Internal]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Disable Internal]]></Name>
+                    <Key>7</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Surface Type]]></Name>
+            <Key>26</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="17">
+                <i>
+                    <Name><![CDATA[Armor Max]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Armor Min]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Cement]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Dirt]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Flesh]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Glass]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Grass]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Metal Thick]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Metal Thin]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Metal Hollow]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Sand Bag]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Water]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Wood]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Cloth]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BarbWire]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Snow]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Insect Skin]]></Name>
+                    <Key>16</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Character Props]]></Name>
+            <Key>27</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="15">
+                <i>
+                    <Name><![CDATA[Rocket Launcher]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Pistol]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Flag]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Walkie Talkie]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Remote]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rifle]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Binoculars]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Walkie Talkie Left]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Remote Left]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Binoculars Left]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Matchstick]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Matchstick Left]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vietnam Flag]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Korean Flag]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Special Helmet]]></Name>
+                    <Key>14</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Weapon State]]></Name>
+            <Key>29</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="4">
+                <i>
+                    <Name><![CDATA[Idle]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Firing]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Reloading]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Aiming]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Audio Type ID]]></Name>
+            <Key>30</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="76">
+                <i>
+                    <Name><![CDATA[Default]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[OilBarrel]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TreeBamboo]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TreePalm]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[StreetSign]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tree Dead]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tree DryLeaves Lg]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tree DryLeaves Sm]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tree Leafy Lg]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tree Leafy Sm]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[LampPost]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ParkBench]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[PhoneBooth]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TrashCan]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SandBag]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Car Trabant]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[WoodCrate]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BarbWire]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TelephonePole]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bush Leafy]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heli USA Apache]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heli USSR Hind]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USSR MIG23]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USA F14]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank USA M1Abrams]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic Cuba]]></Name>
+                    <Key>25</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic Korea]]></Name>
+                    <Key>26</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic USA]]></Name>
+                    <Key>27</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic USSR]]></Name>
+                    <Key>28</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Basic Vietnam]]></Name>
+                    <Key>29</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ATV]]></Name>
+                    <Key>30</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank USSR T80]]></Name>
+                    <Key>31</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank USA M60Patton]]></Name>
+                    <Key>32</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tank USSR T55]]></Name>
+                    <Key>33</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[IFV USA M2Bradley]]></Name>
+                    <Key>34</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[IFV USSR BMP1]]></Name>
+                    <Key>35</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ArmoredCar USA M151Jeep]]></Name>
+                    <Key>36</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ArmoredCar USSR BRDM1]]></Name>
+                    <Key>37</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC USA M106]]></Name>
+                    <Key>38</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APC USSR BTR60]]></Name>
+                    <Key>39</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[OBJ FlagPoll01]]></Name>
+                    <Key>40</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USA B52]]></Name>
+                    <Key>41</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USSR TU95]]></Name>
+                    <Key>42</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USSR AN12]]></Name>
+                    <Key>43</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USA C130]]></Name>
+                    <Key>44</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Airplane USA Mustang]]></Name>
+                    <Key>45</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[WoodTarget Vertical]]></Name>
+                    <Key>46</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[WoodTarget Rotate]]></Name>
+                    <Key>47</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heli USA UH1 Huey]]></Name>
+                    <Key>48</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heli USSR MI8 Hip]]></Name>
+                    <Key>49</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando USSR]]></Name>
+                    <Key>50</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando USA]]></Name>
+                    <Key>51</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tent]]></Name>
+                    <Key>52</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Gas Pump]]></Name>
+                    <Key>53</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Building GrassHut]]></Name>
+                    <Key>54</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Building General Sm]]></Name>
+                    <Key>55</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Building General Md]]></Name>
+                    <Key>56</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Building General Lg]]></Name>
+                    <Key>57</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ShootingGallery Target]]></Name>
+                    <Key>58</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[WoodCrate Stack]]></Name>
+                    <Key>59</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[GasCanister]]></Name>
+                    <Key>60</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Babushka Sm]]></Name>
+                    <Key>61</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Babushka Lg]]></Name>
+                    <Key>62</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle Large]]></Name>
+                    <Key>63</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle BoxCar]]></Name>
+                    <Key>64</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Battery]]></Name>
+                    <Key>65</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle ATV]]></Name>
+                    <Key>66</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando Box]]></Name>
+                    <Key>67</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle Pechora]]></Name>
+                    <Key>68</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle LazerTank]]></Name>
+                    <Key>69</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[OilBarrel Stack]]></Name>
+                    <Key>70</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Bonus]]></Name>
+                    <Key>71</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TinShelter]]></Name>
+                    <Key>72</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[BambooFence]]></Name>
+                    <Key>73</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ToyBox]]></Name>
+                    <Key>74</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Target 100]]></Name>
+                    <Key>75</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Extra Seat Index]]></Name>
+            <Key>31</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="2">
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>1</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Wheel Index]]></Name>
+            <Key>32</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="4">
+                <i>
+                    <Name><![CDATA[Left Front]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Right Front]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Left Rear]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Right Rear]]></Name>
+                    <Key>3</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Tutorial Event]]></Name>
+            <Key>33</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="35">
+                <i>
+                    <Name><![CDATA[Input]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Unit Built]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Unit Destroyed]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Use Unit]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Upgrade]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Repair]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turret Sell]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Begin]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Continue]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Use Menu]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Overcharge]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Received]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Activated]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Begin]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame End]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Restart]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Continue]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Place Menu]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Ended]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Used]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Skip]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Defeat]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Bonus]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Suspend]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Combo Lost]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Special Move]]></Name>
+                    <Key>25</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Unit In Alarm Zone]]></Name>
+                    <Key>26</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Achievement]]></Name>
+                    <Key>27</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Lucky Star Barrage]]></Name>
+                    <Key>28</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[HIT APC WITH LOAD]]></Name>
+                    <Key>29</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Apc Begin Unload]]></Name>
+                    <Key>30</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time]]></Name>
+                    <Key>31</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Begin Charging]]></Name>
+                    <Key>32</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Unit Reached Goal]]></Name>
+                    <Key>33</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Unit Ignited]]></Name>
+                    <Key>34</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Persistent Effect Behavior]]></Name>
+            <Key>34</Key>
+            <Hide>1</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[Gas]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fire]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Stun]]></Name>
+                    <Key>2</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Special Entrance]]></Name>
+            <Key>35</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="10">
+                <i>
+                    <Name><![CDATA[Heli Ramp]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rope Slide]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR APCMG01 Left]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR APCMG01 Right]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Sub Deploy]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USA APCMG01 Left]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USA APCMG01 Right]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR APCIFV01 Left]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[USSR APCIFV01 Right]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Supertank Deploy]]></Name>
+                    <Key>9</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Achievements]]></Name>
+            <Key>36</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="26">
+                <i>
+                    <Name><![CDATA[Shocking Results]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Sunk]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[A Few Loose Screws]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[With Distinction]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highly Decorated]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Like It Never Happened]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[A Job Well Done]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Effective Tactician]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Demolition Man]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Concentrated Fire]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[I Can't Get A Tone]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Brute Force]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Resolute]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Synergy]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[In Sync]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Clutch Repairs]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Aggressive Investment Strategy]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[King of the Hill]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Persistence]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Perseverance]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC1 Destroy Supertank]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC1 Find 15 Dolls]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC1 Broviet]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC2 Destroy Homer]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC2 Find Dog Tags]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[DLC2 Napalm in Versus]]></Name>
+                    <Key>25</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Session Stats]]></Name>
+            <Key>37</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="122">
+                <i>
+                    <Name><![CDATA[Score]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Enemies Reached Goal]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Reached Goal]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Money]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Money Earned]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Units Purchased]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Units Upgraded]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Units Repaired]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Kills]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest Combo]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Ammo Expended]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrages Called In]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Kills With Barrages]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Time]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time In Units]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time In Vehicles]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time In ShellCam]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tries Before Completion]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Kills In Night Vision]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest Flying Soldier]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Seconds Skipped]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Over Kill]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Money Spent]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Defense Sub Score]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Sub Score]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Money Sub Score]]></Name>
+                    <Key>25</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Meta Stat]]></Name>
+                    <Key>26</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Assists]]></Name>
+                    <Key>27</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Overcharge]]></Name>
+                    <Key>28</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Wave Bonus]]></Name>
+                    <Key>29</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Wave Chain]]></Name>
+                    <Key>30</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Payback]]></Name>
+                    <Key>31</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Close Call]]></Name>
+                    <Key>32</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bombing Run]]></Name>
+                    <Key>33</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Speed Bonus]]></Name>
+                    <Key>34</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Kills While Using Turrets]]></Name>
+                    <Key>35</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Basic Infantry Killed]]></Name>
+                    <Key>36</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Elite Infantry Killed]]></Name>
+                    <Key>37</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ATVs Destroyed]]></Name>
+                    <Key>38</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Cars Destroyed]]></Name>
+                    <Key>39</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APCs Destroyed]]></Name>
+                    <Key>40</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[IFVs Destroyed]]></Name>
+                    <Key>41</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Medium Tanks Destroyed]]></Name>
+                    <Key>42</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heavy Tanks Destroyed]]></Name>
+                    <Key>43</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Transport Copters Destroyed]]></Name>
+                    <Key>44</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Gunships Destroyed]]></Name>
+                    <Key>45</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Attack Copters Destroyed]]></Name>
+                    <Key>46</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fighter Planes Destroyed]]></Name>
+                    <Key>47</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Transport Planes Destroyed]]></Name>
+                    <Key>48</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bombers Destroyed]]></Name>
+                    <Key>49</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tanks Reached Toy Box]]></Name>
+                    <Key>50</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[APCs Reached Toy Box]]></Name>
+                    <Key>51</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Planes Reached Toy Box]]></Name>
+                    <Key>52</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Helicopters Reached Toy Box]]></Name>
+                    <Key>53</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Cars Reached Toy Box]]></Name>
+                    <Key>54</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ATVs Reached Toy Box]]></Name>
+                    <Key>55</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turrets Lost]]></Name>
+                    <Key>56</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicles Purchased]]></Name>
+                    <Key>57</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicles Lost]]></Name>
+                    <Key>58</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicles Driven into Goal]]></Name>
+                    <Key>59</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Waves Launched]]></Name>
+                    <Key>60</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Turrets]]></Name>
+                    <Key>61</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using AC130]]></Name>
+                    <Key>62</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Commando]]></Name>
+                    <Key>63</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Ivan]]></Name>
+                    <Key>64</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Medium Tank]]></Name>
+                    <Key>65</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Heavy Tank]]></Name>
+                    <Key>66</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Attack Helicopter]]></Name>
+                    <Key>67</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Helicopter Gunship]]></Name>
+                    <Key>68</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Using Fighter Plane]]></Name>
+                    <Key>69</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Most Kills With a Nuke]]></Name>
+                    <Key>70</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time Spent in Turbocharge]]></Name>
+                    <Key>71</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharge Kills]]></Name>
+                    <Key>72</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Machineguns]]></Name>
+                    <Key>73</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Howitzers]]></Name>
+                    <Key>74</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Mortars]]></Name>
+                    <Key>75</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Anti-tank]]></Name>
+                    <Key>76</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Makeshift]]></Name>
+                    <Key>77</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turbocharges with Anti-Air]]></Name>
+                    <Key>78</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Most Hotswaps in a Single Turbocharge]]></Name>
+                    <Key>79</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tickets Lost in Head 2 Head]]></Name>
+                    <Key>80</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tickets Dealt in Head 2 Head]]></Name>
+                    <Key>81</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Wins]]></Name>
+                    <Key>82</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Losses]]></Name>
+                    <Key>83</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Win/Loss Ratio]]></Name>
+                    <Key>84</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Shut-outs]]></Name>
+                    <Key>85</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Turrets Destroyed]]></Name>
+                    <Key>86</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Versus Platforms Captured]]></Name>
+                    <Key>87</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Decorations Acquired]]></Name>
+                    <Key>88</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Bronze Medals]]></Name>
+                    <Key>89</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Silver Medals]]></Name>
+                    <Key>90</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Gold Medals]]></Name>
+                    <Key>91</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Platinum Medals]]></Name>
+                    <Key>92</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Total Challenges Earned]]></Name>
+                    <Key>93</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5x Combos]]></Name>
+                    <Key>94</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[10x Combos]]></Name>
+                    <Key>95</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[20x Combos]]></Name>
+                    <Key>96</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[40x Combos]]></Name>
+                    <Key>97</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[80x Combos]]></Name>
+                    <Key>98</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[100x Combos]]></Name>
+                    <Key>99</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[150x Combos]]></Name>
+                    <Key>100</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[200x Combos]]></Name>
+                    <Key>101</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[250x Combos]]></Name>
+                    <Key>102</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[300x Combos]]></Name>
+                    <Key>103</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Bullets Fired]]></Name>
+                    <Key>104</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Mortars Shells Fired]]></Name>
+                    <Key>105</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Howitzer Shells Fired]]></Name>
+                    <Key>106</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Missiles Fired]]></Name>
+                    <Key>107</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrages Earned from Red Stars]]></Name>
+                    <Key>108</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrages Earned from Turbocharge]]></Name>
+                    <Key>109</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrages Purchased in Versus]]></Name>
+                    <Key>110</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Gassed]]></Name>
+                    <Key>111</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Infantry Set on Fire]]></Name>
+                    <Key>112</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest With a Single Barrage]]></Name>
+                    <Key>113</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Most Barrages in a Single Map]]></Name>
+                    <Key>114</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest Survival Round]]></Name>
+                    <Key>115</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest Lockdown Round]]></Name>
+                    <Key>116</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Highest Hardcore Round]]></Name>
+                    <Key>117</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Golden Flies Exploded]]></Name>
+                    <Key>118</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rescued]]></Name>
+                    <Key>119</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Golden Flies Bonus]]></Name>
+                    <Key>120</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Stars Shattered]]></Name>
+                    <Key>121</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Combo]]></Name>
+            <Key>38</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="7">
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[10]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[20]]></Name>
+                    <Key>6</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Challenge Mode]]></Name>
+            <Key>39</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Survival]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Lockdown]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hardcore]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Trauma]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando]]></Name>
+                    <Key>3</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[DLC]]></Name>
+            <Key>40</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[Cold War]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Evil Empire]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Napalm]]></Name>
+                    <Key>1</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Damage Transfer Multiplier]]></Name>
+            <Key>41</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="10">
+                <i>
+                    <Name><![CDATA[ONE TENTH]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[HALF]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ONE]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TWO]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[THREE]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[FIVE]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[TEN]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Twenty]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Thirty]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fifty]]></Name>
+                    <Key>9</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Target Index]]></Name>
+            <Key>42</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="12">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Random]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[1]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[2]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[3]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[4]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[5]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[6]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[7]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[8]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[9]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[10]]></Name>
+                    <Key>10</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Logic Type]]></Name>
+            <Key>43</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="3">
+                <i>
+                    <Name><![CDATA[Turret]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Character]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicle]]></Name>
+                    <Key>2</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Pickups]]></Name>
+            <Key>44</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="8">
+                <i>
+                    <Name><![CDATA[Battery 1]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Battery 2]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Overcharge]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage Roll]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Tiny Battery Amount]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[PlaneTargets]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[More Time]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Less Time]]></Name>
+                    <Key>7</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Controls]]></Name>
+            <Key>45</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[Camera]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Turrets]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ShellCam]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Planes]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Vehicles]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Character]]></Name>
+                    <Key>5</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Controls Setting]]></Name>
+            <Key>46</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Normal]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Southpaw]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Inverted]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[NormalSouthpaw]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[InvertedSouthpaw]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Personality Type]]></Name>
+            <Key>47</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Crazy]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hero]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rookie]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Sergeant]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Crewman]]></Name>
+            <Key>48</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="7">
+                <i>
+                    <Name><![CDATA[A]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[B]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[C]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[D]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[E]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[F]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[G]]></Name>
+                    <Key>6</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[FireEffectOverride]]></Name>
+            <Key>49</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="13">
+                <i>
+                    <Name><![CDATA[None]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Soldier On Fire]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Basic Fire Light Smoke]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Basic Fire Heavy Smoke]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Heavy Fire With Smoke]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Small Crate Fire]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Large Crate Fire]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Small Cratestack Fire]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Big Cratestack Fire]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Small Tree Fire]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Large Tree Fire]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Fence On Fire]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrel On Fire]]></Name>
+                    <Key>12</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Vehicle Motion FX]]></Name>
+            <Key>50</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[Plus Z]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minus Z]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Plus Y]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minus Y]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Running]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Startup]]></Name>
+                    <Key>5</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Kill Flag]]></Name>
+            <Key>51</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[Overkill]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Assist]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Barrage]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[SpeedBonus]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Night Vision]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Prone]]></Name>
+                    <Key>5</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Leaderboard Column Type]]></Name>
+            <Key>52</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[Number]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Time]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Medal]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[ChallengeProgress]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Money]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Minigame Meta]]></Name>
+                    <Key>5</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Platform Type]]></Name>
+            <Key>53</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="1">
+                <i>
+                    <Name><![CDATA[Tutorial]]></Name>
+                    <Key>0</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Debris Behavior]]></Name>
+            <Key>54</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="1">
+                <i>
+                    <Name><![CDATA[Spawn All Transition]]></Name>
+                    <Key>0</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Avatar Awards]]></Name>
+            <Key>55</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="6">
+                <i>
+                    <Name><![CDATA[Flight Jacket]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Commando Mullet]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[T Shirt]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Divider]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Gamer Pic Buy]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Gamer Pic Beat]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Language]]></Name>
+            <Key>56</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="8">
+                <i>
+                    <Name><![CDATA[English]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[German]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Spanish]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[French]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Italian]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Japanese]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Korean]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Chinese]]></Name>
+                    <Key>7</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Region]]></Name>
+            <Key>57</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="7">
+                <i>
+                    <Name><![CDATA[North America]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Asia]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Europe]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Germany]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Australia]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Korea]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Rest of World]]></Name>
+                    <Key>6</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Locale]]></Name>
+            <Key>58</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="38">
+                <i>
+                    <Name><![CDATA[No Locale]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Australia]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Austria]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Belgium]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Brazil]]></Name>
+                    <Key>4</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Canada]]></Name>
+                    <Key>5</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Chile]]></Name>
+                    <Key>6</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[China]]></Name>
+                    <Key>7</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Colombia]]></Name>
+                    <Key>8</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Czech Republic]]></Name>
+                    <Key>9</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Denmark]]></Name>
+                    <Key>10</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Finland]]></Name>
+                    <Key>11</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[France]]></Name>
+                    <Key>12</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Germany]]></Name>
+                    <Key>13</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Greece]]></Name>
+                    <Key>14</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hong Kong]]></Name>
+                    <Key>15</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hungary]]></Name>
+                    <Key>16</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[India]]></Name>
+                    <Key>17</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Ireland]]></Name>
+                    <Key>18</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Italy]]></Name>
+                    <Key>19</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Japan]]></Name>
+                    <Key>20</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Korea]]></Name>
+                    <Key>21</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Mexico]]></Name>
+                    <Key>22</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Netherlands]]></Name>
+                    <Key>23</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[New Zealand]]></Name>
+                    <Key>24</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Norway]]></Name>
+                    <Key>25</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Poland]]></Name>
+                    <Key>26</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Portugal]]></Name>
+                    <Key>27</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Singapore]]></Name>
+                    <Key>28</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Slovak Republic]]></Name>
+                    <Key>29</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[South Africa]]></Name>
+                    <Key>30</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Spain]]></Name>
+                    <Key>31</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Sweden]]></Name>
+                    <Key>32</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Switzerland]]></Name>
+                    <Key>33</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Taiwan]]></Name>
+                    <Key>34</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Great Britain]]></Name>
+                    <Key>35</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[United States]]></Name>
+                    <Key>36</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Russian Federation]]></Name>
+                    <Key>37</Key>
+                </i>
+            </Values>
+        </i>
+        <i>
+            <Name><![CDATA[Mobile Minigame]]></Name>
+            <Key>59</Key>
+            <Hide>0</Hide>
+            <Aliases count="0" />
+            <Values count="5">
+                <i>
+                    <Name><![CDATA[Fly]]></Name>
+                    <Key>0</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Hallway]]></Name>
+                    <Key>1</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Trial Game 2]]></Name>
+                    <Key>2</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Boot Camp]]></Name>
+                    <Key>3</Key>
+                </i>
+                <i>
+                    <Name><![CDATA[Totals]]></Name>
+                    <Key>4</Key>
+                </i>
+            </Values>
+        </i>
+    </GameEnumeratedValues>
+    <GameEvents count="43">
+        <i>
+            <Name><![CDATA[Invalid]]></Name>
+            <Key>1</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Animation]]></Name>
+            <Key>2</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Fall]]></Name>
+            <Key>3</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Land]]></Name>
+            <Key>4</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Control Begin]]></Name>
+            <Key>5</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Control End]]></Name>
+            <Key>6</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Target Acquired]]></Name>
+            <Key>7</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Reload Start]]></Name>
+            <Key>8</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Follow Path]]></Name>
+            <Key>20</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Reached End of Path]]></Name>
+            <Key>9</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Waypoint Reached]]></Name>
+            <Key>22</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Fire Begin]]></Name>
+            <Key>10</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Fire End]]></Name>
+            <Key>11</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Destroyed]]></Name>
+            <Key>12</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Zero Hit Points]]></Name>
+            <Key>21</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Throw Grenade]]></Name>
+            <Key>13</Key>
+        </i>
+        <i>
+            <Name><![CDATA[User Melee]]></Name>
+            <Key>14</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Path Wait]]></Name>
+            <Key>15</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Context Anim Start]]></Name>
+            <Key>16</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Context Anim End]]></Name>
+            <Key>17</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Aligned]]></Name>
+            <Key>18</Key>
+        </i>
+        <i>
+            <Name><![CDATA[ReApply Motion State]]></Name>
+            <Key>19</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Barrage_Ended]]></Name>
+            <Key>23</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Target_Lost]]></Name>
+            <Key>24</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Upgrade_Begin]]></Name>
+            <Key>25</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Repair_Begin]]></Name>
+            <Key>26</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Unit Damaged]]></Name>
+            <Key>27</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Unit State Changed]]></Name>
+            <Key>30</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Weapon Action]]></Name>
+            <Key>28</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Random Character Anim]]></Name>
+            <Key>29</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Enter Vehicle]]></Name>
+            <Key>31</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Exit Vehicle]]></Name>
+            <Key>32</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Tutorial Event]]></Name>
+            <Key>33</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Cargo Drop Begin]]></Name>
+            <Key>34</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Cargo Drop Spawn]]></Name>
+            <Key>35</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Cargo Drop End]]></Name>
+            <Key>36</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Cargo Drop Ready]]></Name>
+            <Key>37</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Cancel Reload]]></Name>
+            <Key>38</Key>
+        </i>
+        <i>
+            <Name><![CDATA[ReApply Oneshot Motion State]]></Name>
+            <Key>39</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Game Effect]]></Name>
+            <Key>40</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Do_Special_Move]]></Name>
+            <Key>41</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Control Override Begin]]></Name>
+            <Key>42</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Control Override End]]></Name>
+            <Key>43</Key>
+        </i>
+    </GameEvents>
+    <KeyframeEvents count="11">
+        <i>
+            <Name><![CDATA[Default]]></Name>
+            <Key>1</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Effect]]></Name>
+            <Key>2</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Spawn Cartridge]]></Name>
+            <Key>3</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Eject Cartridge]]></Name>
+            <Key>4</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Door Pop]]></Name>
+            <Key>5</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Door Close]]></Name>
+            <Key>6</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Toggle Props]]></Name>
+            <Key>7</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Fire Weapon]]></Name>
+            <Key>8</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Engine Start]]></Name>
+            <Key>9</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Change State]]></Name>
+            <Key>10</Key>
+        </i>
+        <i>
+            <Name><![CDATA[Real Death]]></Name>
+            <Key>11</Key>
+        </i>
+    </KeyframeEvents>
+</SigProj>
