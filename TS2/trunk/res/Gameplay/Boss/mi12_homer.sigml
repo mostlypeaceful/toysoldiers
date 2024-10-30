@@ -1,0 +1,3806 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sigml Version="1">
+    <ModellingPackage></ModellingPackage>
+    <SrcFile></SrcFile>
+    <ExplicitDependencies count="0" />
+    <Objects count="46">
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>3</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 -0.00199235 0 1 0 0.00199224 0 1 -0.0067504 -11.7369 -0.000177086</Xform>
+                <EditableProperties count="13">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[themesh]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>-1</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.3]]></Name>
+                            <Data>3</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[art\units\bosses\red\mi12_homer.mshml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>5</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 -0.00199235 0 1 0 0.00199224 0 1 0.0269464 7.95318 16.9198</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[BossAA1]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_turret_top.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>8</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -0.00657881 -6.41325 0.0898253</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[BossAA2]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_turret_bottom.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>11</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0.000314914 0 -1 0 1 0 1 0 0.000314354 5.77876 -0.55472 17.147</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_mg.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>13</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0.0102148 0 0.999951 0 1 0 -0.999951 0 0.0102148 -5.88601 -0.55472 17.1726</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_mg.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>15</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>-0.00539395 0 -0.999987 0 1 0 0.999988 0 -0.00539435 5.93417 -0.398621 -12.2751</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_mg.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>17</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0.00682477 0 0.999979 0 1 0 -0.999979 0 0.00682478 -6.1272 -0.398621 -11.9563</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_mg.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>33</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0 1.65318 4.609</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[targetOffset]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>63</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 2.12132 8.80222 -32.4212</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[tailEffectPt]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>70</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 31.4729 10.4957 3.54604</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[engine_l]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[engine_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>2</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>3</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_engine_l.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>73</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -31.7338 10.4846 3.57734</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[engine_r]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[engine_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>2</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.11]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.19]]></Name>
+                            <Data>3</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_homer_engine_r.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>75</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 0.738566 0.674181 0 -0.674181 0.738566 0 -5.30955 36.9826</Xform>
+                <EditableProperties count="12">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[cannon]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_cannon.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>76</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                <EditableProperties count="13">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[flare0]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.16]]></Name>
+                            <Data>16</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[gameplay\boss\mi12_flare_mortar.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>83</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>9.64411 0 0 0 0.195771 0 0 0 10.9482 0.274385 -4.9892 -15.0484</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.0]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.16]]></Name>
+                            <Data>16</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[art\primitives\cube.mshml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>85</Guid>
+                <Name></Name>
+                <Layer><![CDATA[Effect Emitters]]></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                <EditableProperties count="12">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[effects\entities\boss\red_lights.sigml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>87</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0.741157 -0.671333 0 0.671332 0.741156 0 0 0 1 -0.340218 0.549171 -7.32716</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[FX_attach_03]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>89</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0.830718 0.556693 0 -0.556693 0.830718 0 0 0 1 -7.11823 -0.122577 3.38914</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[FX_attach_04]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>91</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>-0.999525 0.0308174 0 -0.0308175 -0.999525 0 0 0 1 -0.825596 -1.32507 21.2334</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[FX_attach_01]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>93</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>-0.999426 -0.0338815 0 0.0338813 -0.999426 0 0 0 1 2.31371 -0.371491 -15.9732</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[FX_attach_02]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>95</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -16.55 -8.03642 -0.00357819</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[tire_r_anterior]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>97</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -12.3023 -8.0492 -0.00913239</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[tire_r_interior]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>99</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0.0771523 -10.2287 21.4299</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[landing_gear_front]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>102</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 12.0768 -8.74515 0.0320129</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[tire_l_interior]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>104</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 16.4066 -8.74362 0.023735</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[tire_l_anterior]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>106</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 10.4337 -1.41241 7.71985</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[debris_mid_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>108</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 8.12819 -2.45449 18.9639</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[debris_front_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>110</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -10.4163 -1.51695 7.76418</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[debris_mid_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>112</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -8.06727 -2.45819 18.7555</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[debris_front_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>114</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 12.257 10.4896 -1.06516</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[flap_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>116</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 22.5688 11.1719 -0.633823</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[aileron_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>119</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -13.4013 10.5692 -0.836618</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[flap_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>121</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -23.8513 11.2442 -0.577759</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[aileron_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>123</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 9.11265 10.2049 -37.0904</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[elevator_l]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>125</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -8.86806 10.1506 -36.9042</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[engine_r]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>127</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0.354729 15.7256 -37.3483</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[rudder]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>130</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 1.01929 -4.44017 36.4587</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[bomber_front]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>132</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 1.01964 -5.16035 33.5472</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[bomber_mid]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>134</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 1.15869 -5.88652 30.7691</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[deathFire]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[bomber_back]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>136</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 21.6998 12.0363 3.66296</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[collisionProbe]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>139</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[root]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>140</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 1.00723 -0.380843 40.6239</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[collisionProbe]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[mi12_homer_root]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>141</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>9.64411 0 0 0 0.00949855 0.00312691 0 -4.46005 13.5482 -0.11 -2.73876 -27.1134</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data><![CDATA[cargo_hatch]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.0]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.16]]></Name>
+                            <Data>16</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[art\primitives\cube.mshml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>143</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>-1 0 8.74228e-008 0 1 0 -8.74228e-008 0 -1 -1.58533e-006 -3.14742 -35.0165</Xform>
+                <EditableProperties count="7">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[cargoDrop]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.35]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>146</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 -34.7036 14.9289 3.9869</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[Audio_Rotor_Right]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data><![CDATA[gameplay\mobile\vehicle\ussr\boss_homer\rotor_right.nut]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="4e6ba2cf" Version="0">
+                <Guid>149</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 34.6075 15.686 3.84216</Xform>
+                <EditableProperties count="6">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[Audio_Rotor_Left]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data><![CDATA[gameplay\mobile\vehicle\ussr\boss_homer\rotor_left.nut]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="412a9e1e" Version="0">
+                <Guid>151</Guid>
+                <Name></Name>
+                <Layer><![CDATA[Model]]></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>8.03068 0 0 0 6.84928 0 0 0 10.1383 0 1.22879 0</Xform>
+                <EditableProperties count="8">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[vehicleShape]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.3]]></Name>
+                            <Data>3</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Shape.VolumeType]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="2">
+                                <i><![CDATA[Box]]></i>
+                                <i><![CDATA[Sphere]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+    </Objects>
+    <Meshes count="0" />
+    <Materials count="0" />
+    <DiffuseMapAtlas></DiffuseMapAtlas>
+    <NormalMapAtlas></NormalMapAtlas>
+    <HeightFieldMaterialTileFactors count="0"></HeightFieldMaterialTileFactors>
+    <EditableProperties count="19">
+        <i>
+            <p cid="18c579ee">
+                <Name><![CDATA[$.ObjectName]]></Name>
+                <Data><![CDATA[Mi12]]></Data>
+                <AllowDelete>0</AllowDelete>
+                <LockFieldToName>0</LockFieldToName>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.ScriptPath]]></Name>
+                <Data><![CDATA[gameplay\mobile\helicopter\ussr\ussrhelomi12.nut]]></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="7e0d2deb">
+                <Name><![CDATA[$.SkeletonBinding]]></Name>
+                <Data><![CDATA[themesh]]></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.SkeletonPath]]></Name>
+                <Data><![CDATA[anims\bosses\red\mi12_homer\mi12_homer.sklml]]></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInGame]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.CastsShadow]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorAmbient]]></Name>
+                <Data>
+                    <Rgb>0.1 0.1 0.1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorBack]]></Name>
+                <Data>
+                    <Rgb>0.15 0.15 0.3</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorFront]]></Name>
+                <Data>
+                    <Rgb>0.625 0.625 0.625</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorRim]]></Name>
+                <Data>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="abf577e7">
+                <Name><![CDATA[DefaultLight.Direction]]></Name>
+                <Data>-0.51465 -0.735215 -0.441129</Data>
+                <Min>-1</Min>
+                <Max>1</Max>
+                <Increment>0.01</Increment>
+                <Precision>2</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowFogInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowGlobalLightDir]]></Name>
+                <Data>0</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="7aec289a">
+                <Name><![CDATA[GameEnum.11]]></Name>
+                <Data>1</Data>
+                <AllowDelete>1</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="7aec289a">
+                <Name><![CDATA[GameEnum.4]]></Name>
+                <Data>46</Data>
+                <AllowDelete>1</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="7aec289a">
+                <Name><![CDATA[GameEnum.9]]></Name>
+                <Data>2</Data>
+                <AllowDelete>1</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="e9f584df">
+                <Name><![CDATA[Render.FadeOverride]]></Name>
+                <Data>0</Data>
+                <Min>0</Min>
+                <Max>10000</Max>
+                <Increment>1</Increment>
+                <Precision>0</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="2c1ac345">
+                <Name><![CDATA[Render.FadeSetting]]></Name>
+                <Data>0</Data>
+                <AllowDelete>0</AllowDelete>
+                <EnumNames count="4">
+                    <i><![CDATA[Never]]></i>
+                    <i><![CDATA[Near]]></i>
+                    <i><![CDATA[Medium]]></i>
+                    <i><![CDATA[Far]]></i>
+                </EnumNames>
+            </p>
+        </i>
+    </EditableProperties>
+    <Layers count="7">
+        <i>
+            <Name><![CDATA[Default]]></Name>
+            <State>0</State>
+            <Color>0 0 0.75 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Effect Emitters]]></Name>
+            <State>0</State>
+            <Color>0 0 0.75 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Model]]></Name>
+            <State>0</State>
+            <Color>0.501961 0 0.25098 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Water]]></Name>
+            <State>1</State>
+            <Color>0 0.501961 1 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Explosions]]></Name>
+            <State>0</State>
+            <Color>0.501961 0.501961 0.25098 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Fire]]></Name>
+            <State>1</State>
+            <Color>1 0 0 1</Color>
+        </i>
+        <i>
+            <Name><![CDATA[Turrets]]></Name>
+            <State>0</State>
+            <Color>0 1 0.25098 1</Color>
+        </i>
+    </Layers>
+    <GroundCovers count="0" />
+</Sigml>

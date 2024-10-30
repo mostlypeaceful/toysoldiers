@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sigml Version="1">
+    <ModellingPackage></ModellingPackage>
+    <SrcFile></SrcFile>
+    <ExplicitDependencies count="0" />
+    <Objects count="5">
+        <i>
+            <p cid="f989d493" Version="0">
+                <Guid>5</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0 -0 8 0 8 0 -8 0 0 7.88216 1.54578 0.0587074</Xform>
+                <EditableProperties count="5">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="f989d49e" Version="0">
+                <Guid>7</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                <EditableProperties count="16">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Display.BoundingBoxes]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[SplineDecal.AcceptsLights]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[SplineDecal.ApplyToMeshes]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.CamDepthOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-1000</Min>
+                            <Max>1000</Max>
+                            <Increment>0.1</Increment>
+                            <Precision>1</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.DepthBias]]></Name>
+                            <Data>-1</Data>
+                            <Min>-127</Min>
+                            <Max>127</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.FadeDist]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>1024</Max>
+                            <Increment>0.1</Increment>
+                            <Precision>1</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.SlopeScaleBias]]></Name>
+                            <Data>0</Data>
+                            <Min>-127</Min>
+                            <Max>127</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[SplineDecal.SplineType]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="3">
+                                <i><![CDATA[Catmull-Rom]]></i>
+                                <i><![CDATA[Bezier]]></i>
+                                <i><![CDATA[No Curve]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[SplineDecal.TextureDiffuse]]></Name>
+                            <Data><![CDATA[art\terrain\decals\helicopter_pad_d.tga]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[SplineDecal.TextureNormal]]></Name>
+                            <Data><![CDATA[art\terrain\decals\helicopter_pad_n.tga]]></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.UScale]]></Name>
+                            <Data>1</Data>
+                            <Min>0.5</Min>
+                            <Max>1024</Max>
+                            <Increment>1</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[SplineDecal.VScale]]></Name>
+                            <Data>16</Data>
+                            <Min>0.5</Min>
+                            <Max>1024</Max>
+                            <Increment>1</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <Waypoints count="2"><![CDATA[5 8 ]]></Waypoints>
+                <Verts><![CDATA[qDr8
+QOj6wT8SH/7AEh/+wOj6wT8SH/7AqDr8QOj6wT+oOvxAJmQBwej6wT8SH/7AJmQBwej6wT938ABB
+qDr8QOj6wT938ABB4bzowPtIzT938ABB4Q7SQPtIzT938ABB4bzowPtIzT9f9MdAY7TrQPtIzT93
+8ABBqDr8QPtIzT+pWvFAqDr8QPtIzT8Qu+VAL1z1QHWFtD938ABBqDr8QHWFtD/9Sf1AqDr8QKaf
+uT/9Sf1AL1z1QMLYyj938ABBqDr8QPtIzT/9Sf1AL1z1QPtIzT938ABBL1z1QMHYyj938ABBki3t
+QPtIzT938ABBqDr8QPtIzT9n0vdAkgn1QPtIzT938ABBqDr8QPtIzT/Yr/pA4bzowHWFtD9f9MdA
+4bzoQHWFtD9f9MdA4bzoQPtIzT9f9MdApzr8QPtIzT8Qu+VAqDr8QPtIzT+FueVApzr8QPtIzT+F
+ueVAqDr8QPtIzT8lcttAOmP0QPtIzT+JRcpAOmP0QHWFtD+JRcpAqDr8QPtIzT/Rgs9AqDr8QMou
+yD/Rgs9AqDr8QHWFtD/Rgs9AqDr8QPtIzT/kAdZA4bzowPtIzT+iC7hA4bzowHWFtD+iC7hA4bzo
+QPtIzT+iC7hA4bzoQHWFtD+iC7hA4bzowPtIzT8jT3ZAqDr8QPtIzT/cjaRAqDr8QPtIzT9D7phA
+OmP0QHWFtD94urVAOmP0QPtIzT94urVAqDr8QHWFtD8wfbBAqDr8QKafuT8wfbBAqDr8QPtIzT8w
+fbBAqDr8QPtIzT+aBatAqDr8QPtIzT8K461A4bzowHWFtD8jT3ZA4bzoQHWFtD8jT3ZA4bzoQPtI
+zT8jT3ZApzr8QPtIzT9D7phAqDr8QPtIzT+47JhApzr8QPtIzT+47JhAqDr8QPtIzT9YpY5AOmP0
+QPtIzT948XpAOmP0QHWFtD948XpAqDr8QPtIzT8EtoJAqDr8QMouyD8EtoJAqDr8QHWFtD8EtoJA
+qDr8QPtIzT8XNYlA4bzowPtIzT+rfVZA4bzowHWFtD+rfVZA4bzoQPtIzT+rfVZA4bzoQHWFtD+r
+fVZA4bzowPtIzT8Sa7k/qDr8QPtIzT8dgi9AqDr8QPtIzT/rQhhAOmP0QHWFtD9W21FAOmP0QPtI
+zT9W21FAqDr8QHWFtD/GYEdAqDr8QKafuT/GYEdAqDr8QPtIzT/GYEdAqDr8QPtIzT+ZcTxAqDr8
+QPtIzT96LEJA4bzowHWFtD8Sa7k/4bzoQHWFtD8Sa7k/4bzoQPtIzT8Sa7k/pzr8QPtIzT/rQhhA
+qDr8QPtIzT/XPxhApzr8QPtIzT/XPxhAqDr8QPtIzT8XsQNAOmP0QPtIzT+9r8I/OmP0QHWFtD+9
+r8I/qDr8QPtIzT/cpNc/qDr8QMouyD/cpNc/qDr8QHWFtD/cpNc/qDr8QPtIzT8qofE/4bzowPtI
+zT+AkHM/4bzowHWFtD+AkHM/4bzoQPtIzT+UkHM/4bzoQHWFtD+UkHM/4bzowPtIzT+pkHO/qDr8
+QPtIzT84RK8+qDr8QPtIzT8JWqu8OmP0QHWFtD+yBmE/OmP0QPtIzT+yBmE/qDr8QHWFtD9UHDc/
+qDr8QKafuT9UHDc/qDr8QPtIzT9UHDc/qDr8QPtIzT83RK8+qDr8QPtIzT8XYAs/qDr8QPtIzT8W
+YAs/qDr8QPtIzT9gSyI/4bzowHWFtD+pkHO/4bzoQHWFtD+UkHO/4bzoQPtIzT+UkHO/pzr8QPtI
+zT8AWqu8qDr8QPtIzT+U4Ky8pzr8QPtIzT+g4Ky8qDr8QPtIzT9GRK++OmP0QPtIzT/HBmG/OmP0
+QHWFtD/HBmG/qDr8QPtIzT9oHDe/qDr8QMouyD9pHDe/qDr8QHWFtD9pHDe/qDr8QMouyD9oHDe/
+qDr8QPtIzT/6IwO/qDr8QPtIzT9pHDe/4bzowPtIzT8Sa7m/4bzowHWFtD8Sa7m/4bzoQPtIzT8S
+a7m/4bzoQHWFtD8Sa7m/4bzowPtIzT+rfVbAqDr8QPtIzT8XsQPAqDr8QPtIzT9J8BrAOmP0QHWF
+tD+9r8K/OmP0QPtIzT+9r8K/qDr8QHWFtD/cpNe/qDr8QKafuT/cpNe/qDr8QPtIzT/cpNe/qDr8
+QPtIzT81g+2/qDr8QPtIzT90DeK/4bzowHWFtD+rfVbA4bzoQHWFtD+rfVbA4bzoQPtIzT+rfVbA
+pzr8QPtIzT9J8BrAqDr8QPtIzT9d8xrApzr8QPtIzT9d8xrAqDr8QPtIzT8dgi/AOmP0QPtIzT9W
+21HAOmP0QHWFtD9W21HAqDr8QPtIzT/GYEfAqDr8QMouyD/GYEfAqDr8QHWFtD/GYEfAqDr8QPtI
+zT+gYjrAqDr8QPtIzT+fYjrA4bzowPtIzT8jT3bA4bzowHWFtD8jT3bA4bzoQPtIzT8jT3bA4bzo
+QHWFtD8jT3bA4bzowPtIzT+iC7jAqDr8QPtIzT9YpY7AqDr8QPtIzT/xRJrAOmP0QHWFtD948XrA
+OmP0QPtIzT948XrAqDr8QHWFtD8EtoLAqDr8QKafuT8EtoLAqDr8QPtIzT8EtoLAqDr8QPtIzT+a
+LYjAqDr8QPtIzT8qUIXA4bzowHWFtD+iC7jA4bzoQHWFtD+iC7jA4bzoQPtIzT+iC7jApzr8QPtI
+zT/xRJrAqDr8QPtIzT98RprApzr8QPtIzT98RprAqDr8QPtIzT/cjaTAOmP0QPtIzT94urXAOmP0
+QHWFtD94urXAqDr8QPtIzT8wfbDAqDr8QMouyD8wfbDAqDr8QHWFtD8wfbDAqDr8QPtIzT8d/qnA
+4bzowPtIzT9f9MfA4bzowHWFtD9f9MfA4bzoQPtIzT9f9MfA4bzoQHWFtD9f9MfA4bzowPtIzT8S
+H/7ABVa1wPtIzT8SH/7ABla1wPtIzT8SH/7AqDr8QPtIzT8lctvAqDr8QPtIzT++EefAoHF2wPtI
+zT8SH/7AOmP0QHWFtD+JRcrAOmP0QPtIzT+JRcrAqDr8QHWFtD/Rgs/AqDr8QKafuT/Rgs/AqDr8
+QPtIzT/Rgs/AqDr8QPtIzT9n+tTAqDr8QPtIzT/3HNLAoXF2wPtIzT8SH/7Apzr8QPtIzT++EefA
+qDr8QPtIzT9JE+fASGZ2wPtIzT8SH/7AR2Z2wPtIzT8SH/7Apzr8QPtIzT9JE+fAqDr8QPtIzT+p
+WvHAP3bvQPtIzT8SH/7Av/v6QPtIzT8SH/7AqDr8QPtIzT/9Sf3AqDr8QMouyD/9Sf3Av/v6QCwP
+xT8SH/7AqDr8QHWFtD/9Sf3Av/v6QHWFtD8SH/7AqDr8QPtIzT/qyvbAEFX3QPtIzT8SH/7AJmQB
+wftIzT8FzepAY7TrwPtIzT938ABBPLTrwPtIzT938ABBJmQBwftIzT+ry+pAJmQBwftIzT/J/+FA
+JmQBwXWFtD+/KvVAmkP+wHWFtD/q7ftAJmQBwRh6xT+/KvVAJmQBwftIzT+/KvVAmkP+wPtIzT/q
+7ftAL1z1wHWFtD938ABBL1z1wK/1tj938ABBL1z1wPtIzT938ABBL1z1wK71tj938ABBJmQBwftI
+zT9ycfNAki3twPtIzT938ABBkebvwPtIzT938ABBJmQBwftIzT9cW9lAJmQBwftIzT8PotdAmkP+
+wPtIzT/k3tBAJmQBwVhUvD8PotdAJmQBwXWFtD8PotdAmkP+wHWFtD/k3tBAOmP0wPtIzT+JRcpA
+OmP0wHWFtD+JRcpAJmQBwftIzT84AJ5AJmQBwftIzT/e/p1AJmQBwftIzT/8MpVAJmQBwXWFtD/y
+XahAmkP+wHWFtD8dIa9AJmQBwRh6xT/yXahAJmQBwftIzT/yXahAmkP+wPtIzT8dIa9AOmP0wHWF
+tD94urVAOmP0wPtIzT94urVAJmQBwftIzT+lpKZAJmQBwftIzT9C1YpAmkP+wPtIzT8XEoRAJmQB
+wVhUvD9C1YpAJmQBwXWFtD9C1YpAmkP+wHWFtD8XEoRAOmP0wPtIzT948XpAOmP0wHWFtD948XpA
+JmQBwftIzT+PjoxAJmQBwftIzT/VZiJAJmQBwftIzT8kZCJAJmQBwftIzT9fzBBAJmQBwftIzT8j
+ZCJAJmQBwXWFtD87IjdAmkP+wHWFtD9vqERAJmQBwRh6xT87IjdAJmQBwftIzT87IjdAmkP+wPtI
+zT9vqERAOmP0wHWFtD9W21FAOmP0wPtIzT9W21FAJmQBwftIzT+xrzNAJmQBwftIzT/TIfg/mkP+
+wPtIzT8nFd0/JmQBwVhUvD/TIfg/JmQBwXWFtD/TIfg/mkP+wHWFtD8nFd0/OmP0wPtIzT+9r8I/
+OmP0wHWFtD+9r8I/JmQBwftIzT8GB/8/JmQBwftIzT9s0ww+JmQBwftIzT+4qAw+JmQBwftIzT/w
+0wy+JmQBwftIzT+3qAw+JmQBwXWFtD9ERew+mkP+wHWFtD+0Oyw/JmQBwRh6xT9ERew+JmQBwftI
+zT9ERew+mkP+wPtIzT+0Oyw/OmP0wHWFtD+yBmE/OmP0wPtIzT+yBmE/JmQBwftIzT/BsNA+JmQB
+wftIzT/CsNA+JmQBwftIzT9tRey+mkP+wPtIzT/JOyy/JmQBwVhUvD9tRey+JmQBwXWFtD9tRey+
+mkP+wHWFtD/JOyy/OmP0wPtIzT/HBmG/OmP0wHWFtD/HBmG/JmQBwftIzT/u0wy+JmQBwftIzT/s
+sNC+JmQBwftIzT9fzBDAJmQBwftIzT8QzxDAJmQBwftIzT/VZiLAJmQBwftIzT8RzxDAJmQBwXWF
+tD/zIfi/mkP+wHWFtD+MFd2/JmQBwRh6xT/zIfi/JmQBwftIzT/zIfi/mkP+wPtIzT+MFd2/OmP0
+wHWFtD+9r8K/OmP0wPtIzT+9r8K/JmQBwftIzT8GB/+/JmQBwftIzT9KIjfAmkP+wPtIzT+gqETA
+JmQBwVhUvD9KIjfAJmQBwXWFtD9KIjfAmkP+wHWFtD+gqETAOmP0wPtIzT9W21HAOmP0wHWFtD9W
+21HAJmQBwftIzT+xrzPAJmQBwftIzT/8MpXAJmQBwftIzT9WNJXAJmQBwftIzT84AJ7AJmQBwXWF
+tD9K1YrAmkP+wHWFtD8wEoTAJmQBwRh6xT9K1YrAJmQBwftIzT9K1YrAmkP+wPtIzT8wEoTAOmP0
+wHWFtD948XrAOmP0wPtIzT948XrAJmQBwftIzT+PjozAJmQBwftIzT+lpKbAJmQBwftIzT/yXajA
+mkP+wPtIzT8dIa/AJmQBwVhUvD/yXajAJmQBwXWFtD/yXajAmkP+wHWFtD8dIa/AOmP0wPtIzT94
+urXAOmP0wHWFtD94urXAJmQBwftIzT/J/+HAJmQBwftIzT8jAeLAP3bvwPtIzT8SH/7AJmQBwftI
+zT8FzerAJmQBwXWFtD8PotfAmkP+wHWFtD/k3tDAJmQBwRh6xT8PotfAJmQBwftIzT8PotfAmkP+
+wPtIzT/k3tDAOmP0wHWFtD+JRcrAOmP0wPtIzT+JRcrAJmQBwftIzT9cW9nAJmQBwftIzT+/KvXA
+mkP+wPtIzT/q7fvAJmQBwVhUvD+/KvXAJmQBwXWFtD+/KvXAmkP+wHWFtD/q7fvAwPv6wPtIzT8S
+H/7AwPv6wEO/vD8SH/7AwPv6wHWFtD8SH/7AG83ywPtIzT8SH/7AJmQBwftIzT9ycfPAzPj4wPtI
+zT8SH/7A]]></Verts>
+                <NumVerts>357</NumVerts>
+                <Tris><![CDATA[AAAA
+AAEAAAACAAAAAwAAAAQAAAAFAAAAAwAAAAUAAAACAAAAAwAAAAIAAAABAAAABgAAAAcAAAAIAAAA
+BwAAAAkAAAAKAAAABwAAAAoAAAALAAAABwAAAAsAAAAIAAAADAAAAA0AAAAOAAAADAAAAA4AAAAP
+AAAAEAAAABEAAAASAAAAEAAAABIAAAAOAAAACgAAAAkAAAATAAAACgAAABMAAAAUAAAAFAAAABMA
+AAAVAAAAFAAAABUAAAAWAAAAFgAAABUAAAARAAAAFgAAABEAAAAQAAAAFwAAAAgAAAAYAAAAGAAA
+AAgAAAAZAAAAGgAAABsAAAAIAAAAHAAAAB0AAAAZAAAAHAAAABkAAAAIAAAAGQAAAB4AAAAYAAAA
+GAAAAB4AAAAfAAAAHgAAACAAAAAhAAAAHgAAACEAAAAfAAAAIgAAAB8AAAAhAAAAGQAAAB0AAAAj
+AAAAGQAAACMAAAAeAAAAIAAAAB4AAAAjAAAAJAAAACUAAAAmAAAAJgAAACUAAAAnAAAAJAAAACYA
+AAAoAAAAJgAAACkAAAAqAAAAJgAAACoAAAAoAAAAJwAAACsAAAAmAAAAJgAAACsAAAAsAAAAKwAA
+AC0AAAAuAAAAKwAAAC4AAAAsAAAALwAAACwAAAAuAAAAKQAAACYAAAAwAAAAMAAAACYAAAAsAAAA
+MAAAACwAAAAxAAAAMQAAACwAAAAvAAAAMgAAACgAAAAzAAAAMwAAACgAAAA0AAAANQAAADYAAAAo
+AAAANwAAADgAAAA0AAAANwAAADQAAAAoAAAANAAAADkAAAAzAAAAMwAAADkAAAA6AAAAOQAAADsA
+AAA8AAAAOQAAADwAAAA6AAAAPQAAADoAAAA8AAAANAAAADgAAAA+AAAANAAAAD4AAAA5AAAAOwAA
+ADkAAAA+AAAAPwAAAEAAAABBAAAAQQAAAEAAAABCAAAAPwAAAEEAAABDAAAAQQAAAEQAAABFAAAA
+QQAAAEUAAABDAAAAQgAAAEYAAABBAAAAQQAAAEYAAABHAAAARgAAAEgAAABJAAAARgAAAEkAAABH
+AAAASgAAAEcAAABJAAAARAAAAEEAAABLAAAASwAAAEEAAABHAAAASwAAAEcAAABMAAAATAAAAEcA
+AABKAAAATQAAAEMAAABOAAAATgAAAEMAAABPAAAAUAAAAFEAAABDAAAAUgAAAFMAAABPAAAAUgAA
+AE8AAABDAAAATwAAAFQAAABOAAAATgAAAFQAAABVAAAAVAAAAFYAAABXAAAAVAAAAFcAAABVAAAA
+WAAAAFUAAABXAAAATwAAAFMAAABZAAAATwAAAFkAAABUAAAAVgAAAFQAAABZAAAAWgAAAFsAAABc
+AAAAXAAAAFsAAABdAAAAWgAAAFwAAABeAAAAXAAAAF8AAABgAAAAXAAAAGAAAABeAAAAXQAAAGEA
+AABcAAAAXAAAAGEAAABiAAAAYQAAAGMAAABkAAAAYQAAAGQAAABiAAAAZQAAAGIAAABkAAAAZgAA
+AFwAAABnAAAAaAAAAFwAAABiAAAAaAAAAGIAAABpAAAAaQAAAGIAAABlAAAAagAAAF4AAABrAAAA
+awAAAF4AAABsAAAAbQAAAG4AAABeAAAAbwAAAHAAAABsAAAAbwAAAGwAAABeAAAAbAAAAHEAAABr
+AAAAawAAAHEAAAByAAAAcQAAAHMAAAB0AAAAcQAAAHQAAAByAAAAdQAAAHIAAAB2AAAAbAAAAHAA
+AAB3AAAAbAAAAHcAAABxAAAAeAAAAHEAAAB3AAAAeQAAAHoAAAB7AAAAewAAAHoAAAB8AAAAeQAA
+AHsAAAB9AAAAewAAAH4AAAB/AAAAewAAAH8AAAB9AAAAfAAAAIAAAAB7AAAAewAAAIAAAACBAAAA
+gAAAAIIAAACDAAAAgAAAAIMAAACBAAAAhAAAAIEAAACDAAAAfgAAAHsAAACFAAAAhQAAAHsAAACB
+AAAAhQAAAIEAAACGAAAAhgAAAIEAAACEAAAAhwAAAH0AAACIAAAAiAAAAH0AAACJAAAAigAAAIsA
+AAB9AAAAjAAAAI0AAACJAAAAjAAAAIkAAAB9AAAAiQAAAI4AAACIAAAAiAAAAI4AAACPAAAAjgAA
+AJAAAACRAAAAjgAAAJEAAACPAAAAkgAAAI8AAACRAAAAiQAAAI0AAACTAAAAiQAAAJMAAACOAAAA
+kAAAAI4AAACUAAAAlQAAAJYAAACXAAAAlwAAAJYAAACYAAAAlQAAAJcAAACZAAAAlwAAAJoAAACb
+AAAAlwAAAJsAAACZAAAAmAAAAJwAAACXAAAAlwAAAJwAAACdAAAAnAAAAJ4AAACfAAAAnAAAAJ8A
+AACdAAAAoAAAAJ0AAACfAAAAmgAAAJcAAAChAAAAoQAAAJcAAACdAAAAoQAAAJ0AAACiAAAAogAA
+AJ0AAACgAAAAowAAAJkAAACkAAAApAAAAJkAAAClAAAApgAAAKcAAACZAAAAqAAAAKkAAAClAAAA
+qAAAAKUAAACZAAAApQAAAKoAAACkAAAApAAAAKoAAACrAAAAqgAAAKwAAACtAAAAqgAAAK0AAACr
+AAAArgAAAKsAAACtAAAApQAAAKkAAACvAAAApQAAAK8AAACqAAAArAAAAKoAAACvAAAAsAAAALEA
+AACyAAAAsgAAALEAAACzAAAAtAAAALAAAACyAAAAtAAAALIAAAC1AAAAtgAAALIAAAC3AAAAtgAA
+ALcAAAC4AAAAtgAAALgAAAC5AAAAswAAALoAAACyAAAAsgAAALoAAAC7AAAAugAAALwAAAC9AAAA
+ugAAAL0AAAC7AAAAvgAAALsAAAC9AAAAtwAAALIAAAC/AAAAvwAAALIAAAC7AAAAvwAAALsAAADA
+AAAAwAAAALsAAAC+AAAAwQAAAMIAAADDAAAAwQAAAMMAAADEAAAAxQAAAMYAAADHAAAAxQAAAMcA
+AADIAAAAyQAAAMoAAADLAAAAyQAAAMsAAADMAAAAzQAAAM4AAADMAAAAzQAAAMwAAADLAAAAyAAA
+AMcAAADPAAAAyAAAAM8AAADQAAAAygAAAMkAAADQAAAAygAAANAAAADPAAAA0QAAANIAAADTAAAA
+0QAAANMAAADUAAAA1QAAANQAAADTAAAA1QAAANMAAAAGAAAA1QAAAAYAAAAIAAAA1gAAANcAAADY
+AAAA2QAAANgAAADXAAAA2QAAANcAAADaAAAA1wAAANsAAADcAAAA1wAAANwAAADaAAAA3QAAANoA
+AADeAAAA0gAAANEAAADfAAAA0gAAAN8AAADgAAAA4AAAAN8AAADZAAAA4AAAANkAAADaAAAA4AAA
+ANoAAADhAAAA4QAAANoAAADdAAAA1QAAAAgAAADiAAAA4wAAAOQAAADlAAAA5gAAAOUAAADkAAAA
+5gAAAOQAAADnAAAA5AAAAOgAAADnAAAA5wAAAOgAAADpAAAA6AAAAAgAAADpAAAA6QAAAAgAAAAX
+AAAA4wAAAOIAAAAIAAAA4wAAAAgAAADkAAAA6AAAAOQAAAAIAAAA6gAAACQAAADrAAAA7AAAAOsA
+AAAkAAAA7AAAACQAAAAoAAAA7QAAAO4AAADvAAAA8AAAAO8AAADuAAAA8AAAAO4AAADxAAAA7gAA
+APIAAADxAAAA8QAAAPIAAADzAAAA8gAAACUAAADzAAAA8wAAACUAAAAkAAAA6gAAAPQAAAAkAAAA
+9AAAAPAAAADxAAAA9AAAAPEAAAAkAAAA8QAAAPMAAAAkAAAA9QAAAPYAAAD3AAAA+AAAAPcAAAD2
+AAAA+AAAAPYAAAD5AAAA9gAAAPoAAAD5AAAA+QAAAPoAAAD7AAAA+gAAACgAAAD7AAAA+wAAACgA
+AAAyAAAA7AAAACgAAAD8AAAA9QAAAPwAAAAoAAAA9QAAACgAAAD2AAAA+gAAAPYAAAAoAAAA/QAA
+AD8AAAD+AAAA/wAAAAABAAA/AAAA/wAAAD8AAABDAAAAAQEAAAIBAAADAQAABAEAAAMBAAACAQAA
+BAEAAAIBAAAFAQAAAgEAAAYBAAAFAQAABQEAAAYBAAAHAQAABgEAAEAAAAAHAQAABwEAAEAAAAA/
+AAAA/QAAAAgBAAA/AAAACAEAAAQBAAAFAQAACAEAAAUBAAA/AAAABQEAAAcBAAA/AAAACQEAAAoB
+AAALAQAADAEAAAsBAAAKAQAADAEAAAoBAAANAQAACgEAAA4BAAANAQAADQEAAA4BAAAPAQAADgEA
+AEMAAAAPAQAADwEAAEMAAABNAAAA/wAAAEMAAAAQAQAACQEAABABAABDAAAACQEAAEMAAAAKAQAA
+DgEAAAoBAABDAAAAEQEAAFoAAAASAQAAEwEAABQBAABaAAAAEwEAAFoAAABeAAAAFQEAABYBAAAX
+AQAAGAEAABcBAAAWAQAAGAEAABYBAAAZAQAAFgEAABoBAAAZAQAAGQEAABoBAAAbAQAAGgEAAFsA
+AAAbAQAAGwEAAFsAAABaAAAAEQEAABwBAABaAAAAHQEAABgBAAAZAQAAHQEAABkBAABaAAAAGQEA
+ABsBAABaAAAAHgEAAB8BAAAgAQAAIQEAACABAAAfAQAAIQEAAB8BAAAiAQAAHwEAACMBAAAiAQAA
+IgEAACMBAAAkAQAAIwEAAF4AAAAkAQAAJAEAAF4AAABqAAAAJQEAAF4AAAAmAQAAHgEAACYBAABe
+AAAAHgEAAF4AAAAfAQAAIwEAAB8BAABeAAAAJwEAAHkAAAAoAQAAKQEAACoBAAB5AAAAKQEAAHkA
+AAB9AAAAKwEAACwBAAAtAQAALgEAAC0BAAAsAQAALgEAACwBAAAvAQAALAEAADABAAAvAQAALwEA
+ADABAAAxAQAAMAEAAHoAAAAxAQAAMQEAAHoAAAB5AAAAJwEAADIBAAB5AAAAMgEAAC4BAAAvAQAA
+MgEAAC8BAAB5AAAALwEAADEBAAB5AAAAMwEAADQBAAA1AQAANgEAADUBAAA0AQAANgEAADQBAAA3
+AQAANAEAADgBAAA3AQAANwEAADgBAAA5AQAAOAEAAH0AAAA5AQAAOQEAAH0AAACHAAAAKQEAAH0A
+AAA6AQAAMwEAADoBAAB9AAAAMwEAAH0AAAA0AQAAOAEAADQBAAB9AAAAOwEAAJUAAAA8AQAAPQEA
+ADwBAACVAAAAPQEAAJUAAACZAAAAPgEAAD8BAABAAQAAQQEAAEABAAA/AQAAQQEAAD8BAABCAQAA
+PwEAAEMBAABCAQAAQgEAAEMBAABEAQAAQwEAAJYAAABEAQAARAEAAJYAAACVAAAAOwEAAEUBAACV
+AAAARQEAAEEBAABCAQAARQEAAEIBAACVAAAAQgEAAEQBAACVAAAAPQEAAJkAAABGAQAARwEAAEgB
+AABJAQAASgEAAEkBAABIAQAASgEAAEgBAABLAQAASAEAAEwBAABLAQAASwEAAEwBAABNAQAATAEA
+AJkAAABNAQAATQEAAJkAAACjAAAARwEAAEYBAACZAAAARwEAAJkAAABIAQAATAEAAEgBAACZAAAA
+TgEAALAAAABPAQAAUAEAAFEBAABPAQAAUAEAAE8BAACwAAAAUAEAALAAAAC0AAAAUgEAAFMBAABU
+AQAAVQEAAFQBAABTAQAAVQEAAFMBAABWAQAAUwEAAFcBAABWAQAAVgEAAFcBAABYAQAAVwEAALEA
+AABYAQAAWAEAALEAAACwAAAATgEAAFkBAACwAAAAWQEAAFUBAABWAQAAWQEAAFYBAACwAAAAVgEA
+AFgBAACwAAAAWgEAAFsBAABcAQAAXQEAAFwBAABbAQAAXQEAAFsBAABeAQAAWwEAAF8BAABgAQAA
+WwEAAGABAABeAQAAYQEAAF4BAABgAQAAUQEAAFABAABiAQAAUQEAAGIBAABjAQAAWgEAAGMBAABi
+AQAAWgEAAGIBAABkAQAAWgEAAGQBAABbAQAAXwEAAFsBAABkAQAA]]></Tris>
+                <NumTris>374</NumTris>
+                <UVs><![CDATA[AAAA
+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
+PyxAfT+Q4Go/h4J/P5Dgaj+Hgn8/+35nPyxAfT9OMmQ/+E94P04yZD/4T3g/pQ9OP4iCfz/4Dk4/
+iIJ/PwepST+Ign8/gj5TP4iCfz8YoFY/LUB9P4I+Uz+Ign8/gj5TP4iCfz8YoFY/LUB9P8XsWT/3
+T3g/xexZP/dPeD/cYVI/iYJ/Pyp6RD+Ign8/lBhBPyxAfT8qekQ/iIJ/Pyp6RD+Ign8/lBhBPyxA
+fT/nyz0/9k94P+fLPT/2T3g/0FZFP4iCfz8+qSc/iIJ/P5KoJz+Ign8/oEIjP4iCfz+SqCc/iIJ/
+PxjYLD+Ign8/pTkwPyxAfT8Y2Cw/iIJ/PxjYLD+Ign8/pTkwPyxAfT9ehjM/+E94P16GMz/4T3g/
+dfsrP4iCfz/EEx4/h4J/Py6yGj8sQH0/xBMeP4eCfz/EEx4/h4J/Py6yGj8sQH0/gGUXP/hPeD+A
+ZRc/+E94P2rwHj+Ign8/1kIBP4iCfz8sQgE/iIJ/P3K4+T6Ign8/LEIBP4iCfz+zcQY/iIJ/P0TT
+CT8tQH0/s3EGP4iCfz+zcQY/iIJ/P0TTCT8tQH0/9B8NP/dPeD/0Hw0/9094Pw+VBT+Ign8/D5UF
+P4iCfz+8Wu8+iIJ/P5iX6D4uQH0/vFrvPoiCfz+8Wu8+iIJ/P5iX6D4uQH0/Ov7hPvhPeD86/uE+
++E94P3K4+T6Ign8/BBTxPoiCfz/iuLU+iIJ/P4q3tT6Ign8/qOusPoiCfz+Kt7U+iIJ/P5YWwD6I
+gn8/sNnGPixAfT+WFsA+iIJ/P5YWwD6Ign8/sNnGPixAfT8ic80++E94PyJzzT74T3g/UF2+PoiC
+fz/sjaI+iYJ/P8LKmz4uQH0/7I2iPomCfz/sjaI+iYJ/P8LKmz4uQH0/aDGVPvhPeD9oMZU++E94
+PzpHpD6Ign8/LNhRPoiCfz941VE+iIJ/P7Q9QD6Ign8/kJNmPoiCfz/EGXQ+LUB9P5CTZj6Ign8/
+kJNmPoiCfz/EGXQ+LUB9P1amgD74T3g/VqaAPvhPeD8IIWM+h4J/P9j0Lj6Ign8/QIIrPoiCfz/o
++x0+LkB9P0CCKz6Ign8/QIIrPoiCfz/o+x0+LkB9PzTJED74T3g/NMkQPvhPeD9A+mA9iIJ/P4Dv
+YD2Ign8/AAAAsnfZdT9gkBo9iIJ/PxD0mT2Ign8/uAC1PS1AfT8Q9Jk9iIJ/PxD0mT2Ign8/uAC1
+PS1AfT8gZs89+E94PyBmzz34T3g/2A6TPYiCfz9ARY88iIJ/P85JjDstQH0/QEWPPIiCfz9ARY88
+iIJ/P85JjDstQH0/AACosj6cez8AAKiyPpx7PwAAqLI+nHs/AADgsuiEdz8A2qo8iIJ/PwAAIDLD
+mno/]]></UVs>
+                <NumUVs>357</NumUVs>
+                <Bounds>-8.08695 1.41032 -7.94129 7.88216 1.60379 8.05871</Bounds>
+                <DiffuseTexture><![CDATA[art\terrain\decals\helicopter_pad_d.tga]]></DiffuseTexture>
+                <NormalMap><![CDATA[art\terrain\decals\helicopter_pad_n.tga]]></NormalMap>
+                <AcceptsLights>1</AcceptsLights>
+                <DepthBias>-1</DepthBias>
+                <SlopeScaleDepthBias>0</SlopeScaleDepthBias>
+                <CameraDepthOffset>0</CameraDepthOffset>
+                <PathLength>15.9694</PathLength>
+            </p>
+        </i>
+        <i>
+            <p cid="f989d493" Version="0">
+                <Guid>8</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>0 -0 8 0 8 0 -8 0 0 -8.08695 1.63646 0.0587074</Xform>
+                <EditableProperties count="5">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+        <i>
+            <p cid="157f7e32" Version="0">
+                <Guid>31</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>1.2 0 0 0 0.92 0 0 0 1.2 0 0 0</Xform>
+                <EditableProperties count="14">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Disable.ContextAnims]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Display.StateIndex]]></Name>
+                            <Data>0</Data>
+                            <Min>-1</Min>
+                            <Max>254</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7aec289a">
+                            <Name><![CDATA[GameEnum.26]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="322446cf">
+                            <Name><![CDATA[GameTag.0]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>1</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[Render.FadeOverride]]></Name>
+                            <Data>0</Data>
+                            <Min>0</Min>
+                            <Max>10000</Max>
+                            <Increment>1</Increment>
+                            <Precision>0</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Render.FadeSetting]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="4">
+                                <i><![CDATA[Never]]></i>
+                                <i><![CDATA[Near]]></i>
+                                <i><![CDATA[Medium]]></i>
+                                <i><![CDATA[Far]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.Invisible]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowCaster]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[Render.ShadowReceiver]]></Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+                <ReferencePath><![CDATA[art\units\bases\blue\recharge_pad_03.mshml]]></ReferencePath>
+            </p>
+        </i>
+        <i>
+            <p cid="412a9e1e" Version="0">
+                <Guid>33</Guid>
+                <Name></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>9.32936 0 0 0 27.6516 0 0 0 9.32936 0.687004 26.1092 -0.0719476</Xform>
+                <EditableProperties count="7">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name><![CDATA[$.ObjectName]]></Name>
+                            <Data><![CDATA[selection]]></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="7e0d2deb">
+                            <Name><![CDATA[$.BoneAttachment]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name><![CDATA[$.ScriptPath]]></Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name><![CDATA[$.SnapToGround]]></Name>
+                            <Data>0</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e9f584df">
+                            <Name><![CDATA[$.SnapToOffset]]></Name>
+                            <Data>0</Data>
+                            <Min>-9999</Min>
+                            <Max>9999</Max>
+                            <Increment>0.01</Increment>
+                            <Precision>2</Precision>
+                            <AllowDelete>0</AllowDelete>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name><![CDATA[Shape.VolumeType]]></Name>
+                            <Data>0</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <EnumNames count="2">
+                                <i><![CDATA[Box]]></i>
+                                <i><![CDATA[Sphere]]></i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="e6e69568">
+                            <Name><![CDATA[States.StateMask]]></Name>
+                            <Data>4294967295</Data>
+                        </p>
+                    </i>
+                </EditableProperties>
+            </p>
+        </i>
+    </Objects>
+    <Meshes count="0" />
+    <Materials count="0" />
+    <DiffuseMapAtlas></DiffuseMapAtlas>
+    <NormalMapAtlas></NormalMapAtlas>
+    <HeightFieldMaterialTileFactors count="0"></HeightFieldMaterialTileFactors>
+    <EditableProperties count="17">
+        <i>
+            <p cid="18c579ee">
+                <Name><![CDATA[$.ObjectName]]></Name>
+                <Data></Data>
+                <AllowDelete>0</AllowDelete>
+                <LockFieldToName>0</LockFieldToName>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.ScriptPath]]></Name>
+                <Data><![CDATA[gameplay\preplaced\chargerbases\battery_charger.nut]]></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="7e0d2deb">
+                <Name><![CDATA[$.SkeletonBinding]]></Name>
+                <Data></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.SkeletonPath]]></Name>
+                <Data></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInGame]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.CastsShadow]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorAmbient]]></Name>
+                <Data>
+                    <Rgb>0.1 0.1 0.1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorBack]]></Name>
+                <Data>
+                    <Rgb>0.15 0.15 0.3</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorFront]]></Name>
+                <Data>
+                    <Rgb>0.625 0.625 0.625</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorRim]]></Name>
+                <Data>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="abf577e7">
+                <Name><![CDATA[DefaultLight.Direction]]></Name>
+                <Data>-0.51465 -0.735215 -0.441129</Data>
+                <Min>-1</Min>
+                <Max>1</Max>
+                <Increment>0.01</Increment>
+                <Precision>2</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowFogInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowGlobalLightDir]]></Name>
+                <Data>0</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="7aec289a">
+                <Name><![CDATA[GameEnum.4]]></Name>
+                <Data>111</Data>
+                <AllowDelete>1</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="e9f584df">
+                <Name><![CDATA[Render.FadeOverride]]></Name>
+                <Data>0</Data>
+                <Min>0</Min>
+                <Max>10000</Max>
+                <Increment>1</Increment>
+                <Precision>0</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="2c1ac345">
+                <Name><![CDATA[Render.FadeSetting]]></Name>
+                <Data>0</Data>
+                <AllowDelete>0</AllowDelete>
+                <EnumNames count="4">
+                    <i><![CDATA[Never]]></i>
+                    <i><![CDATA[Near]]></i>
+                    <i><![CDATA[Medium]]></i>
+                    <i><![CDATA[Far]]></i>
+                </EnumNames>
+            </p>
+        </i>
+    </EditableProperties>
+    <Layers count="1">
+        <i>
+            <Name><![CDATA[Default]]></Name>
+            <State>0</State>
+            <Color>0 0 0.75 1</Color>
+        </i>
+    </Layers>
+    <GroundCovers count="0" />
+</Sigml>
