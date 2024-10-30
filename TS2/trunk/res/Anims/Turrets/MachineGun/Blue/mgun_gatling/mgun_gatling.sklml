@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\machinegun\blue\~src\mgun_gatling\mgun_gatling_skeleton.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>22</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[gatling_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[gatling_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[ammobox]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 1.21 0.746019 -0.0443921</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[ammobelt_1]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 0.427681</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[ammobelt_2]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -0.10715</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[ammobelt_3]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -0.373365</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>5</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[ammobelt_4]]>
+</Name>
+                                                                        <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -0.642242</Xform>
+                                                                        <Children count="1">
+                                                                            <i>
+                                                                                <p>
+                                                                                    <MasterIndex>6</MasterIndex>
+                                                                                    <Name>
+                                                                                        <![CDATA[ammobelt_5]]>
+</Name>
+                                                                                    <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -0.908457</Xform>
+                                                                                    <Children count="1">
+                                                                                        <i>
+                                                                                            <p>
+                                                                                                <MasterIndex>7</MasterIndex>
+                                                                                                <Name>
+                                                                                                    <![CDATA[ammobelt_6]]>
+</Name>
+                                                                                                <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -1.18</Xform>
+                                                                                                <Children count="1">
+                                                                                                    <i>
+                                                                                                        <p>
+                                                                                                            <MasterIndex>8</MasterIndex>
+                                                                                                            <Name>
+                                                                                                                <![CDATA[ammobelt_7]]>
+</Name>
+                                                                                                            <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -1.44355</Xform>
+                                                                                                            <Children count="1">
+                                                                                                                <i>
+                                                                                                                    <p>
+                                                                                                                        <MasterIndex>9</MasterIndex>
+                                                                                                                        <Name>
+                                                                                                                            <![CDATA[ammobelt_8]]>
+</Name>
+                                                                                                                        <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -1.71509</Xform>
+                                                                                                                        <Children count="1">
+                                                                                                                            <i>
+                                                                                                                                <p>
+                                                                                                                                    <MasterIndex>10</MasterIndex>
+                                                                                                                                    <Name>
+                                                                                                                                        <![CDATA[ammobelt_9]]>
+</Name>
+                                                                                                                                    <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -1.98396</Xform>
+                                                                                                                                    <Children count="1">
+                                                                                                                                        <i>
+                                                                                                                                            <p>
+                                                                                                                                                <MasterIndex>11</MasterIndex>
+                                                                                                                                                <Name>
+                                                                                                                                                    <![CDATA[ammobelt_10]]>
+</Name>
+                                                                                                                                                <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -2.25018</Xform>
+                                                                                                                                                <Children count="1">
+                                                                                                                                                    <i>
+                                                                                                                                                        <p>
+                                                                                                                                                            <MasterIndex>12</MasterIndex>
+                                                                                                                                                            <Name>
+                                                                                                                                                                <![CDATA[ammobelt_11]]>
+</Name>
+                                                                                                                                                            <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -2.51906</Xform>
+                                                                                                                                                            <Children count="1">
+                                                                                                                                                                <i>
+                                                                                                                                                                    <p>
+                                                                                                                                                                        <MasterIndex>13</MasterIndex>
+                                                                                                                                                                        <Name>
+                                                                                                                                                                            <![CDATA[ammobelt_12]]>
+</Name>
+                                                                                                                                                                        <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -2.78527</Xform>
+                                                                                                                                                                        <Children count="1">
+                                                                                                                                                                            <i>
+                                                                                                                                                                                <p>
+                                                                                                                                                                                    <MasterIndex>14</MasterIndex>
+                                                                                                                                                                                    <Name>
+                                                                                                                                                                                        <![CDATA[ammobelt_13]]>
+</Name>
+                                                                                                                                                                                    <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -3.05415</Xform>
+                                                                                                                                                                                    <Children count="1">
+                                                                                                                                                                                        <i>
+                                                                                                                                                                                            <p>
+                                                                                                                                                                                                <MasterIndex>15</MasterIndex>
+                                                                                                                                                                                                <Name>
+                                                                                                                                                                                                    <![CDATA[ammobelt_14]]>
+</Name>
+                                                                                                                                                                                                <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -3.32303</Xform>
+                                                                                                                                                                                                <Children count="1">
+                                                                                                                                                                                                    <i>
+                                                                                                                                                                                                        <p>
+                                                                                                                                                                                                            <MasterIndex>16</MasterIndex>
+                                                                                                                                                                                                            <Name>
+                                                                                                                                                                                                                <![CDATA[ammobelt_15]]>
+</Name>
+                                                                                                                                                                                                            <Xform>1 0 0 0 1 0 0 0 1 1.21 1.11582 -3.58924</Xform>
+                                                                                                                                                                                                            <Children count="0" />
+                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                    </i>
+                                                                                                                                                                                                </Children>
+                                                                                                                                                                                            </p>
+                                                                                                                                                                                        </i>
+                                                                                                                                                                                    </Children>
+                                                                                                                                                                                </p>
+                                                                                                                                                                            </i>
+                                                                                                                                                                        </Children>
+                                                                                                                                                                    </p>
+                                                                                                                                                                </i>
+                                                                                                                                                            </Children>
+                                                                                                                                                        </p>
+                                                                                                                                                    </i>
+                                                                                                                                                </Children>
+                                                                                                                                            </p>
+                                                                                                                                        </i>
+                                                                                                                                    </Children>
+                                                                                                                                </p>
+                                                                                                                            </i>
+                                                                                                                        </Children>
+                                                                                                                    </p>
+                                                                                                                </i>
+                                                                                                            </Children>
+                                                                                                        </p>
+                                                                                                    </i>
+                                                                                                </Children>
+                                                                                            </p>
+                                                                                        </i>
+                                                                                    </Children>
+                                                                                </p>
+                                                                            </i>
+                                                                        </Children>
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>17</MasterIndex>
+                        <Name>
+                            <![CDATA[yaw]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -0.382881 0.255552 0.00699221</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>18</MasterIndex>
+                                    <Name>
+                                        <![CDATA[pitch]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 1.6012 0.00599064</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>19</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[barrel]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 1.6012 0.908546</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>20</MasterIndex>
+                        <Name>
+                            <![CDATA[crosshair_stay]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.6012 0.00599064</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>21</MasterIndex>
+                        <Name>
+                            <![CDATA[crate]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

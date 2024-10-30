@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\mortar\blue\mortar_m120\mortar_m120.sklml]]></SkeletonRef>
+    <AnimMetaData count="7">
+        <i>
+            <Name><![CDATA[aim_down]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aim_up]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[fire]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L3_Reload_StandUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L3_Reload_SitDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.5</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[idle_ai]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

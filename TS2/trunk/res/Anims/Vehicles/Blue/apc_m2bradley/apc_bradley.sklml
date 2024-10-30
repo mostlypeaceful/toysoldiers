@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\blue\~src\land\apc_m2bradley\m2bradley_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>21</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[m2bradley_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[m2bradley_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[m2bradley_body]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.5 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[left_tread]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 -2.62292</Xform>
+                        <Children count="8">
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name><![CDATA[l_wheel1]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70366 0.996847 4.01922</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name><![CDATA[l_wheel2]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 2.99836</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>5</MasterIndex>
+                                    <Name><![CDATA[l_wheel3]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 1.9499</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>6</MasterIndex>
+                                    <Name><![CDATA[l_wheel4]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 0.9267</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>7</MasterIndex>
+                                    <Name><![CDATA[l_wheel5]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 -0.551256</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>8</MasterIndex>
+                                    <Name><![CDATA[l_wheel6]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 -1.59972</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>9</MasterIndex>
+                                    <Name><![CDATA[l_wheel7]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.70718 0.492402 -2.62292</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>10</MasterIndex>
+                                    <Name><![CDATA[l_wheel8]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.71512 0.843462 -3.54491</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name><![CDATA[right_tread]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 -2.62292</Xform>
+                        <Children count="8">
+                            <i>
+                                <p>
+                                    <MasterIndex>12</MasterIndex>
+                                    <Name><![CDATA[r_wheel1]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70366 0.996847 4.01922</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>13</MasterIndex>
+                                    <Name><![CDATA[r_wheel2]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 2.99837</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>14</MasterIndex>
+                                    <Name><![CDATA[r_wheel3]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 1.9499</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>15</MasterIndex>
+                                    <Name><![CDATA[r_wheel4]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 0.9267</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>16</MasterIndex>
+                                    <Name><![CDATA[r_wheel5]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 -0.551256</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>17</MasterIndex>
+                                    <Name><![CDATA[r_wheel6]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 -1.59972</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>18</MasterIndex>
+                                    <Name><![CDATA[r_wheel7]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.70718 0.492402 -2.62292</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>19</MasterIndex>
+                                    <Name><![CDATA[r_wheel8]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -1.71512 0.843462 -3.54491</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>20</MasterIndex>
+                        <Name><![CDATA[rear_hatch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.74331 -3.75119</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

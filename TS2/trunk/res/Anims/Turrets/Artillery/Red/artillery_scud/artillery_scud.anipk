@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\artillery\red\artillery_scud\artillery_scud.sklml]]></SkeletonRef>
+    <AnimMetaData count="2">
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="4">
+                <i>
+                    <Tag><![CDATA[Scud_Reload]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USSR_Arty_L3_Reload_LauncherDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.2</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USSR_Arty_L3_Reload_LauncherUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>10.5334</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USSR_Arty_L3_Reload_MissileLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>7</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

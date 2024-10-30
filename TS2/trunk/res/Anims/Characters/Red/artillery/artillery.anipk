@@ -1,0 +1,2902 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\characters\shared\base_soldier\base_soldier.sklml]]></SkeletonRef>
+    <AnimMetaData count="311">
+        <i>
+            <Name><![CDATA[aa_gladiator_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_AA]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Support]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_fire_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_idle_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0495</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_reload_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Auto]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Rocket]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Rocket]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_reload_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Rocket]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.053</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="5">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Mortar]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellPickup]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.3011</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L3_Reload_ShellToss]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.3498</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.6838</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Character_FootStep_Land]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4.3741</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="3">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0567</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_DialIn]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.0969</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_DialIn]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.4956</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="6">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Mortar]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellPickup]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.8556</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AA_L1_Reload_AmmoGrab]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.3168</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AT_L3_Reload_BarrelMove]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.5693</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USA_MG_L1_Idle]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.6844</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.9349</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Support]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="3">
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.5552</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.8558</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4.1898</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0454</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="4">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Mortar]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L3_Reload_ShellGrab]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.5386</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L3_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.6</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Character_FootStep_Land]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.4729</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Idle_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_AA]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0737</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_idle_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0278</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0247</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Belt]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Belt]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Belt]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Belt]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="4">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.053</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.3056</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.6563</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_MG_L2_Reload_HandClap]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.007</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Support]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_high_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_low_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0407</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_End_Loader_Arty]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.7566</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Spotter]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner_Rocket]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Rocket]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0259</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_idle_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_idle_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_m1938_idle_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_reload_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0076</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_End_Loader_Arty]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.1044</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_2s12sani_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mortar_82pm41_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_low_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_random_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_low_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="5">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_AA]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Character_FootStep_Land]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.73</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AA_L1_Reload_AmmoGrab]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.74</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Character_FootStep_Land]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.57</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AA_L1_Reload_AmmoPlace]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4.1136</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_reload_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_AA_L1_Reload_AmmoGrab]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.6</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AA_L1_Reload_AmmoPlace]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_high_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_zu232_fire_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_s125_launcher_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Gunner]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0276</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_fire_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_Auto]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_rpg7_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_b10recoilless_reload_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Loader_AT]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_aim_random_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[at_at4spigot_reload_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vocals_Turret_Reload_Support]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_high_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_fire_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_reload_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t55_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t55_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t55_idle_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_fire_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_fire_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_idle_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[tank_t80_idle_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_nsv_idle_alt_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_balkan_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[mgun_pkp_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_alt_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_2a36_idle_alt_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_idle_alt_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_alt_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_alt_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_alt_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_scud_idle_alt_crewmand]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_random_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_aim_random_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_reload_high_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[artillery_d30_reload_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_exit_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_takeoff_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_takeoff_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_exit_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_exit_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_mi8hip_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_exit_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_exit_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_takeoff_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_takeoff_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[heli_mi24hind_takeoff_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_high_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_high_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_low_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_low_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aa_gladiator_aim_low_crewmanc]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_exit_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_exit_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_forward_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_idle_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_idle_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_forward_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_takeoff_crewmana]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[helicopter_hormone_takeoff_crewmanb]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

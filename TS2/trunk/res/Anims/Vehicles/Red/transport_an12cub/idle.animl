@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\air\transport_an12cub\an12cub_skin.mb]]></SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name><![CDATA[an12cub_ref_frame]]></Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <IKPriority>0</IKPriority>
+            <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+            <IKRotLimitOrder>0</IKRotLimitOrder>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="9">
+            <i>
+                <p>
+                    <Name><![CDATA[an12cub_root]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[lprop_1]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 5.90683 2.17802 7.07476</i>
+                        <i>1 0 0 0 1 0 0 0 1 5.90683 2.17802 7.07476</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[lprop_2]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 12.7825 2.07193 5.94026</i>
+                        <i>1 0 0 0 1 0 0 0 1 12.7825 2.07193 5.94026</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[rudder]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.990353 -0.138564 0 0.138564 0.990353 6.82121e-015 6.79871 -21.957</i>
+                        <i>1 0 0 0 0.990353 -0.138564 0 0.138564 0.990353 6.82121e-015 6.79871 -21.957</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_flap]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>0.999873 0 -0.0159139 0 1 0 0.0159139 0 0.999873 9.39623 2.91023 -1.79465</i>
+                        <i>0.999873 0 -0.0159139 0 1 0 0.0159139 0 0.999873 9.39623 2.91023 -1.79465</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[rear_hatch]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.95289 0.303315 0 -0.303315 0.95289 -0.00747543 -1.58201 -10.4304</i>
+                        <i>1 0 0 0 0.95289 0.303315 0 -0.303315 0.95289 -0.00747543 -1.58201 -10.4304</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[rprop_1]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -5.92178 2.17622 7.12568</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -5.92178 2.17622 7.12568</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[rprop_2]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -12.7974 2.07013 5.96362</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -12.7974 2.07013 5.96362</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_flap]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="2">
+                        <i>0.999873 0 0.0159139 1.94889e-018 -1 -1.22449e-016 0.0159139 1.22465e-016 -0.999873 -9.39623 2.91023 -1.79465</i>
+                        <i>0.999873 0 0.0159139 1.94889e-018 -1 -1.22449e-016 0.0159139 1.22465e-016 -0.999873 -9.39623 2.91023 -1.79465</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

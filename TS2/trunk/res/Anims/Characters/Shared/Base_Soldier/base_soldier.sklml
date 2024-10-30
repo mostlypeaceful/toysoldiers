@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\characters\red\~src\russian_infantry_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>23</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[soldier_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[pelvis]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 1.20067 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[spine0]]>
+</Name>
+                        <Xform>0 0.999736 -0.0229946 -1 0 1.73472e-018 5.20417e-018 0.0229946 0.999736 0 1.33632 -0.047898</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[spine1]]>
+</Name>
+                                    <Xform>3.7023e-019 0.998838 0.0481858 -1 0 1.73472e-018 5.19098e-018 -0.0481858 0.998838 0 1.50779 -0.0518418</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[spine2]]>
+</Name>
+                                                <Xform>1.17443e-018 0.979135 0.203211 -1 0 1.73472e-018 5.06992e-018 -0.203211 0.979135 5.84862e-020 1.66558 -0.0442298</Xform>
+                                                <Children count="3">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[head]]>
+</Name>
+                                                            <Xform>1.19668e-019 1 2.67026e-008 -2.27247e-016 2.67026e-008 -1 -1 -4.35716e-018 2.27607e-016 3.19008e-019 1.91964 9.43759e-009</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>5</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[head_prop]]>
+</Name>
+                                                                        <Xform>1 2.26402e-016 -2.27607e-016 -2.21925e-016 1 2.67026e-008 2.27247e-016 -2.67026e-008 1 8.53837e-018 2.24555 1.81402e-008</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>6</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[l_clav]]>
+</Name>
+                                                            <Xform>0.96707 0.228488 -0.112111 -0.226968 0.973547 0.026312 0.115157 -1.94192e-008 0.993347 0.0860269 1.71861 4.74282e-009</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>7</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[l_shoulder]]>
+</Name>
+                                                                        <Xform>0.998285 -0.022818 -0.0539108 0.0227847 0.99974 -0.00123043 0.0539249 -1.83701e-008 0.998545 0.277099 1.76376 -0.0221507</Xform>
+                                                                        <Children count="1">
+                                                                            <i>
+                                                                                <p>
+                                                                                    <MasterIndex>8</MasterIndex>
+                                                                                    <Name>
+                                                                                        <![CDATA[l_elbow]]>
+</Name>
+                                                                                    <Xform>0.998285 -0.022818 0.0539108 0.0227847 0.99974 0.00123048 -0.0539249 -1.84736e-008 0.998545 0.601818 1.75633 -0.0396866</Xform>
+                                                                                    <Children count="1">
+                                                                                        <i>
+                                                                                            <p>
+                                                                                                <MasterIndex>9</MasterIndex>
+                                                                                                <Name>
+                                                                                                    <![CDATA[l_wrist]]>
+</Name>
+                                                                                                <Xform>0.998285 -0.022818 0.0539108 0.0227847 0.99974 0.00123048 -0.0539249 -1.84736e-008 0.998545 0.926537 1.74891 -0.0221507</Xform>
+                                                                                                <Children count="0" />
+                                                                                            </p>
+                                                                                        </i>
+                                                                                    </Children>
+                                                                                </p>
+                                                                            </i>
+                                                                        </Children>
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>10</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[r_clav]]>
+</Name>
+                                                            <Xform>0.96707 -0.228488 0.112111 -0.226968 -0.973547 -0.026312 0.115157 1.94192e-008 -0.993347 -0.0860269 1.71861 1.7301e-009</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>11</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[r_shoulder]]>
+</Name>
+                                                                        <Xform>0.998285 0.022818 0.0539108 0.0227847 -0.99974 0.00123043 0.0539248 1.91658e-008 -0.998545 -0.277099 1.76376 -0.0221507</Xform>
+                                                                        <Children count="1">
+                                                                            <i>
+                                                                                <p>
+                                                                                    <MasterIndex>12</MasterIndex>
+                                                                                    <Name>
+                                                                                        <![CDATA[r_elbow]]>
+</Name>
+                                                                                    <Xform>0.998285 0.022818 -0.0539108 0.0227847 -0.99974 -0.00123048 -0.0539249 1.92646e-008 -0.998545 -0.601818 1.75633 -0.0396866</Xform>
+                                                                                    <Children count="1">
+                                                                                        <i>
+                                                                                            <p>
+                                                                                                <MasterIndex>13</MasterIndex>
+                                                                                                <Name>
+                                                                                                    <![CDATA[r_wrist]]>
+</Name>
+                                                                                                <Xform>0.998285 0.022818 -0.0539108 0.0227847 -0.99974 -0.00123051 -0.0539249 5.57554e-008 -0.998545 -0.926537 1.74891 -0.0221507</Xform>
+                                                                                                <Children count="0" />
+                                                                                            </p>
+                                                                                        </i>
+                                                                                    </Children>
+                                                                                </p>
+                                                                            </i>
+                                                                        </Children>
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>14</MasterIndex>
+                        <Name>
+                            <![CDATA[hips]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.20067 0</Xform>
+                        <Children count="2">
+                            <i>
+                                <p>
+                                    <MasterIndex>15</MasterIndex>
+                                    <Name>
+                                        <![CDATA[l_hip]]>
+</Name>
+                                    <Xform>0.0314217 -0.998647 0.0414317 -0.999283 -0.0322644 -0.0198294 0.0211393 -0.0407789 -0.998945 0.149172 1.102 -0.0219771</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>16</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[l_knee]]>
+</Name>
+                                                <Xform>0.0354171 -0.981597 -0.18765 -0.999283 -0.0322644 -0.0198294 0.0134101 0.188218 -0.982036 0.165261 0.590669 -0.000763034</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>17</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[l_ankle]]>
+</Name>
+                                                            <Xform>1 9.58203e-009 -1.6273e-009 -1.11462e-008 1 -5.75616e-009 1.79522e-009 5.71037e-009 1 0.1804 0.171099 -0.0809716</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>18</MasterIndex>
+                                    <Name>
+                                        <![CDATA[r_hip]]>
+</Name>
+                                    <Xform>0.0314217 0.998647 -0.0414317 -0.999283 0.0322644 0.0198294 0.0211393 0.0407789 0.998945 -0.149172 1.102 -0.0219771</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>19</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[r_knee]]>
+</Name>
+                                                <Xform>0.0354171 0.981597 0.18765 -0.999283 0.0322644 0.0198294 0.0134101 -0.188218 0.982036 -0.165261 0.590669 -0.000763034</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>20</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[r_ankle]]>
+</Name>
+                                                            <Xform>1 -1.23452e-008 9.40888e-009 1.36832e-008 1 -5.06255e-009 -9.6902e-009 6.71825e-009 1 -0.1804 0.171099 -0.0809716</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>21</MasterIndex>
+                        <Name>
+                            <![CDATA[l_prop]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.926537 1.74891 -0.0221507</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>22</MasterIndex>
+                        <Name>
+                            <![CDATA[r_prop]]>
+</Name>
+                        <Xform>0.998285 0.0228179 -0.0539108 0.0227847 -0.99974 -0.00123054 -0.0539249 8.58997e-008 -0.998545 -0.926537 1.74891 -0.0221507</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

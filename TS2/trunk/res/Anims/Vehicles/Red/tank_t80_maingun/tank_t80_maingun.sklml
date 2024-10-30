@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\land\tank_t80\tank_t80_maingun_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>3</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[t80_maingun_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[t80_maingun_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="1">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.477992 0.851815</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[barrel]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 0.477992 2.19205</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\air\transport_an12cub\an12cub_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>9</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[an12cub_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[an12cub_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="8">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[lprop_1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 5.90683 2.17802 7.07476</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[lprop_2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 12.7825 2.07193 5.94026</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[rudder]]></Name>
+                        <Xform>1 0 0 0 0.990353 -0.138564 0 0.138564 0.990353 6.82121e-015 6.79871 -21.957</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[l_flap]]></Name>
+                        <Xform>0.999873 0 -0.0159139 0 1 0 0.0159139 0 0.999873 9.39623 2.91023 -1.79465</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[rear_hatch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -0.00747543 -1.58201 -10.4304</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[rprop_1]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -5.92178 2.17622 7.12568</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name><![CDATA[rprop_2]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -12.7974 2.07013 5.96362</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name><![CDATA[r_flap]]></Name>
+                        <Xform>0.999873 0 0.0159139 1.94889e-018 -1 -1.22449e-016 0.0159139 1.22465e-016 -0.999873 -9.39623 2.91023 -1.79465</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

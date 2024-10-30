@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\~src\boss_beetle\boss_beetle_torso_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>19</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[boss_beetle_torso_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[boss_beetle_torso_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="5">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[l_clavicle]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 12.5933 12.0064 -10.5477</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[l_shoulder]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 23.5847 12.0064 -10.5477</Xform>
+                                    <Children count="2">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name><![CDATA[l_elbow]]></Name>
+                                                <Xform>1 0 0 0 2.22045e-016 -1 0 1 2.22045e-016 23.5219 0.53511 -10.731</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name><![CDATA[l_wrist]]></Name>
+                                                            <Xform>1 0 0 0 2.22045e-016 -1 0 1 2.22045e-016 23.5219 0.53511 -3.13661</Xform>
+                                                            <Children count="3">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>5</MasterIndex>
+                                                                        <Name><![CDATA[l_wrist_gun1]]></Name>
+                                                                        <Xform>1 0 0 0 2.22045e-016 -1 0 1 2.22045e-016 19.7535 1.19109 10.0785</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>6</MasterIndex>
+                                                                        <Name><![CDATA[l_wrist_gun2]]></Name>
+                                                                        <Xform>1 0 0 0 2.22045e-016 -1 0 1 2.22045e-016 26.9638 1.19002 10.0878</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>7</MasterIndex>
+                                                                        <Name><![CDATA[l_wrist_gun3]]></Name>
+                                                                        <Xform>1 0 0 0 2.22045e-016 -1 0 1 2.22045e-016 23.3592 4.79568 10.0851</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>8</MasterIndex>
+                                                <Name><![CDATA[l_shoulder_rockets]]></Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 23.2974 21.7625 -11</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name><![CDATA[front_hatch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -7.42501 13.7085</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[laser_cannon_slide]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.49206 2.81892</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>11</MasterIndex>
+                                    <Name><![CDATA[laser_cannon]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 1.49206 2.81892</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>12</MasterIndex>
+                                                <Name><![CDATA[laser_barrel]]></Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 1.49206 15.0449</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>13</MasterIndex>
+                        <Name><![CDATA[r_shoulder]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -26.5094 8.56578 -13.0626</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>14</MasterIndex>
+                                    <Name><![CDATA[r_elbow]]></Name>
+                                    <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -26.4781 -1.12585 -10.4719</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>15</MasterIndex>
+                                                <Name><![CDATA[r_crusher_sled_rot]]></Name>
+                                                <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -31.1765 -0.640879 -19.0847</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>16</MasterIndex>
+                                                            <Name><![CDATA[r_crusher_sled]]></Name>
+                                                            <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -36.5502 -1.63652 -20.2259</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>17</MasterIndex>
+                                                                        <Name><![CDATA[r_crusher]]></Name>
+                                                                        <Xform>1 0 0 0 -1 -1.22465e-016 0 1.22465e-016 -1 -36.6195 -15.468 -20.3793</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>18</MasterIndex>
+                        <Name><![CDATA[r_shoulder_rockets]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -16.5194 17.4151 -11</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

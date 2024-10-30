@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\antiair\blue\~src\aa_chaparral\aa_chaparral_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>35</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[aa_chaparral_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[aa_chaparral_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="2">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[all]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.868562 0.0571903</Xform>
+                        <Children count="3">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[body]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 0.868562 0.0571903</Xform>
+                                    <Children count="18">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[turret]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 2.37317 -1.27664</Xform>
+                                                <Children count="2">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[pitch]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 0 3.99944 -1.25584</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>5</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[ant_01]]>
+</Name>
+                                                            <Xform>-1 -1.22465e-016 0 -9.49309e-019 0.0077517 0.99997 -1.22461e-016 0.99997 -0.0077517 -0.706368 4.74604 -2.33646</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>6</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[ant_02]]>
+</Name>
+                                                                        <Xform>1 1.21515e-016 -1.22461e-016 -1.21515e-016 1 0 1.22461e-016 0 1 -0.706368 5.24608 -2.34033</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>7</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[cover_l]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 2.07847 2.22949 -1.22069</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>8</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[mslrm_l_fr_01]]>
+</Name>
+                                                <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 1.59461 1.8282 0.652903</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>9</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[mslrm_l_fr_02]]>
+</Name>
+                                                            <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 1.59461 2.32623 0.649401</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>10</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[mslrm_l_fr_03]]>
+</Name>
+                                                                        <Xform>1 -1.22465e-016 1.22465e-016 1.22465e-016 1 0 -1.22465e-016 2.46519e-032 1 1.59461 3.01009 0.649401</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>11</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[mslrm_l_bk_01]]>
+</Name>
+                                                <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 1.59264 1.8282 -3.11638</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>12</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[mslrm_l_bk_02]]>
+</Name>
+                                                            <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 1.59264 2.32623 -3.11988</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>13</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[mslrm_l_bk_03]]>
+</Name>
+                                                                        <Xform>1 -1.22465e-016 1.22465e-016 1.22465e-016 1 0 -1.22465e-016 2.46519e-032 1 1.59264 3.01009 -3.11988</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>14</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[cover_r]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -2.07857 2.23321 -1.22069</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>15</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[mslrm_r_fr_01]]>
+</Name>
+                                                <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 -1.65597 1.8282 0.652903</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>16</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[mslrm_r_fr_02]]>
+</Name>
+                                                            <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 -1.65597 2.32623 0.649401</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>17</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[mslrm_r_fr_03]]>
+</Name>
+                                                                        <Xform>1 -1.22465e-016 1.22465e-016 1.22465e-016 1 0 -1.22465e-016 2.46519e-032 1 -1.65597 3.01009 0.649401</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>18</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[mslrm_r_bk_01]]>
+</Name>
+                                                <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 -1.65626 1.8282 -3.11638</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>19</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[mslrm_r_bk_02]]>
+</Name>
+                                                            <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 -1.65626 2.32623 -3.11988</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>20</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[mslrm_r_bk_03]]>
+</Name>
+                                                                        <Xform>1 -1.22465e-016 1.22465e-016 1.22465e-016 1 0 -1.22465e-016 2.46519e-032 1 -1.65626 3.01009 -3.11988</Xform>
+                                                                        <Children count="0" />
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>21</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[window]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 3.12381 3.57645</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>22</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[door_l]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 2.18011 2.67725 3.51576</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>23</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[door_r]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -2.15977 2.67725 3.49754</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>24</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[back_door_01]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -1.49435 1.53907 -3.75943</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>25</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[back_door_02]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0.738435 1.53907 -3.75943</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>26</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[back_door_03]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -0.419442 1.40898 -3.75943</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>27</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[tail_gate]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -0.00316218 0.838621 -3.76057</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>28</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[missile_01]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>29</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[missile_02]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>30</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[missile_03]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>31</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[missile_04]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>32</MasterIndex>
+                                    <Name>
+                                        <![CDATA[wheels_l]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 1.83418 0.560241 0.27742</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>33</MasterIndex>
+                                    <Name>
+                                        <![CDATA[wheels_r]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -1.83341 0.560241 0.27742</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>34</MasterIndex>
+                        <Name>
+                            <![CDATA[crosshair_stay]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 3.99944 -1.25584</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

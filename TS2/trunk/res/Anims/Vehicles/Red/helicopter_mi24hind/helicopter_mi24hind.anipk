@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef>
+        <![CDATA[anims\vehicles\red\helicopter_mi24hind\helicopter_mi24hind.sklml]]>
+</SkeletonRef>
+    <AnimMetaData count="3">
+        <i>
+            <Name>
+                <![CDATA[idle]]>
+</Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name>
+                <![CDATA[forward]]>
+</Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name>
+                <![CDATA[takeoff]]>
+</Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

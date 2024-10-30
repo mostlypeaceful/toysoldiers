@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\generic\windup\windup.sklml]]></SkeletonRef>
+    <AnimMetaData count="7">
+        <i>
+            <Name><![CDATA[battery_idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[whac_idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_Mini_Pig_PigPopUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mini_Pig_PigDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.97</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[whac_deploy]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Mini_Pig_PigPopUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[whac_deploy_idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[whac_retract]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Mini_Pig_PigDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[idle_1rps]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

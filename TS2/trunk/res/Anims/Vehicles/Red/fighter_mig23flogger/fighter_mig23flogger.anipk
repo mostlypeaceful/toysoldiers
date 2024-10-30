@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\vehicles\red\fighter_mig23flogger\fighter_mig23flogger.sklml]]></SkeletonRef>
+    <AnimMetaData count="4">
+        <i>
+            <Name><![CDATA[180]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vehicle_Jet_BackFlip]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[roll_left]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vehicle_Jet_Roll]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[roll_right]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Vehicle_Jet_Roll]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[takeoff]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[NO_TAG]]></Tag>
+                    <TypeKey>9</TypeKey>
+                    <Time>0.5878</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+    </AnimMetaData>
+</Anipk>

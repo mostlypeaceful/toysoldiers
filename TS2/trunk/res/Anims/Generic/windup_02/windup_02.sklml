@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\generic\~src\windup_02\windup_02_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>5</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[windup_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[windup_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[key]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.498833 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name>
+                            <![CDATA[gear_1]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.329711 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name>
+                            <![CDATA[gear_2]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.388536 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name>
+                            <![CDATA[gear_3]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.32321 0.190001 0.324567</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

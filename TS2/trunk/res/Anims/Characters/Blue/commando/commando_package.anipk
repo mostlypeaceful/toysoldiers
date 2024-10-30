@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\characters\blue\commando\commando_package.sklml]]></SkeletonRef>
+    <AnimMetaData count="2">
+        <i>
+            <Name><![CDATA[enter_fall]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[enter_land]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_CHA_Commando_BoxOpen]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.193</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+    </AnimMetaData>
+</Anipk>

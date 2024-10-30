@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\machinegun\red\~src\mgun_nsv\mgun_nsv_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>18</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[mgun_nsv_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[mgun_nsv_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[body]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.09489 0</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[yaw]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 1.17485 -0.0432797</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[pitch]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 1.28673 0.0677023</Xform>
+                                                <Children count="2">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[lid]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 0 1.86146 -0.330669</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>5</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[barrel]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 0 1.63238 -0.0765357</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name>
+                            <![CDATA[ammo_belt_01]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -0.549798 1.77313 -1.08543</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>7</MasterIndex>
+                                    <Name>
+                                        <![CDATA[ammo_belt_02]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -1.00958 1.77313 -1.08543</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>8</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[ammo_belt_03]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -1.46842 1.77313 -1.08543</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>9</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[ammo_belt_04]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 -1.92861 1.77313 -1.08543</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>10</MasterIndex>
+                                                                        <Name>
+                                                                            <![CDATA[ammo_belt_05]]>
+</Name>
+                                                                        <Xform>1 0 0 0 1 0 0 0 1 -2.3888 1.77313 -1.08543</Xform>
+                                                                        <Children count="1">
+                                                                            <i>
+                                                                                <p>
+                                                                                    <MasterIndex>11</MasterIndex>
+                                                                                    <Name>
+                                                                                        <![CDATA[ammo_belt_06]]>
+</Name>
+                                                                                    <Xform>1 0 0 0 1 0 0 0 1 -2.84745 1.77313 -1.08543</Xform>
+                                                                                    <Children count="1">
+                                                                                        <i>
+                                                                                            <p>
+                                                                                                <MasterIndex>12</MasterIndex>
+                                                                                                <Name>
+                                                                                                    <![CDATA[ammo_belt_07]]>
+</Name>
+                                                                                                <Xform>1 0 0 0 1 0 0 0 1 -3.30764 1.77313 -1.08543</Xform>
+                                                                                                <Children count="1">
+                                                                                                    <i>
+                                                                                                        <p>
+                                                                                                            <MasterIndex>13</MasterIndex>
+                                                                                                            <Name>
+                                                                                                                <![CDATA[ammo_belt_08]]>
+</Name>
+                                                                                                            <Xform>1 0 0 0 1 0 0 0 1 -3.7663 1.77313 -1.08543</Xform>
+                                                                                                            <Children count="0" />
+                                                                                                        </p>
+                                                                                                    </i>
+                                                                                                </Children>
+                                                                                            </p>
+                                                                                        </i>
+                                                                                    </Children>
+                                                                                </p>
+                                                                            </i>
+                                                                        </Children>
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>14</MasterIndex>
+                        <Name>
+                            <![CDATA[ammo_box]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -1.86018 -0.00511882 -1.08569</Xform>
+                        <Children count="2">
+                            <i>
+                                <p>
+                                    <MasterIndex>15</MasterIndex>
+                                    <Name>
+                                        <![CDATA[ammo_box_lid]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -1.29224 0.478281 -1.07883</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>16</MasterIndex>
+                                    <Name>
+                                        <![CDATA[ammo_box_handle]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -1.86018 0.754288 -1.05658</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>17</MasterIndex>
+                        <Name>
+                            <![CDATA[crosshair_stay]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.28673 0.0677023</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

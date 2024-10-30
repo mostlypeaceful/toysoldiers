@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\preplaced\red\~src\gen_ussr_armor\gen_ussr_armor_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>7</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[gen_ussr_armor_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[gen_ussr_armor_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 10</Xform>
+            <Children count="5">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[spotlight_base]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 15.3266 17.2871 13.3665</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[spotlight]]></Name>
+                                    <Xform>0.835862 0 -0.548939 0 1 0 0.548939 0 0.835862 15.3187 20.8294 13.3566</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[door_1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 10.0869 8.54731 2.38736</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[door_2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -8.8614 8.54762 20.1002</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[door_3]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.633465 8.54762 20.1002</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[door_4]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 10.236 8.54762 20.1002</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\artillery\red\artillery_2a36\artillery_2a36.sklml]]></SkeletonRef>
+    <AnimMetaData count="7">
+        <i>
+            <Name><![CDATA[aim_down]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[aim_up]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="6">
+                <i>
+                    <Tag><![CDATA[Play_Arty_L1_Reload_BarrelDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L3_Reload_ShellGrab]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.6282</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L3_Reload_ShellToss]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.3066</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L2_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.3877</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L1_Reload_BarrelUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.9359</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Arty_L2_Reload_HatchClose]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.0194</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.001</CompressionErrorP>
+            <CompressionErrorR>0.0001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[idle_ai]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[fire]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

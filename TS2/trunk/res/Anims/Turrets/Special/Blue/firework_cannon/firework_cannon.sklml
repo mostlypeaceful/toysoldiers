@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\turrets\special\blue\~src\firework_cannon\firework_cannon_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>16</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[firework_cannon_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[firework_cannon_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[yaw]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.85569 0</Xform>
+                        <Children count="8">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[cracker_1]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0.321506 1.82424 2.17372</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name><![CDATA[cracker_2]]></Name>
+                                    <Xform>0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 -1.321 1.82424 1.70627</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name><![CDATA[cracker_3]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -2.18177 1.82424 0.321245</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>5</MasterIndex>
+                                    <Name><![CDATA[cracker_4]]></Name>
+                                    <Xform>0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 -1.73373 1.82424 -1.33539</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>6</MasterIndex>
+                                    <Name><![CDATA[cracker_5]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -0.338794 1.82424 -2.19947</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>7</MasterIndex>
+                                    <Name><![CDATA[cracker_6]]></Name>
+                                    <Xform>0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 1.31673 1.82424 -1.74294</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>8</MasterIndex>
+                                    <Name><![CDATA[cracker_7]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 2.1734 1.82424 -0.313791</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>9</MasterIndex>
+                                    <Name><![CDATA[cracker_8]]></Name>
+                                    <Xform>0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 1.71205 1.82424 1.3294</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[shell]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name><![CDATA[crosshair_stay]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 5.92685 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>12</MasterIndex>
+                        <Name><![CDATA[pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 5.92685 0</Xform>
+                        <Children count="3">
+                            <i>
+                                <p>
+                                    <MasterIndex>13</MasterIndex>
+                                    <Name><![CDATA[rear_tube]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -0.00168493 5.95407 -1.50002</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>14</MasterIndex>
+                                    <Name><![CDATA[front_tube]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0.0298142 5.95158 1.47804</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>15</MasterIndex>
+                                    <Name><![CDATA[main_tube]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 6.13352 0</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

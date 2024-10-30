@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\preplaced\red\~src\ussr_flag_01_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>26</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[flag_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[flag_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="25">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_1]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 0.714495 1.0006 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_2]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 1.71449 1.0006 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_3]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 2.71449 1.0006 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_4]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 3.71449 1.0006 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_5]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 4.71449 1.0006 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_6]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 4.71449 0.500604 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_7]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 3.71449 0.500604 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_8]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 2.71449 0.500604 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_9]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 1.71449 0.500604 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_10]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 0.714495 0.500604 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_11]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 0.714495 0.000604391 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>12</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_12]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 1.71449 0.000604391 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>13</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_13]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 2.71449 0.000604391 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>14</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_14]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 3.71449 0.000604391 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>15</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_15]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 4.71449 0.000604391 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>16</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_16]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 4.71449 -0.499396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>17</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_17]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 3.71449 -0.499396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>18</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_18]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 2.71449 -0.499396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>19</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_19]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 1.71449 -0.499396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>20</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_20]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 0.714495 -0.499396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>21</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_21]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 0.714495 -0.999396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>22</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_22]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 1.71449 -0.999396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>23</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_23]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 2.71449 -0.999396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>24</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_24]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 3.71449 -0.999396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>25</MasterIndex>
+                        <Name>
+                            <![CDATA[flag_joint_25]]>
+</Name>
+                        <Xform>2.22045e-016 -1 0 2.22045e-016 0 -1 1 2.22045e-016 2.22045e-016 4.71449 -0.999396 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

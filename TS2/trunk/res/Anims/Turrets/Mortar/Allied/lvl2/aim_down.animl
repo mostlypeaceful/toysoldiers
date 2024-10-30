@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\allied\~src\lvl2\britmor_lvl2_aim_down.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[britrmor2_ref_frame]]>
+</Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="6">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 0 -3.67394e-016 2.59787e-016 0.707107 -0.707107 2.59787e-016 -0.707107 -0.707107 -9.86076e-034 0.00242184 -0.051118</i>
+                        <i>-1 0 -3.67394e-016 2.59787e-016 0.707107 -0.707107 2.59787e-016 -0.707107 -0.707107 -9.86076e-034 0.00242184 -0.051118</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 8.65956e-017 4.5399e-016 2.46035e-016 0.731795 -0.681525 -3.91244e-016 0.681525 0.731795 -4.32479e-016 1.43299 1.3547</i>
+                        <i>1 8.65956e-017 4.5399e-016 2.46035e-016 0.731795 -0.681525 -3.91244e-016 0.681525 0.731795 -4.32479e-016 1.43299 1.3547</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[l_chain]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-0.964619 6.96347e-009 -0.263647 0.132052 0.865524 -0.483146 0.228193 -0.500867 -0.834901 0.396124 0.916297 1.31903</i>
+                        <i>-0.964619 6.96347e-009 -0.263647 0.132052 0.865524 -0.483146 0.228193 -0.500867 -0.834901 0.396124 0.916297 1.31903</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[rear_chain]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 -2.76591e-016 -1.15271e-016 2.96822e-016 0.967056 0.254564 4.10633e-017 -0.254564 0.967056 -2.75471e-016 1.4968 0.712383</i>
+                        <i>1 -2.76591e-016 -1.15271e-016 2.96822e-016 0.967056 0.254564 4.10633e-017 -0.254564 0.967056 -2.75471e-016 1.4968 0.712383</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[r_chain]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-0.964619 -3.35599e-007 0.263647 0.132052 -0.865525 0.483145 0.228193 0.500866 0.834902 -0.396124 0.916294 1.31903</i>
+                        <i>-0.964619 -3.35599e-007 0.263647 0.132052 -0.865525 0.483145 0.228193 0.500866 0.834902 -0.396124 0.916294 1.31903</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

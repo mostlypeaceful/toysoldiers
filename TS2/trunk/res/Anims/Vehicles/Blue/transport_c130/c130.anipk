@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\vehicles\blue\transport_c130\c130.sklml]]></SkeletonRef>
+    <AnimMetaData count="8">
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[forward]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[maxspeed_turn_left]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[maxspeed_turn_right]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[minspeed_turn_left]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[minspeed_turn_right]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[deploy]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Bomber_BayOpen]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.2258</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[retract]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="1">
+                <i>
+                    <Tag><![CDATA[Play_Bomber_BayClose]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.0137</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+    </AnimMetaData>
+</Anipk>

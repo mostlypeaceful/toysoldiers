@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\antitank\red\~src\at_rpg7\at_rpg7_skeleton.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>6</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[at_rpg7_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[at_rpg7_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="2">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[body]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="3">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rear_sight]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 0.44475 0.701844</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name>
+                                        <![CDATA[front_sight]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 0.450448 2.03512</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rocket]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name>
+                            <![CDATA[crosshairs_stay]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

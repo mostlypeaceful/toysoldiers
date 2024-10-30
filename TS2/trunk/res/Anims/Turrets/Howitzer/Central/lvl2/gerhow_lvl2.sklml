@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[units\heavyartillery\german\~src\gerhow_lvl2_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>6</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[gerhow2_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="3">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[wheel_axle]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.70461 -1.78731e-009</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name>
+                            <![CDATA[angle_pivot]]>
+</Name>
+                        <Xform>-1 1.22465e-016 0 -1.22465e-016 -1 0 0 0 1 0 2.25877 1.09269</Xform>
+                        <Children count="2">
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name>
+                                        <![CDATA[barrel]]>
+</Name>
+                                    <Xform>1 0 -0 0 1 0 0 0 1 -4.76414e-008 3.41382 2.42303</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name>
+                                        <![CDATA[hatch]]>
+</Name>
+                                    <Xform>1 0 -0 0 1 0 0 0 1 -0.631075 3.41382 -0.508731</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name>
+                            <![CDATA[sled_rotate]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 2.25877 1.09269</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

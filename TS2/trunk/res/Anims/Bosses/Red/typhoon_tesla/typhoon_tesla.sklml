@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\~src\sub_typhoon_tesla\sub_typhoon_tesla_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>5</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[typhoon_tesla_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[typhoon_tesla_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 3.43832e-009 3.87337 1.03149e-008</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[left_coil_1_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 6.41301 8.02434 -1.72969</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[left_coil_2_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 1.57112 8.02434 -1.72969</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[right_coil_1_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -1.57895 8.02434 -1.72969</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[right_coil_2_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -6.42597 8.02434 -1.72969</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

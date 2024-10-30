@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\machinegun\allied\~src\machinegun_australian_lvl1_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>5</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[mg_aus_lvl1_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[root]]>
+</Name>
+            <Xform>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 0 0</Xform>
+            <Children count="2">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[gun_yaw]]>
+</Name>
+                        <Xform>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 2.23558e-016 1.00682 0.519733</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[gun_pitch]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 2.44828e-016 1.10261 0.519733</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[ammo_1]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 2.44828e-016 1.7706 -0.892835</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name>
+                            <![CDATA[gun_crosshair_stay]]>
+</Name>
+                        <Xform>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 1.10261 0.519733</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

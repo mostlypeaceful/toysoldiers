@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\allied\~src\lvl1\britmor_lvl1_skin.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[britmor1_ref_frame]]>
+</Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="5">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 0 -1.22465e-016 1.06924e-016 0.487541 -0.8731 5.97065e-017 -0.8731 -0.487541 0 0.0444843 0.0101455</i>
+                        <i>-1 0 -1.22465e-016 1.06924e-016 0.487541 -0.8731 5.97065e-017 -0.8731 -0.487541 0 0.0444843 0.0101455</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 1.06924e-016 1.82171e-016 1.05911e-016 0.49238 -0.87038 -1.82762e-016 0.87038 0.49238 -3.16282e-018 2.17729 1.19638</i>
+                        <i>1 1.06924e-016 1.82171e-016 1.05911e-016 0.49238 -0.87038 -1.82762e-016 0.87038 0.49238 -3.16282e-018 2.17729 1.19638</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[traverse_screw]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.64631 0.763075 0 -0.763075 0.64631 0 1.45295 1.1412</i>
+                        <i>1 0 0 0 0.64631 0.763075 0 -0.763075 0.64631 0 1.45295 1.1412</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[stand_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 2.47628</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 2.47628</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

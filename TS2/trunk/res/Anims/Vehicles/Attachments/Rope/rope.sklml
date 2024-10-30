@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\attachments\~src\rope\rope_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>11</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[rope_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0.00368777 1.30368e-005</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[rope_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0.00311265 1.30368e-005</Xform>
+            <Children count="10">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[rope1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -3.74631 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[rope2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -7.53783 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[rope3]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -11.2463 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[rope4]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -14.9963 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[rope5]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -18.7463 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[rope6]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -22.4963 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name><![CDATA[rope7]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -26.2463 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name><![CDATA[rope8]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -29.9963 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name><![CDATA[rope9]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -33.7463 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[rope10]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -37.4963 1.30368e-005</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\turrets\antiair\red\~src\aa_s125_launcher\aa_s125_launcher_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>14</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[aa_s125launcher_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[aa_s125launcher_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="10">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[rotate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.628496 -2.1305</Xform>
+                        <Children count="2">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[pitch]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 1.46813 0.0750322</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name><![CDATA[hydraulic]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 2.4837 -0.032325</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>4</MasterIndex>
+                                                <Name><![CDATA[pitch_support]]></Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 2.4837 0.0867989</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[crosshairs_stay]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.46813 0.0750323</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[missile1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name><![CDATA[missile2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name><![CDATA[missile3]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name><![CDATA[missile4]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 1.24345e-016</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[lid4]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -3.79956 0.581167 -1.88175</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name><![CDATA[lid3]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -1.6698 0.581253 -1.88175</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>12</MasterIndex>
+                        <Name><![CDATA[lid2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 1.74227 0.581111 -1.88175</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>13</MasterIndex>
+                        <Name><![CDATA[lid1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 3.80163 0.581041 -1.88175</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

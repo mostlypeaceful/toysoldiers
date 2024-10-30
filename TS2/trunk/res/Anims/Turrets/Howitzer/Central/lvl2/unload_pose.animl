@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[units\heavyartillery\german\anims\~src\lvl2\gerhow_lvl2_unload.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[gerhow2_ref_frame]]>
+</Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 1.49 1.46</i>
+                <i>1 0 0 0 1 0 0 0 1 0 1.49 1.46</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="6">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 1.49 1.46</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 1.49 1.46</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[wheel_axle]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 3.19445 1.46</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 3.19445 1.46</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 3.67394e-016 0 -3.67394e-016 -1 -0 0 0 1 0 3.74996 2.55269</i>
+                        <i>-1 3.67394e-016 0 -3.67394e-016 -1 -0 0 0 1 0 3.74996 2.55269</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 -2.44929e-016 0 2.44929e-016 1 0 0 0 1 -4.76414e-008 4.90501 3.88303</i>
+                        <i>1 -2.44929e-016 0 2.44929e-016 1 0 0 0 1 -4.76414e-008 4.90501 3.88303</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[hatch]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 -2.44929e-016 0 2.44929e-016 1 0 0 0 1 -0.631075 4.90501 0.951269</i>
+                        <i>1 -2.44929e-016 0 2.44929e-016 1 0 0 0 1 -0.631075 4.90501 0.951269</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[sled_rotate]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.99795 -0.0639944 0 0.0639944 0.99795 0 3.74877 2.55269</i>
+                        <i>1 0 0 0 0.99795 -0.0639944 0 0.0639944 0.99795 0 3.74877 2.55269</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

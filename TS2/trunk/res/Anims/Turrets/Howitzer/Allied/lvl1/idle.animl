@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[units\heavyartillery\british\anims\~src\lvl1\brithow_lvl1_idle.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[brithow1_ref_frame]]>
+</Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="7">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[wheel_axle]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 1.5 5.8165e-008</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 1.5 5.8165e-008</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 1.22465e-016 0 -1.22465e-016 -1 0 0 0 1 0 1.49927 0</i>
+                        <i>-1 1.22465e-016 0 -1.22465e-016 -1 0 0 0 1 0 1.49927 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 -0 0 1 0 0 0 1 -9.31766e-008 1.98217 0</i>
+                        <i>1 0 -0 0 1 0 0 0 1 -9.31766e-008 1.98217 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[hatch]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 -0.267751 1.73526 -1.7012</i>
+                        <i>1 0 0 0 1 0 0 0 1 -0.267751 1.73526 -1.7012</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[crank]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 -0 0 1 0 0 0 1 -0.329743 2.0963 -0.708823</i>
+                        <i>1 0 -0 0 1 0 0 0 1 -0.329743 2.0963 -0.708823</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[sled_rotate]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.98434 -0.176283 0 0.176283 0.98434 0 1.5 5.8165e-008</i>
+                        <i>1 0 0 0 0.98434 -0.176283 0 0.176283 0.98434 0 1.5 5.8165e-008</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

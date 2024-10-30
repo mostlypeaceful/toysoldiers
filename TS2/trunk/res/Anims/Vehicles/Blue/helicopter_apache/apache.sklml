@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\vehicles\blue\~src\air\apache_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>15</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[apache_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[apache_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 3.43506 0</Xform>
+            <Children count="9">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[rotor]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 4.91999 0.0729555</Xform>
+                        <Children count="4">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rotor_1]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 4.96535 4.92645 0.103049</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rotor_2]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -4.99706 4.90812 0.103049</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rotor_3]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -0.00251062 4.65119 5.07792</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                            <i>
+                                <p>
+                                    <MasterIndex>5</MasterIndex>
+                                    <Name>
+                                        <![CDATA[rotor_4]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 5.18823 -4.86955</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name>
+                            <![CDATA[tail_rotor]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.298642 4.85817 -10.4207</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name>
+                            <![CDATA[front_gear]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 1.48048 2.2673</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name>
+                            <![CDATA[l_front_door]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.393023 3.44116 3.07212</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name>
+                            <![CDATA[l_rear_door]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.393023 3.80069 1.83995</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name>
+                            <![CDATA[r_rear_door]]>
+</Name>
+                        <Xform>1 0 0 -0 -0.998754 -0.0499016 0 0.0499016 -0.998754 -0.393023 3.80069 1.83995</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name>
+                            <![CDATA[r_front_door]]>
+</Name>
+                        <Xform>1 0 0 -0 -0.937058 -0.349175 0 0.349175 -0.937058 -0.393023 3.44116 3.07212</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>12</MasterIndex>
+                        <Name>
+                            <![CDATA[tailplane]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 2.7959 -10.4763</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>13</MasterIndex>
+                        <Name>
+                            <![CDATA[gun_yaw]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0.00497803 1.47331 2.96722</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>14</MasterIndex>
+                                    <Name>
+                                        <![CDATA[gun_pitch]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0.00497803 0.906019 2.96722</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

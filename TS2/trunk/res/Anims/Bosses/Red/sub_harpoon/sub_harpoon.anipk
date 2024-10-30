@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\bosses\red\sub_harpoon\sub_harpoon.sklml]]></SkeletonRef>
+    <AnimMetaData count="5">
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[drop]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.0001</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_Sub_Grapling_Fire]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Sub_Grapling_Impact]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.2418</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[retract]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>1e-005</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[deploy]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[deploy_idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

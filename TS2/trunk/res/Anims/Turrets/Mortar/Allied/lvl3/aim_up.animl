@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\allied\~src\lvl3\britmor_lvl3_aim_up.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[britmor3_ref_frame]]>
+</Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="4">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 0 1 0</i>
+                        <i>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 0 1 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 2.51736e-016 2.02779 2.28215e-016</i>
+                        <i>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 2.51736e-016 2.02779 2.28215e-016</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[crank]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 -1.22465e-016 -1.22465e-016 1.22465e-016 1 0 1.22465e-016 0 1 -1.42109e-016 2.80779 -0.763225</i>
+                        <i>1 -1.22465e-016 -1.22465e-016 1.22465e-016 1 0 1.22465e-016 0 1 -1.42109e-016 2.80779 -0.763225</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

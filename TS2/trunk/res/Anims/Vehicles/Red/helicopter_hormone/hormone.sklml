@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\air\helicopter_hormone\helicopter_hormone_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>5</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[hormone_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[hormone_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 3 0</Xform>
+            <Children count="2">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[rotor]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 5.5 0</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[blades]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 5.4307 0</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[rotor_top]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 7.03914 0</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>4</MasterIndex>
+                                    <Name><![CDATA[blades_top]]></Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 7.52853 0</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

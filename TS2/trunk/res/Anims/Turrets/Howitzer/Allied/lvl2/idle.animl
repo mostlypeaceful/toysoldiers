@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[characters\anims\british\~src\howitzers\lvl2\how_lvl2_idle_passer.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[how_ref_frame]]>
+</Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 1.49 2.19</i>
+                <i>1 0 0 0 1 0 0 0 1 0 1.49 2.19</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="8">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 1.49 2.19</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 1.49 2.19</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[wheel_axle]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 3.19461 2.19</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 3.19461 2.19</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[angle_pivot]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 0 3.96428 2.81614</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 3.96428 2.81614</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[barrel]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 -4.76414e-008 4.31716 4.14647</i>
+                        <i>1 0 0 0 1 0 0 0 1 -4.76414e-008 4.31716 4.14647</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[hatch]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 1 0 0 0 1 -0.768889 4.30141 0.169717</i>
+                        <i>1 0 0 0 1 0 0 0 1 -0.768889 4.30141 0.169717</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[sled_rotate]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 0 3.74877 3.28269</i>
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 0 3.74877 3.28269</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[side_crank]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 1.58773 2.65712 0.0611359</i>
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 1.58773 2.65712 0.0611359</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[crank]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 1.27762 3.2755 0.336017</i>
+                        <i>1 0 0 0 0.996181 -0.087313 0 0.087313 0.996181 1.27762 3.2755 0.336017</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

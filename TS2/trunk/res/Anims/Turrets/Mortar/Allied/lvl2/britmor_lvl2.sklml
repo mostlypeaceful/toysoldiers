@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\allied\~src\lvl2\britmor_lvl2_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>6</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[britrmor2_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="1">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[angle_pivot]]>
+</Name>
+                        <Xform>-1 1.2326e-032 -1.22465e-016 1.14709e-016 0.350207 -0.936672 4.2888e-017 -0.936672 -0.350207 0 0.00242184 -0.051118</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[barrel]]>
+</Name>
+                                    <Xform>1 1.14709e-016 1.65353e-016 1.08759e-016 0.383281 -0.923632 -1.69326e-016 0.923632 0.383281 -2.90519e-024 1.88717 0.634874</Xform>
+                                    <Children count="3">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[l_chain]]>
+</Name>
+                                                <Xform>-0.769877 -1.12299e-008 -0.638193 0.603653 0.324521 -0.72821 0.207107 -0.945878 -0.249841 0.396124 1.4022 0.816685</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>4</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[rear_chain]]>
+</Name>
+                                                <Xform>1 1.14709e-016 1.65353e-016 -1.14709e-016 1 0 -1.65353e-016 0 1 1.24916e-016 1.67886 0.0239308</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                        <i>
+                                            <p>
+                                                <MasterIndex>5</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[r_chain]]>
+</Name>
+                                                <Xform>-0.769877 1.12299e-008 0.638193 0.603653 -0.324521 0.72821 0.207107 0.945878 0.249841 -0.396124 1.4022 0.816685</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

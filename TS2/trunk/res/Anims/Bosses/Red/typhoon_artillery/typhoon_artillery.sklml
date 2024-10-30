@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\~src\sub_typhoon_artillery\sub_typhoon_artillery_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>4</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[typhoon_artillery_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[typhoon_artillery_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 3.43832e-009 3.87337 1.03149e-008</Xform>
+            <Children count="3">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[mid_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -4.66294e-015 6.78827 -4.08979</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[left_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 5.70827 6.78827 -4.08979</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[right_pitch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -5.64776 6.78827 -4.08979</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

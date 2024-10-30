@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\vehicles\blue\~src\air\helicopter_uh1iroquois\helicopter_uh1iroquois_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>7</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[uh1_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[uh1_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 1.5 0</Xform>
+            <Children count="5">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[rotor]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 4 0</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[blades]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 5 0</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name>
+                            <![CDATA[stabilizer_bar]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 5 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name>
+                            <![CDATA[tail_rotor]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 4.74636 -11.5546</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name>
+                            <![CDATA[left_gatling]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 2.24429 1.02798 -0.146094</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name>
+                            <![CDATA[right_gatling]]>
+</Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -2.24429 1.02798 -0.146094</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

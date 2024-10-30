@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bases\~src\blue\mp_generator\mp_generator_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>11</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[mp_generator_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[mp_generator_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="10">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[front_crate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -4.03192 6.68786</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[back_crate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -4.03192 -6.66738</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[left_crate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 8.35912 -4.03192 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[right_crate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -8.35738 -4.03192 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[top_crate]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.29403 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[front_door_inner]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.821725 3.81368</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name><![CDATA[back_door_inner]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.7966 -3.84809</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name><![CDATA[front_door_outer]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.821725 3.81368</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name><![CDATA[back_door_outer]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.7966 -3.84809</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[platform]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 -8.04998 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

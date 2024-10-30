@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2008]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[dlc2\units\air\mashup\anims\~src\p51_idle.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[p51_ref_frame]]>
+</Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="10">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[p51_root]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 1.88206 0</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 1.88206 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[l_gear]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 2.09761 1.57372 0.584065</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 2.09761 1.57372 0.584065</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[l_hatch]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0.590982 1.21624 0.68594</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0.590982 1.21624 0.68594</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[prop]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 2.90343 3.2692</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 2.90343 3.2692</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[r_gear]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -2.09761 1.57372 0.584065</i>
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -2.09761 1.57372 0.584065</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[r_hatch]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -0.590982 1.21623 0.68594</i>
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -0.590982 1.21623 0.68594</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[rudder]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 1.00345 -4.22912</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 1.00345 -4.22912</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[l_aileron]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 3.50285 1.44725 0.0292904</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 3.50285 1.44725 0.0292904</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[elevator]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 0.914703 -3.68525</i>
+                        <i>1 0 0 0 0.954501 -0.298207 0 0.298207 0.954501 0 0.914703 -3.68525</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[r_aileron]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -3.50285 1.44725 0.0292915</i>
+                        <i>1 0 0 -0 -0.954501 0.298207 0 -0.298207 -0.954501 -3.50285 1.44725 0.0292915</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

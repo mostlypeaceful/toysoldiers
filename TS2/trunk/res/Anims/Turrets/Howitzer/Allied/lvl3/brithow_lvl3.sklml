@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\howitzer\allied\~src\lvl3\how_brit_lvl3_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>7</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[brithow3_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[brithow3_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[side_crank]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 2.70705 2.70785 0.779445</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name>
+                            <![CDATA[angle_pivot]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 4.5 1.5</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name>
+                                        <![CDATA[barrel]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 -4.76414e-008 4.5 2.83033</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>4</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[hatch]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 -0.97209 4.4846 -2.07758</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name>
+                            <![CDATA[crane_lever]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 1.23229 2.03534 -3.54802</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name>
+                            <![CDATA[crank]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 2.27143 3.29987 0.956314</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

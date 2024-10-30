@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\red\~src\mortar_2s12sani\mortar_2s12sani_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>9</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[mortar_m2s12sani_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[mortar_m2s12sani_root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[pitch]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.347601 -0.0173403</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name>
+                            <![CDATA[body]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 2.35058 1.40565</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>3</MasterIndex>
+                                    <Name>
+                                        <![CDATA[legs_rotate]]>
+</Name>
+                                    <Xform>1 0 0 0 1 0 0 0 1 0 2.15106 2.61453</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>4</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[legs_slide]]>
+</Name>
+                                                <Xform>1 0 0 0 1 0 0 0 1 0 1.63315 3.23137</Xform>
+                                                <Children count="2">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>5</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[leg_right]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 -0.283725 1.37719 3.53901</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>6</MasterIndex>
+                                                            <Name>
+                                                                <![CDATA[leg_left]]>
+</Name>
+                                                            <Xform>1 0 0 0 1 0 0 0 1 0.288861 1.37719 3.53901</Xform>
+                                                            <Children count="0" />
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name>
+                            <![CDATA[shell]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name>
+                            <![CDATA[crosshairs_stay]]>
+</Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 0 0.347601 -0.0173403</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

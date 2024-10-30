@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\bases\blue\mp_generator\mp_generator.sklml]]></SkeletonRef>
+    <AnimMetaData count="2">
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[deploy]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.0001</CompressionErrorP>
+            <CompressionErrorR>1e-005</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="7">
+                <i>
+                    <Tag><![CDATA[Play_Generator_Vehicle_DoorOpen]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Generator_Vehicle_CrateRise]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.6488</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Generator_Vehicle_DoorOpen_End]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.8687</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Generator_Vehicle_CrateRise_End]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.1727</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[spawn_vehicle]]></Tag>
+                    <TypeKey>1</TypeKey>
+                    <Time>3.3079</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Generator_Vehicle_CrateDestroy]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.3326</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[vehicle_purchased]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>3.3621</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+    </AnimMetaData>
+</Anipk>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\mi12_homer_mg\~src\mi12_homer_mg_fire.mb]]></SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>13</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name><![CDATA[mi12_homer_mg_ref_frame]]></Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <IKPriority>0</IKPriority>
+            <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+            <IKRotLimitOrder>0</IKRotLimitOrder>
+            <KeyFrames count="13">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="3">
+            <i>
+                <p>
+                    <Name><![CDATA[mi12_homer_mg_root]]></Name>
+                    <Exclude>1</Exclude>
+                    <Additive>1</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="13">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[yaw]]></Name>
+                    <Exclude>1</Exclude>
+                    <Additive>1</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="13">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[pitch]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>1</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="13">
+                        <i>1 0 0 0 0.998808 0.04882 0 -0.04882 0.998808 0 1.02116 -0.166921</i>
+                        <i>1 0 0 0 0.997876 0.0651407 0 -0.0651407 0.997876 0 1.02116 -0.138378</i>
+                        <i>1 0 0 0 0.998468 0.0553328 0 -0.0553328 0.998468 0 1.02116 -0.186409</i>
+                        <i>1 0 0 0 0.998963 0.0455195 0 -0.0455195 0.998963 0 1.02116 -0.162917</i>
+                        <i>1 0 0 0 0.998068 0.06213 0 -0.06213 0.998068 0 1.02116 -0.139424</i>
+                        <i>1 0 0 0 0.996897 0.0787233 0 -0.0787233 0.996897 0 1.02116 -0.171231</i>
+                        <i>1 0 0 0 0.998476 0.0551799 0 -0.0551799 0.998476 0 1.02116 -0.143498</i>
+                        <i>1 0 0 0 0.9995 0.0316057 0 -0.0316057 0.9995 0 1.02116 -0.185886</i>
+                        <i>1 0 0 0 0.997301 0.0734164 0 -0.0734164 0.997301 0 1.02116 -0.141193</i>
+                        <i>1 0 0 0 0.998444 0.0557702 0 -0.0557702 0.998444 0 1.02116 -0.17811</i>
+                        <i>1 0 0 0 0.999274 0.0381066 0 -0.0381066 0.999274 0 1.02116 -0.200237</i>
+                        <i>1 0 0 0 0.997877 0.065126 0 -0.065126 0.997877 0 1.02116 -0.141012</i>
+                        <i>1 0 0 0 0.998808 0.04882 0 -0.04882 0.998808 0 1.02116 -0.166921</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

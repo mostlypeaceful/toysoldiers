@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\antiair\blue\aa_chaparral\aa_chaparral.sklml]]></SkeletonRef>
+    <AnimMetaData count="4">
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_USA_AA_L2_Reload_TurretDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.1</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USA_AA_L2_Reload_TurretUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.3</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="2">
+                <i>
+                    <Tag><![CDATA[Play_USA_AA_L2_Reload_TurretDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0.1</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_USA_AA_L2_Reload_TurretUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.3</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[idle]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+        <i>
+            <Name><![CDATA[idle_ai]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

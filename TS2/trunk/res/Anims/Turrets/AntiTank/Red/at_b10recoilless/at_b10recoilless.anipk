@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\antitank\red\at_b10recoilless\at_b10recoilless.sklml]]></SkeletonRef>
+    <AnimMetaData count="2">
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="4">
+                <i>
+                    <Tag><![CDATA[Play_AT_L2_Reload_HatchOpen]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellPickup]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.0789</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AT_L2_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.5465</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AT_L2_Reload_HatchClose]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.2</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="4">
+                <i>
+                    <Tag><![CDATA[Play_AT_L2_Reload_HatchOpen]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellPickup]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.0789</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.5465</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_AT_L2_Reload_HatchClose]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.2</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+    </AnimMetaData>
+</Anipk>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\~src\sub_harpoon\sub_harpoon_deploy_idle.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>10</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[sub_harpoon_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[sub_harpoon_root]]></Name>
+            <Xform>1 0 0 0 0.906524 -0.422155 0 0.422155 0.906524 0 -5.09335 -11.3954</Xform>
+            <Children count="1">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[rope_1]]></Name>
+                        <Xform>1 0 0 0 0.947653 -0.319302 0 0.319302 0.947653 0 -0.401605 0.538982</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[rope_2]]></Name>
+                                    <Xform>1 0 0 0 0.964315 -0.264759 0 0.264759 0.964315 0 2.03058 8.07117</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name><![CDATA[rope_3]]></Name>
+                                                <Xform>1 0 0 0 0.954225 -0.29909 0 0.29909 0.954225 0 4.78002 15.814</Xform>
+                                                <Children count="1">
+                                                    <i>
+                                                        <p>
+                                                            <MasterIndex>4</MasterIndex>
+                                                            <Name><![CDATA[rope_4]]></Name>
+                                                            <Xform>1 -0.000168555 -0.000361951 9.34258e-006 0.916153 -0.400828 0.000399164 0.400828 0.916153 0.000830209 7.24685 23.1558</Xform>
+                                                            <Children count="1">
+                                                                <i>
+                                                                    <p>
+                                                                        <MasterIndex>5</MasterIndex>
+                                                                        <Name><![CDATA[rope_5]]></Name>
+                                                                        <Xform>1 -0.000114653 -0.000246202 -8.86393e-006 0.892263 -0.451517 0.000271444 0.451517 0.892263 -0.000389544 9.25272 27.0896</Xform>
+                                                                        <Children count="1">
+                                                                            <i>
+                                                                                <p>
+                                                                                    <MasterIndex>6</MasterIndex>
+                                                                                    <Name><![CDATA[rope_6]]></Name>
+                                                                                    <Xform>1 6.30831e-012 3.10431e-011 4.80747e-013 0.859758 -0.510702 2.0831e-011 0.510702 0.859758 1.38479e-011 10.9988 30.5361</Xform>
+                                                                                    <Children count="1">
+                                                                                        <i>
+                                                                                            <p>
+                                                                                                <MasterIndex>7</MasterIndex>
+                                                                                                <Name><![CDATA[rope_7]]></Name>
+                                                                                                <Xform>1 6.30831e-012 3.10431e-011 -2.51161e-012 0.77763 -0.628722 2.06846e-011 0.628722 0.77763 1.04849e-010 13.2282 34.2931</Xform>
+                                                                                                <Children count="1">
+                                                                                                    <i>
+                                                                                                        <p>
+                                                                                                            <MasterIndex>8</MasterIndex>
+                                                                                                            <Name><![CDATA[spear_buckle]]></Name>
+                                                                                                            <Xform>1 6.30831e-012 3.10431e-011 1.23149e-011 0.997318 0.0731895 1.68078e-011 -0.0731894 0.997318 1.34367e-010 13.8443 35.5787</Xform>
+                                                                                                            <Children count="1">
+                                                                                                                <i>
+                                                                                                                    <p>
+                                                                                                                        <MasterIndex>9</MasterIndex>
+                                                                                                                        <Name><![CDATA[spear_pivot]]></Name>
+                                                                                                                        <Xform>1 6.30831e-012 3.10431e-011 2.03299e-011 0.703309 0.710885 4.56677e-012 -0.710885 0.703309 1.55619e-010 13.7518 36.8396</Xform>
+                                                                                                                        <Children count="0" />
+                                                                                                                    </p>
+                                                                                                                </i>
+                                                                                                            </Children>
+                                                                                                        </p>
+                                                                                                    </i>
+                                                                                                </Children>
+                                                                                            </p>
+                                                                                        </i>
+                                                                                    </Children>
+                                                                                </p>
+                                                                            </i>
+                                                                        </Children>
+                                                                    </p>
+                                                                </i>
+                                                            </Children>
+                                                        </p>
+                                                    </i>
+                                                </Children>
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

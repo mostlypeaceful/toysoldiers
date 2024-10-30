@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\mortar\allied\~src\lvl3\britmor_lvl3_skin.mb]]>
+</SrcFile>
+    <Skeleton>
+        <TotalBoneCount>4</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name>
+                <![CDATA[britmor3_ref_frame]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name>
+                <![CDATA[root]]>
+</Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="1">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name>
+                            <![CDATA[angle_pivot]]>
+</Name>
+                        <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 0 1 0</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name>
+                                        <![CDATA[barrel]]>
+</Name>
+                                    <Xform>-1 1.22465e-016 0 -2.46519e-032 -2.22045e-016 1 1.22465e-016 1 2.22045e-016 2.51736e-016 2.02779 2.28215e-016</Xform>
+                                    <Children count="1">
+                                        <i>
+                                            <p>
+                                                <MasterIndex>3</MasterIndex>
+                                                <Name>
+                                                    <![CDATA[crank]]>
+</Name>
+                                                <Xform>1 -1.22465e-016 -1.22465e-016 1.22465e-016 1 0 1.22465e-016 0 1 3.47259e-016 2.80779 -0.763225</Xform>
+                                                <Children count="0" />
+                                            </p>
+                                        </i>
+                                    </Children>
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+</Sklml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\land\apc_btr60\apc_btr60_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>6</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[btr60_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[btr60_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 1.65 0</Xform>
+            <Children count="4">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[antenna]]></Name>
+                        <Xform>1 0 0 0 0.792255 -0.61019 0 0.61019 0.792255 -0.877532 2.58182 -3.45988</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[antenna_1]]></Name>
+                                    <Xform>1 0 0 0 0.802215 -0.597035 0 0.597035 0.802215 -0.877532 3.69685 -4.30983</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[left_hatch]]></Name>
+                        <Xform>0.615662 -0.788011 0 0.788011 0.615662 0 0 0 1 1.48016 2.27063 -1.54912</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[right_hatch]]></Name>
+                        <Xform>0.615662 0.788011 0 -0.788011 0.615662 0 0 0 1 -1.47413 2.25589 -1.5573</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[top_hatch]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 -0.437738 2.67489 -0.79329</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

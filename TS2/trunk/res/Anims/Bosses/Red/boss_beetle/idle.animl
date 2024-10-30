@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\~src\boss_beetle\boss_beetle_idle.mb]]></SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>3</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name><![CDATA[boss_beetle_ref_frame]]></Name>
+            <Exclude>0</Exclude>
+            <Additive>0</Additive>
+            <IKPriority>0</IKPriority>
+            <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+            <IKRotLimitOrder>0</IKRotLimitOrder>
+            <KeyFrames count="3">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="20">
+            <i>
+                <p>
+                    <Name><![CDATA[boss_beetle_root]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[base]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 0 8.23214 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 8.23214 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 8.23214 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[plow]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 0.618184 -0.786033 0 0.786033 0.618184 0 9.79102 16.3536</i>
+                        <i>1 0 0 0 0.618184 -0.786033 0 0.786033 0.618184 0 9.79102 16.3536</i>
+                        <i>1 0 0 0 0.618184 -0.786033 0 0.786033 0.618184 0 9.79102 16.3536</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[torso_base_pivots]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 0.996029 -0.089033 0 0.089033 0.996029 0 13.778 9.68185</i>
+                        <i>1 0 0 0 0.996029 -0.089033 0 0.089033 0.996029 0 13.778 9.68185</i>
+                        <i>1 0 0 0 0.996029 -0.089033 0 0.089033 0.996029 0 13.778 9.68185</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[torso_base]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 0 24.6277 -1.1054</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 24.6277 -1.1054</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 24.6277 -1.1054</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_1]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 2.62328 19.1204</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 2.62328 19.1204</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 2.62328 19.1204</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_2]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 3.46023 13.8618</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 3.46023 13.8618</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.4989 3.46023 13.8618</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_3]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 7.28348</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 7.28348</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 7.28348</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_4]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 0.705899</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 0.705899</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 0.705899</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_5]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 -5.87168</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 -5.87168</i>
+                        <i>1 0 0 0 1 0 0 0 1 22.6816 3.4704 -5.87168</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_6]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 23.7522 5.82214 -13.1229</i>
+                        <i>1 0 0 0 1 0 0 0 1 23.7522 5.82214 -13.1229</i>
+                        <i>1 0 0 0 1 0 0 0 1 23.7522 5.82214 -13.1229</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[l_wheel_7]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 23.618 8.31027 -19.3406</i>
+                        <i>1 0 0 0 1 0 0 0 1 23.618 8.31027 -19.3406</i>
+                        <i>1 0 0 0 1 0 0 0 1 23.618 8.31027 -19.3406</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_1]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 2.62328 19.1204</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 2.62328 19.1204</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 2.62328 19.1204</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_2]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 3.46023 13.8618</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 3.46023 13.8618</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.4989 3.46023 13.8618</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_3]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 7.28348</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 7.28348</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 7.28348</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_4]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 0.705899</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 0.705899</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 0.705899</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_5]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 -5.87168</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 -5.87168</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -22.6816 3.4704 -5.87168</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_6]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.7522 5.82214 -13.1229</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.7522 5.82214 -13.1229</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.7522 5.82214 -13.1229</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[r_wheel_7]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.618 8.31027 -19.3406</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.618 8.31027 -19.3406</i>
+                        <i>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -23.618 8.31027 -19.3406</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[hatch]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="3">
+                        <i>1 0 0 0 1 0 0 0 1 0 5.81037 22.7988</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 5.81037 22.7988</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 5.81037 22.7988</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

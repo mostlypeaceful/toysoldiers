@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage>
+        <![CDATA[Maya.2010]]>
+</ModellingPackage>
+    <SrcFile>
+        <![CDATA[anims\turrets\machinegun\allied\~src\machinegun_australian_lvl1_aim_up.mb]]>
+</SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>2</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name>
+                <![CDATA[mg_aus_lvl1_ref_frame]]>
+</Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <KeyFrames count="2">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="5">
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[root]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 0 0</i>
+                        <i>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[gun_yaw]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 1.00682 0.519733</i>
+                        <i>2.22045e-016 1 0 -1 2.22045e-016 0 0 0 1 0 1.00682 0.519733</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[gun_pitch]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -2.16093e-018 0.990268 -0.139173 1.70248e-017 0.139173 0.990268 0 1.10261 0.519733</i>
+                        <i>1 0 0 -2.16093e-018 0.990268 -0.139173 1.70248e-017 0.139173 0.990268 0 1.10261 0.519733</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[ammo_1]]>
+</Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>1 0 0 -2.16093e-018 0.990268 -0.139173 1.70248e-017 0.139173 0.990268 -3.63658e-024 1.56751 -0.972055</i>
+                        <i>1 0 0 -2.16093e-018 0.990268 -0.139173 1.70248e-017 0.139173 0.990268 -3.63658e-024 1.56751 -0.972055</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name>
+                        <![CDATA[gun_crosshair_stay]]>
+</Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <KeyFrames count="2">
+                        <i>2.19884e-016 0.990268 -0.139173 -1 2.22045e-016 0 3.09026e-017 0.139173 0.990268 0 1.10261 0.519733</i>
+                        <i>2.19884e-016 0.990268 -0.139173 -1 2.22045e-016 0 3.09026e-017 0.139173 0.990268 0 1.10261 0.519733</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

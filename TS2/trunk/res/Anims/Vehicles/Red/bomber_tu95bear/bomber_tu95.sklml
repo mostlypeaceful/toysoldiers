@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\red\~src\air\bomber_tu95bear\bomber_tu95bear_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>16</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[tu95_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[tu95_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="15">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[l2_prop_1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 21.1071 -1.19844 9.36338</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>2</MasterIndex>
+                        <Name><![CDATA[l2_prop_2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 21.1071 -1.19844 7.99813</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>3</MasterIndex>
+                        <Name><![CDATA[l_prop_1]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 11.0279 -0.543213 14.0962</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>4</MasterIndex>
+                        <Name><![CDATA[l_prop_2]]></Name>
+                        <Xform>1 0 0 0 1 0 0 0 1 11.0279 -0.543213 15.5267</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>5</MasterIndex>
+                        <Name><![CDATA[r2_prop_1]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -21.1071 -1.19844 9.36338</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>6</MasterIndex>
+                        <Name><![CDATA[r2_prop_2]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -21.1071 -1.19844 7.99813</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>7</MasterIndex>
+                        <Name><![CDATA[r_prop_1]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -11.0279 -0.543213 14.0962</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>8</MasterIndex>
+                        <Name><![CDATA[r_prop_2]]></Name>
+                        <Xform>1 0 0 -0 -1 -1.22465e-016 0 1.22465e-016 -1 -11.0279 -0.543213 15.5267</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>9</MasterIndex>
+                        <Name><![CDATA[rudder]]></Name>
+                        <Xform>1 0 0 0 -0.866491 0.499192 0 -0.499192 -0.866491 0 9.13684 -43.8086</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>10</MasterIndex>
+                        <Name><![CDATA[l_flap]]></Name>
+                        <Xform>0.888487 -0.0440758 -0.45678 0.0391989 0.999028 -0.0201525 0.457224 -9.34814e-009 0.889352 6.03134 0.220385 -2.55602</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>11</MasterIndex>
+                        <Name><![CDATA[l_taileron]]></Name>
+                        <Xform>0.857968 -0.0645141 -0.509636 0.0554666 0.997917 -0.0329473 0.510699 6.11776e-009 0.859759 5.41479 2.68086 -44.3646</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>12</MasterIndex>
+                        <Name><![CDATA[r_taileron]]></Name>
+                        <Xform>0.857968 0.0645141 0.509636 0.0554666 -0.997917 0.0329473 0.510699 -6.11776e-009 -0.859759 -5.41479 2.68086 -44.3646</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>13</MasterIndex>
+                        <Name><![CDATA[r_flap]]></Name>
+                        <Xform>0.888487 0.0440758 0.45678 0.0391989 -0.999028 0.0201525 0.457224 9.34814e-009 -0.889352 -6.03134 0.220385 -2.55602</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>14</MasterIndex>
+                        <Name><![CDATA[l_hatch]]></Name>
+                        <Xform>1 0 0 0 0.999908 -0.0135382 0 0.0135382 0.999908 1.24753 -2.52445 -2.65372</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+                <i>
+                    <p>
+                        <MasterIndex>15</MasterIndex>
+                        <Name><![CDATA[r_hatch]]></Name>
+                        <Xform>1 0 0 0 -0.999908 0.0135382 0 -0.0135382 -0.999908 -1.24753 -2.52445 -2.65372</Xform>
+                        <Children count="0" />
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>

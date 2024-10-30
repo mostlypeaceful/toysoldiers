@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Animl Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\vehicles\blue\~src\land\tank_m1a1abrams\tank_m1a1abrams_maingun_fire.mb]]></SrcFile>
+    <FramesPerSecond>30</FramesPerSecond>
+    <TotalFrames>15</TotalFrames>
+    <Skeleton>
+        <RefFrame>
+            <Name><![CDATA[m1a1_mainturret_ref_frame]]></Name>
+            <Exclude>1</Exclude>
+            <Additive>0</Additive>
+            <IKPriority>0</IKPriority>
+            <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+            <IKRotLimitOrder>0</IKRotLimitOrder>
+            <KeyFrames count="15">
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+            </KeyFrames>
+        </RefFrame>
+        <Bones count="3">
+            <i>
+                <p>
+                    <Name><![CDATA[m1a1_mainturret_root]]></Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="15">
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0 0</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[pitch]]></Name>
+                    <Exclude>1</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="15">
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 2.23026</i>
+                    </KeyFrames>
+                </p>
+            </i>
+            <i>
+                <p>
+                    <Name><![CDATA[barrel]]></Name>
+                    <Exclude>0</Exclude>
+                    <Additive>0</Additive>
+                    <IKPriority>0</IKPriority>
+                    <IKRotLimits>-1e+010 -1e+010 -1e+010 1e+010 1e+010 1e+010</IKRotLimits>
+                    <IKRotLimitOrder>0</IKRotLimitOrder>
+                    <KeyFrames count="15">
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 5</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.73359</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.46718</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.20077</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.21939</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.27043</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.34669</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.44096</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.54604</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.65473</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.75981</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.85409</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.93035</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 4.98139</i>
+                        <i>1 0 0 0 1 0 0 0 1 0 0.654201 5</i>
+                    </KeyFrames>
+                </p>
+            </i>
+        </Bones>
+    </Skeleton>
+</Animl>

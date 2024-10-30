@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Anipk Version="0">
+    <SkeletonRef><![CDATA[anims\turrets\mortar\blue\mortar_m252\mortar_m252.sklml]]></SkeletonRef>
+    <AnimMetaData count="2">
+        <i>
+            <Name><![CDATA[reload_high]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="6">
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L2_Reload_StandUp]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>0</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L1_Reload_ShellPickup]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.3429</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L2_Reload_Ratchet]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>1.9082</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L2_Reload_ShellLoad]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>2.65</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L2_Reload_SitDown]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4.5</Time>
+                </i>
+                <i>
+                    <Tag><![CDATA[Play_Mortar_L2_Reload_Sproing]]></Tag>
+                    <TypeKey>2</TypeKey>
+                    <Time>4.6818</Time>
+                </i>
+            </KeyFrameTags>
+        </i>
+        <i>
+            <Name><![CDATA[reload_low]]></Name>
+            <DisableCompression>0</DisableCompression>
+            <CompressionErrorP>0.01</CompressionErrorP>
+            <CompressionErrorR>0.001</CompressionErrorR>
+            <CompressionErrorS>0.01</CompressionErrorS>
+            <KeyFrameTags count="0" />
+        </i>
+    </AnimMetaData>
+</Anipk>

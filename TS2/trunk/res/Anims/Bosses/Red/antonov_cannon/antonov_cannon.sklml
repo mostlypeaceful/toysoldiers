@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sklml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[anims\bosses\red\antonov_cannon\~src\antonov_cannon_skin.mb]]></SrcFile>
+    <Skeleton>
+        <TotalBoneCount>3</TotalBoneCount>
+        <RefFrame>
+            <MasterIndex>4294967295</MasterIndex>
+            <Name><![CDATA[antonov_cannon_ref_frame]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="0" />
+        </RefFrame>
+        <Root>
+            <MasterIndex>0</MasterIndex>
+            <Name><![CDATA[antonov_cannon_root]]></Name>
+            <Xform>1 0 0 0 1 0 0 0 1 0 0 0</Xform>
+            <Children count="1">
+                <i>
+                    <p>
+                        <MasterIndex>1</MasterIndex>
+                        <Name><![CDATA[cannon_01]]></Name>
+                        <Xform>0.00129088 0.0722008 0.997389 -0.99984 0.0178761 5.55112e-017 -0.0178295 -0.99723 0.0722123 -0.0485856 6.50826 18.6771</Xform>
+                        <Children count="1">
+                            <i>
+                                <p>
+                                    <MasterIndex>2</MasterIndex>
+                                    <Name><![CDATA[cannon_02]]></Name>
+                                    <Xform>0.00129088 0.0722008 0.997389 -0.99984 0.0178761 5.55112e-017 -0.0178295 -0.99723 0.0722123 -0.00920324 8.71098 49.1057</Xform>
+                                    <Children count="0" />
+                                </p>
+                            </i>
+                        </Children>
+                    </p>
+                </i>
+            </Children>
+        </Root>
+    </Skeleton>
+    <AnimSourceSkeletons count="0" />
+</Sklml>
