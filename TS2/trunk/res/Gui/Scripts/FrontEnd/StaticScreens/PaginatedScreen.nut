@@ -1,0 +1,1 @@
+// Set of pages for a static screen
