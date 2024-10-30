@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Sigml Version="1">
+    <ModellingPackage><![CDATA[Maya.2010]]></ModellingPackage>
+    <SrcFile><![CDATA[art\toyworld\europeusa\manmade\~src\building_french_sidewalk.mb]]></SrcFile>
+    <ExplicitDependencies count="0" />
+    <Objects count="1">
+        <i>
+            <p cid="85d66c0d" Version="0">
+                <Guid>0</Guid>
+                <Name><![CDATA[building_french_sidewalk_long]]></Name>
+                <Layer></Layer>
+                <Hidden>0</Hidden>
+                <Frozen>0</Frozen>
+                <ParentNames count="0" />
+                <ChildNames count="0" />
+                <Xform>2.14838 0 0 0 1 0 0 0 1 -1.91333 0.450646 8.60883</Xform>
+                <EditableProperties count="0" />
+                <MeshIndex>0</MeshIndex>
+                <GeomType><![CDATA[RenderMesh]]></GeomType>
+                <StateType><![CDATA[State]]></StateType>
+                <StateIndex>0</StateIndex>
+            </p>
+        </i>
+    </Objects>
+    <Meshes count="1">
+        <i>
+            <p>
+                <AabbMin>-1.38195 -0.450647 -29.5809</AabbMin>
+                <AabbMax>3.16313 0.0371912 12.3632</AabbMax>
+                <BoundingSphere>0.890589 -0.206728 -8.60883 21.0929</BoundingSphere>
+                <SubMeshes count="1">
+                    <i>
+                        <p>
+                            <MtlIndex>0</MtlIndex>
+                            <VertexTris count="42"><![CDATA[16 17 20  20 17 19  17 18 19  15 13 6  6 13 7  1 5 2  2 5 3  4 0 14  14 0 12  9 8 11  11 8 10  6 7 9  9 7 8  7 2 8  8 2 10  2 3 10  10 3 11  3 6 11  11 6 9  21 22 23  25 24 22  24 23 22  12 13 14  14 13 15  13 19 7  7 19 18  13 12 19  19 12 20  12 0 20  20 0 16  2 18 1  1 18 17  2 7 18  6 3 21  3 5 21  21 5 22  15 23 14  14 23 24  15 6 23  23 6 21  14 24 4  4 24 25  ]]></VertexTris>
+                            <NormalTris count="42"><![CDATA[0 1 4  4 1 3  1 2 3  5 6 8  8 6 7  9 10 12  12 10 11  13 14 16  16 14 15  17 18 20  20 18 19  21 22 24  24 22 23  25 26 28  28 26 27  29 30 32  32 30 31  33 34 36  36 34 35  39 40 38  41 37 40  37 38 40  42 43 45  45 43 44  47 48 46  46 48 49  50 51 53  53 51 52  54 55 57  57 55 56  59 60 58  58 60 61  62 63 64  65 66 67  68 69 71  71 69 70  73 74 72  72 74 75  76 77 79  79 77 78  81 82 80  80 82 83  ]]></NormalTris>
+                            <TangentBinormalTris count="42"><![CDATA[0 1 4  4 1 3  1 2 3  5 6 8  8 6 7  9 10 12  12 10 11  13 14 16  16 14 15  17 18 20  20 18 19  21 22 24  24 22 23  25 26 28  28 26 27  29 30 32  32 30 31  33 34 36  36 34 35  39 40 38  41 37 40  37 38 40  42 43 45  45 43 44  47 48 46  46 48 49  50 51 53  53 51 52  54 55 57  57 55 56  59 60 58  58 60 61  62 63 64  65 66 67  68 69 71  71 69 70  73 74 72  72 74 75  76 77 79  79 77 78  81 82 80  80 82 83  ]]></TangentBinormalTris>
+                            <UvwSetTris count="1">
+                                <i>
+                                    <SetName><![CDATA[map1]]></SetName>
+                                    <UvwTris count="42"><![CDATA[0 1 4  4 1 3  1 2 3  11 8 14  14 8 7  24 25 27  27 25 26  32 33 16  16 33 15  13 22 21  21 22 23  14 7 13  13 7 22  7 6 22  22 6 23  27 26 23  23 26 21  20 14 21  21 14 13  17 31 18  30 12 31  12 18 31  15 8 16  16 8 11  8 3 7  7 3 2  8 9 3  3 9 4  9 10 4  4 10 0  6 2 5  5 2 1  6 7 2  14 20 17  26 25 29  29 25 28  11 18 16  16 18 19  11 14 18  18 14 17  16 35 32  32 35 34  ]]></UvwTris>
+                                </i>
+                            </UvwSetTris>
+                            <RgbaSetTris count="0" />
+                        </p>
+                    </i>
+                </SubMeshes>
+                <Vertices count="26"><![CDATA[-1.38195 -0.450646 12.3128  3.16313 -0.450646 12.3128  3.16313 -0.00877441 12.3128  3.16313 -0.00877441 -29.5304  -1.38195 -0.450646 -29.5304  3.16313 -0.450646 -29.5304  2.49468 -0.00877441 -29.5304  2.49468 -0.00877441 12.3128  2.51605 0.0371912 12.2694  2.51605 0.0371887 -29.4801  3.14176 0.0371912 12.2694  3.14176 0.0371887 -29.4801  -1.38195 -0.141322 12.3128  -1.24941 -0.00877441 12.3128  -1.38195 -0.141322 -29.5304  -1.24941 -0.00877441 -29.5304  -1.34443 -0.450647 12.3632  3.13239 -0.450645 12.3632  3.13239 -0.0767823 12.3632  -1.24941 -0.076784 12.3632  -1.34443 -0.168531 12.3632  3.13239 -0.0767823 -29.5809  3.13239 -0.450646 -29.5809  -1.24941 -0.0767823 -29.5809  -1.34443 -0.16853 -29.5809  -1.34443 -0.450646 -29.5809  ]]></Vertices>
+                <Normals count="84"><![CDATA[-4.44595e-006 5.55881e-007 1  -4.44595e-006 5.55881e-007 1  -4.44595e-006 5.55881e-007 1  -4.44595e-006 5.55881e-007 1  -4.44595e-006 5.55881e-007 1  0 1 0  0 1 0  0 1 0  0 1 0  1 0 0  1 0 0  1 0 0  1 0 0  -1 0 0  -1 0 0  -1 0 0  -1 0 0  0 1 -5.84687e-008  0 1 -5.84687e-008  0 1 -5.84687e-008  0 1 -5.84687e-008  -0.906807 0.421546 -1.23116e-008  -0.906807 0.421546 -1.23116e-008  -0.906807 0.421546 -1.23116e-008  -0.906807 0.421546 -1.23116e-008  0 0.686102 0.727505  0 0.686102 0.727505  0 0.686102 0.727505  0 0.686102 0.727505  0.906807 0.421547 -1.23115e-008  0.906807 0.421547 -1.23115e-008  0.906807 0.421547 -1.23115e-008  0.906807 0.421547 -1.23115e-008  0 0.738819 -0.673904  0 0.738819 -0.673904  0 0.738819 -0.673904  0 0.738819 -0.673904  0 0 -1  0 0 -1  0 0 -1  0 0 -1  0 0 -1  -0.707105 0.707108 0  -0.707105 0.707108 0  -0.707105 0.707108 0  -0.707105 0.707108 0  -2.27168e-006 0.595364 0.803456  -2.27168e-006 0.595364 0.803456  -2.27168e-006 0.595364 0.803456  -2.27168e-006 0.595364 0.803456  -0.512899 0.520405 0.682725  -0.512899 0.520405 0.682725  -0.512899 0.520405 0.682725  -0.512899 0.520405 0.682725  -0.802019 0 0.597299  -0.802019 0 0.597299  -0.802019 0 0.597299  -0.802019 0 0.597299  0.853764 0 0.520661  0.853764 0 0.520661  0.853764 0 0.520661  0.853764 0 0.520661  0 0.59545 0.803393  0 0.59545 0.803393  0 0.59545 0.803393  0 0.59545 -0.803393  0 0.59545 -0.803393  0 0.59545 -0.803393  0.853764 0 -0.520661  0.853764 0 -0.520661  0.853764 0 -0.520661  0.853764 0 -0.520661  -0.512994 0.520501 -0.682581  -0.512994 0.520501 -0.682581  -0.512994 0.520501 -0.682581  -0.512994 0.520501 -0.682581  0 0.595449 -0.803393  0 0.595449 -0.803393  0 0.595449 -0.803393  0 0.595449 -0.803393  -0.802126 0 -0.597154  -0.802126 0 -0.597154  -0.802126 0 -0.597154  -0.802126 0 -0.597154  ]]></Normals>
+                <Tangents count="84"><![CDATA[3.54726e-006 -1 5.55897e-007  -4.03232e-006 -1 5.55863e-007  -2.47142e-012 -1 5.55881e-007  -7.82211e-006 -1 5.55846e-007  -6.04848e-006 -1 5.55854e-007  0 0 1  2.39164e-008 0 1  4.78328e-008 0 1  2.39164e-008 0 1  0 1.02763e-007 1  0 1.02763e-007 1  0 1.02763e-007 1  0 1.02763e-007 1  0 -5.13814e-008 1  0 -2.56907e-008 1  0 0 1  0 -2.56907e-008 1  4.79401e-008 5.84687e-008 1  2.39701e-008 5.84687e-008 1  0 5.84687e-008 1  2.39701e-008 5.84687e-008 1  3.66376e-008 1.08019e-007 1  4.78691e-008 1.32179e-007 1  5.91006e-008 1.5634e-007 1  4.78691e-008 1.32179e-007 1  0.000202586 -0.727505 0.686102  0.000107874 -0.727505 0.686102  1.31627e-005 -0.727505 0.686102  0.000107874 -0.727505 0.686102  -3.66073e-008 1.07953e-007 1  -2.38984e-008 8.06145e-008 1  -1.11895e-008 5.32759e-008 1  -2.38984e-008 8.06145e-008 1  -9.6853e-006 0.673904 0.738819  -0.000102392 0.673904 0.738819  -0.000195098 0.673904 0.738819  -0.000102392 0.673904 0.738819  9.88665e-007 1 0  1.20629e-006 1 0  -1.33837e-006 1 0  2.12986e-007 1 0  -1.77362e-006 1 0  0 0 1  0 0 1  0 0 1  0 0 1  -7.78345e-005 -0.803456 0.595364  1.18232e-005 -0.803456 0.595364  -7.78345e-005 -0.803456 0.595364  -0.000167492 -0.803456 0.595364  -0.00600518 -0.797457 0.603347  0.00137309 -0.794803 0.606866  0.00875127 -0.79209 0.610342  0.0013731 -0.794803 0.606866  0 -1 0  1.77363e-006 -1 2.38153e-006  3.54726e-006 -1 4.76305e-006  1.77363e-006 -1 2.38153e-006  -1.1324e-006 -1 1.85688e-006  -2.26481e-006 -1 3.71376e-006  -1.1324e-006 -1 1.85688e-006  0 -1 0  -1.71767e-005 -0.803393 0.59545  -1.71767e-005 -0.803393 0.59545  -1.71767e-005 -0.803393 0.59545  1.06111e-005 0.803393 0.59545  1.06111e-005 0.803393 0.59545  1.06111e-005 0.803393 0.59545  0.520661 -5.0272e-005 0.853764  0.520661 -4.33994e-005 0.853764  0.520661 -3.65268e-005 0.853764  0.520661 -4.33994e-005 0.853764  -0.00137617 0.794685 0.60702  0.0060175 0.797346 0.603492  -0.00137617 0.794685 0.60702  -0.00876974 0.791966 0.610503  -7.95928e-007 0.803393 0.595449  7.21232e-005 0.803393 0.595449  0.000145042 0.803393 0.595449  7.21232e-005 0.803393 0.595449  -0.597154 1.60192e-005 0.802126  -0.597154 1.49319e-005 0.802126  -0.597154 1.60192e-005 0.802126  -0.597154 1.71066e-005 0.802126  ]]></Tangents>
+                <Binormals count="84"><![CDATA[1 3.54726e-006 4.44595e-006  1 -4.03232e-006 4.44595e-006  1 0 4.44595e-006  1 -7.82211e-006 4.44595e-006  1 -6.04848e-006 4.44595e-006  1 0 0  1 0 -2.39164e-008  1 0 -4.78328e-008  1 0 -2.39164e-008  0 -1 1.02763e-007  0 -1 1.02763e-007  0 -1 1.02763e-007  0 -1 1.02763e-007  0 1 5.13814e-008  0 1 2.56907e-008  0 1 -0  0 1 2.56907e-008  1 -2.803e-015 -4.79401e-008  1 -1.4015e-015 -2.39701e-008  1 -0 0  1 -1.4015e-015 -2.39701e-008  0.421546 0.906807 -1.13396e-007  0.421546 0.906807 -1.4004e-007  0.421546 0.906807 -1.66684e-007  0.421546 0.906807 -1.4004e-007  1 0.000147382 -0.000138994  1 7.84791e-005 -7.40127e-005  1 9.57596e-006 -9.03098e-006  1 7.84791e-005 -7.40127e-005  0.421547 -0.906807 1.13324e-007  0.421547 -0.906807 8.31761e-008  0.421547 -0.906807 5.30278e-008  0.421547 -0.906807 8.31761e-008  1 6.52696e-006 7.15569e-006  1 6.90021e-005 7.56488e-005  1 0.000131477 0.000144142  1 6.90021e-005 7.56488e-005  1 -9.88665e-007 0  1 -1.20629e-006 0  1 1.33837e-006 0  1 -2.12986e-007 0  1 1.77362e-006 0  0.707108 0.707105 -0  0.707108 0.707105 -0  0.707108 0.707105 -0  0.707108 0.707105 -0  1 -6.11841e-005 4.8165e-005  1 1.08519e-005 -5.21391e-006  1 -6.11841e-005 4.8165e-005  1 -0.00013322 0.000101544  0.858428 0.305356 0.41214  0.858448 0.312198 0.406939  0.858405 0.319018 0.401708  0.858448 0.312199 0.406939  0.597299 0 0.802019  0.597299 2.96942e-006 0.802019  0.597299 5.93883e-006 0.802019  0.597299 2.96942e-006 0.802019  0.520661 -2.17494e-006 -0.853764  0.520661 -4.34987e-006 -0.853764  0.520661 -2.17494e-006 -0.853764  0.520661 0 -0.853764  1 -1.37996e-005 1.02278e-005  1 -1.37996e-005 1.02278e-005  1 -1.37996e-005 1.02278e-005  1 -8.52487e-006 -6.31837e-006  1 -8.52487e-006 -6.31837e-006  1 -8.52487e-006 -6.31837e-006  -2.61747e-005 -1 -4.29204e-005  -2.25964e-005 -1 -3.70528e-005  -1.90181e-005 -1 -3.11852e-005  -2.25964e-005 -1 -3.70528e-005  0.858391 0.312337 -0.406953  0.858371 0.30548 -0.412166  0.858391 0.312337 -0.406953  0.858347 0.31917 -0.401709  1 6.39443e-007 4.73934e-007  1 -5.79433e-005 -4.29457e-005  1 -0.000116526 -8.63653e-005  1 -5.79433e-005 -4.29457e-005  9.56595e-006 1 -1.28494e-005  8.91663e-006 1 -1.19772e-005  9.56595e-006 1 -1.28494e-005  1.02153e-005 1 -1.37217e-005  ]]></Binormals>
+                <UvwSetVerts count="1">
+                    <i>
+                        <Default>1</Default>
+                        <SetName><![CDATA[map1]]></SetName>
+                        <Uvws count="36"><![CDATA[-1.01774 0.438572 0  -1.01774 0.971858 0  -1.03847 0.971858 0  -1.03847 0.449891 0  -1.03338 0.438572 0  -1.01774 0.97552 0  -1.04224 0.97552 0  -1.04224 0.895891 0  -1.04224 0.449891 0  -1.03489 0.434102 0  -1.01774 0.434102 0  -3.36232 0.449891 0  -3.3702 0.438572 0  -3.35953 0.898438 0  -3.36232 0.895891 0  -1.04224 0.434102 0  -3.36232 0.434102 0  -3.36511 0.971858 0  -3.36512 0.449891 0  -3.36511 0.438572 0  -3.36232 0.97552 0  -3.35953 0.972974 0  -1.04472 0.898438 0  -1.04471 0.972974 0  -1.04224 1.00002 0  -3.36232 1.00002 0  -3.36232 0.975523 0  -1.04224 0.975523 0  -3.36511 1.00002 0  -3.36511 0.979294 0  -3.38584 0.438572 0  -3.38584 0.971858 0  -3.36232 0.41695 0  -1.04224 0.416951 0  -3.36511 0.416951 0  -3.36511 0.432593 0  ]]></Uvws>
+                    </i>
+                </UvwSetVerts>
+                <RgbaSetVerts count="0" />
+            </p>
+        </i>
+    </Meshes>
+    <Materials count="1">
+        <i>
+            <p cid="a5518570">
+                <Name></Name>
+                <TwoSided>0</TwoSided>
+                <FlipBackFaceNormal>0</FlipBackFaceNormal>
+                <Transparency>0</Transparency>
+                <AlphaCutOut>0</AlphaCutOut>
+                <Additive>0</Additive>
+                <ZBufferTest>0</ZBufferTest>
+                <ZBufferWrite>0</ZBufferWrite>
+                <FaceX>0</FaceX>
+                <FaceY>0</FaceY>
+                <FaceZ>0</FaceZ>
+                <SortOffset>0</SortOffset>
+                <ShaderPath><![CDATA[shaders\standard\toy_standard.derml]]></ShaderPath>
+                <Nodes count="9">
+                    <i>
+                        <p cid="a84c2b99">
+                            <Version>1</Version>
+                            <UniqueNodeId>1</UniqueNodeId>
+                            <MaterialGlueIndex>-1</MaterialGlueIndex>
+                            <TopLeft>703 239</TopLeft>
+                            <ShadeProps count="2">
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Shader Properties.Fog]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Shader Properties.Tint]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="0" />
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="d1238904">
+                            <Version>1</Version>
+                            <UniqueNodeId>2</UniqueNodeId>
+                            <MaterialGlueIndex>-1</MaterialGlueIndex>
+                            <TopLeft>497 102</TopLeft>
+                            <ShadeProps count="2">
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Shader Properties.AlphaAddSpec]]></Name>
+                                        <Data>0</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Shader Properties.RcvShadow]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="0" />
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="4c5ba163">
+                            <Version>1</Version>
+                            <UniqueNodeId>3</UniqueNodeId>
+                            <MaterialGlueIndex>0</MaterialGlueIndex>
+                            <TopLeft>137 6</TopLeft>
+                            <ShadeProps count="3">
+                                <i>
+                                    <p cid="18c579ee">
+                                        <Name><![CDATA[Material Common.DisplayName]]></Name>
+                                        <Data><![CDATA[DiffuseMap]]></Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <LockFieldToName>0</LockFieldToName>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Material Common.Editable]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="13ff3201">
+                                        <Name><![CDATA[Material Properties.Default]]></Name>
+                                        <Data></Data>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="2">
+                                <i>
+                                    <p cid="13ff3201">
+                                        <Name><![CDATA[0. DiffuseMap - ColorMap.TexturePath]]></Name>
+                                        <Data><![CDATA[art\toyworld\europeusa\manmade\textures\building_french_sidewalk_d.tga]]></Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="2c1ac345">
+                                        <Name><![CDATA[0. DiffuseMap - ColorMap.TextureSource]]></Name>
+                                        <Data>0</Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <EnumNames count="4">
+                                            <i><![CDATA[From File]]></i>
+                                            <i><![CDATA[White]]></i>
+                                            <i><![CDATA[Black]]></i>
+                                            <i><![CDATA[Noise]]></i>
+                                        </EnumNames>
+                                    </p>
+                                </i>
+                            </MatProps>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="96e6ea8a">
+                            <Version>1</Version>
+                            <UniqueNodeId>8</UniqueNodeId>
+                            <MaterialGlueIndex>-1</MaterialGlueIndex>
+                            <TopLeft>-278 191</TopLeft>
+                            <ShadeProps count="1">
+                                <i>
+                                    <p cid="e9f584df">
+                                        <Name><![CDATA[Shader Properties.Channel]]></Name>
+                                        <Data>0</Data>
+                                        <Min>0</Min>
+                                        <Max>3</Max>
+                                        <Increment>1</Increment>
+                                        <Precision>0</Precision>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="0" />
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="66b65cde">
+                            <Version>1</Version>
+                            <UniqueNodeId>18</UniqueNodeId>
+                            <MaterialGlueIndex>0</MaterialGlueIndex>
+                            <TopLeft>150 102</TopLeft>
+                            <ShadeProps count="5">
+                                <i>
+                                    <p cid="18c579ee">
+                                        <Name><![CDATA[Material Common.DisplayName]]></Name>
+                                        <Data><![CDATA[SpecColor]]></Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <LockFieldToName>0</LockFieldToName>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Material Common.Editable]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Default]]></Name>
+                                        <Data>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Max]]></Name>
+                                        <Data>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Min]]></Name>
+                                        <Data>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="1">
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[1. SpecColor - ColorRGB.Color]]></Name>
+                                        <Data>
+                                            <Rgb>0.0588235 0.0509804 0.0431373</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </MatProps>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="66b65cde">
+                            <Version>1</Version>
+                            <UniqueNodeId>19</UniqueNodeId>
+                            <MaterialGlueIndex>1</MaterialGlueIndex>
+                            <TopLeft>144 198</TopLeft>
+                            <ShadeProps count="5">
+                                <i>
+                                    <p cid="18c579ee">
+                                        <Name><![CDATA[Material Common.DisplayName]]></Name>
+                                        <Data><![CDATA[SpecFalloff]]></Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <LockFieldToName>0</LockFieldToName>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Material Common.Editable]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Default]]></Name>
+                                        <Data>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Max]]></Name>
+                                        <Data>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[Material Properties.Min]]></Name>
+                                        <Data>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>0</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1e+010</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="1">
+                                <i>
+                                    <p cid="81a3c168">
+                                        <Name><![CDATA[2. SpecFalloff - ColorRGB.Color]]></Name>
+                                        <Data>
+                                            <Rgb>0.431373 0.431373 0.431373</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Data>
+                                        <Min>
+                                            <Rgb>0 0 0</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Min>
+                                        <Max>
+                                            <Rgb>1 1 1</Rgb>
+                                            <Alpha>1</Alpha>
+                                            <RgbScale>1</RgbScale>
+                                        </Max>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </MatProps>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="68682ffe">
+                            <Version>1</Version>
+                            <UniqueNodeId>13</UniqueNodeId>
+                            <MaterialGlueIndex>-1</MaterialGlueIndex>
+                            <TopLeft>312 273</TopLeft>
+                            <ShadeProps count="0" />
+                            <MatProps count="0" />
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="48b874db">
+                            <Version>1</Version>
+                            <UniqueNodeId>7</UniqueNodeId>
+                            <MaterialGlueIndex>1</MaterialGlueIndex>
+                            <TopLeft>141 296</TopLeft>
+                            <ShadeProps count="3">
+                                <i>
+                                    <p cid="18c579ee">
+                                        <Name><![CDATA[Material Common.DisplayName]]></Name>
+                                        <Data><![CDATA[NormalMap]]></Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <LockFieldToName>0</LockFieldToName>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Material Common.Editable]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="13ff3201">
+                                        <Name><![CDATA[Material Properties.Default]]></Name>
+                                        <Data></Data>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="2">
+                                <i>
+                                    <p cid="13ff3201">
+                                        <Name><![CDATA[3. NormalMap - NormalMap.TexturePath]]></Name>
+                                        <Data><![CDATA[art\toyworld\europeusa\manmade\textures\building_french_sidewalk_n.tga]]></Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="2c1ac345">
+                                        <Name><![CDATA[3. NormalMap - NormalMap.TextureSource]]></Name>
+                                        <Data>0</Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <EnumNames count="4">
+                                            <i><![CDATA[From File]]></i>
+                                            <i><![CDATA[White]]></i>
+                                            <i><![CDATA[Black]]></i>
+                                            <i><![CDATA[Noise]]></i>
+                                        </EnumNames>
+                                    </p>
+                                </i>
+                            </MatProps>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="5f55ea59">
+                            <Version>1</Version>
+                            <UniqueNodeId>14</UniqueNodeId>
+                            <MaterialGlueIndex>2</MaterialGlueIndex>
+                            <TopLeft>152 361</TopLeft>
+                            <ShadeProps count="5">
+                                <i>
+                                    <p cid="18c579ee">
+                                        <Name><![CDATA[Material Common.DisplayName]]></Name>
+                                        <Data><![CDATA[BumpScale]]></Data>
+                                        <AllowDelete>0</AllowDelete>
+                                        <LockFieldToName>0</LockFieldToName>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="c379fc2b">
+                                        <Name><![CDATA[Material Common.Editable]]></Name>
+                                        <Data>1</Data>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="e9f584df">
+                                        <Name><![CDATA[Material Properties.Default]]></Name>
+                                        <Data>1</Data>
+                                        <Min>-9999</Min>
+                                        <Max>9999</Max>
+                                        <Increment>0.001</Increment>
+                                        <Precision>3</Precision>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="e9f584df">
+                                        <Name><![CDATA[Material Properties.Max]]></Name>
+                                        <Data>100</Data>
+                                        <Min>-9999</Min>
+                                        <Max>9999</Max>
+                                        <Increment>0.001</Increment>
+                                        <Precision>3</Precision>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                                <i>
+                                    <p cid="e9f584df">
+                                        <Name><![CDATA[Material Properties.Min]]></Name>
+                                        <Data>0</Data>
+                                        <Min>-9999</Min>
+                                        <Max>9999</Max>
+                                        <Increment>0.001</Increment>
+                                        <Precision>3</Precision>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </ShadeProps>
+                            <MatProps count="1">
+                                <i>
+                                    <p cid="e9f584df">
+                                        <Name><![CDATA[4. BumpScale - Number.Value]]></Name>
+                                        <Data>1</Data>
+                                        <Min>0</Min>
+                                        <Max>100</Max>
+                                        <Increment>0.01</Increment>
+                                        <Precision>2</Precision>
+                                        <AllowDelete>0</AllowDelete>
+                                    </p>
+                                </i>
+                            </MatProps>
+                        </p>
+                    </i>
+                </Nodes>
+                <ShaderLastModifiedStamp>129415811758271189</ShaderLastModifiedStamp>
+            </p>
+        </i>
+    </Materials>
+    <DiffuseMapAtlas></DiffuseMapAtlas>
+    <NormalMapAtlas></NormalMapAtlas>
+    <HeightFieldMaterialTileFactors count="0"></HeightFieldMaterialTileFactors>
+    <EditableProperties count="16">
+        <i>
+            <p cid="18c579ee">
+                <Name><![CDATA[$.ObjectName]]></Name>
+                <Data></Data>
+                <AllowDelete>0</AllowDelete>
+                <LockFieldToName>0</LockFieldToName>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.ScriptPath]]></Name>
+                <Data></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="7e0d2deb">
+                <Name><![CDATA[$.SkeletonBinding]]></Name>
+                <Data></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="13ff3201">
+                <Name><![CDATA[$.SkeletonPath]]></Name>
+                <Data></Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.ApplyInGame]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[DefaultLight.CastsShadow]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorAmbient]]></Name>
+                <Data>
+                    <Rgb>0.1 0.1 0.1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorBack]]></Name>
+                <Data>
+                    <Rgb>0.15 0.15 0.3</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorFront]]></Name>
+                <Data>
+                    <Rgb>0.625 0.625 0.625</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="81a3c168">
+                <Name><![CDATA[DefaultLight.ColorRim]]></Name>
+                <Data>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Data>
+                <Min>
+                    <Rgb>0 0 0</Rgb>
+                    <Alpha>0</Alpha>
+                    <RgbScale>1</RgbScale>
+                </Min>
+                <Max>
+                    <Rgb>1 1 1</Rgb>
+                    <Alpha>1</Alpha>
+                    <RgbScale>1e+010</RgbScale>
+                </Max>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="abf577e7">
+                <Name><![CDATA[DefaultLight.Direction]]></Name>
+                <Data>-0.51465 -0.735215 -0.441129</Data>
+                <Min>-1</Min>
+                <Max>1</Max>
+                <Increment>0.01</Increment>
+                <Precision>2</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowFogInEditor]]></Name>
+                <Data>1</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="c379fc2b">
+                <Name><![CDATA[Display.ShowGlobalLightDir]]></Name>
+                <Data>0</Data>
+            </p>
+        </i>
+        <i>
+            <p cid="e9f584df">
+                <Name><![CDATA[Render.FadeOverride]]></Name>
+                <Data>0</Data>
+                <Min>0</Min>
+                <Max>10000</Max>
+                <Increment>1</Increment>
+                <Precision>0</Precision>
+                <AllowDelete>0</AllowDelete>
+            </p>
+        </i>
+        <i>
+            <p cid="2c1ac345">
+                <Name><![CDATA[Render.FadeSetting]]></Name>
+                <Data>0</Data>
+                <AllowDelete>0</AllowDelete>
+                <EnumNames count="4">
+                    <i><![CDATA[Never]]></i>
+                    <i><![CDATA[Near]]></i>
+                    <i><![CDATA[Medium]]></i>
+                    <i><![CDATA[Far]]></i>
+                </EnumNames>
+            </p>
+        </i>
+    </EditableProperties>
+    <Layers count="0" />
+    <GroundCovers count="0" />
+</Sigml>
