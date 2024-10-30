@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Derml Version="1" NextUniqueNodeId="7">
+    <GeometryStyle>0</GeometryStyle>
+    <Nodes count="4">
+        <i>
+            <p cid="ff604271">
+                <Version>1</Version>
+                <UniqueNodeId>5</UniqueNodeId>
+                <MaterialGlueIndex>0</MaterialGlueIndex>
+                <TopLeft>384 418</TopLeft>
+                <ShadeProps count="3">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name>
+                                <![CDATA[Material Common.DisplayName]]>
+</Name>
+                            <Data>
+                                <![CDATA[GameControlledTint]]>
+</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="18c579ee">
+                            <Name>
+                                <![CDATA[Material Properties.Default]]>
+</Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name>
+                                <![CDATA[Material Common.Editable]]>
+</Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </ShadeProps>
+                <MatProps count="1">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name>
+                                <![CDATA[1. GameControlledTint - DynamicValue.PropertyName]]>
+</Name>
+                            <Data></Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                </MatProps>
+            </p>
+        </i>
+        <i>
+            <p cid="94b20aff">
+                <Version>1</Version>
+                <UniqueNodeId>6</UniqueNodeId>
+                <MaterialGlueIndex>-1</MaterialGlueIndex>
+                <TopLeft>562 369</TopLeft>
+                <ShadeProps count="0" />
+                <MatProps count="0" />
+            </p>
+        </i>
+        <i>
+            <p cid="a84c2b99">
+                <Version>1</Version>
+                <UniqueNodeId>1</UniqueNodeId>
+                <MaterialGlueIndex>-1</MaterialGlueIndex>
+                <TopLeft>696 369</TopLeft>
+                <ShadeProps count="2">
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name>
+                                <![CDATA[Shader Properties.Fog]]>
+</Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name>
+                                <![CDATA[Shader Properties.Tint]]>
+</Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </ShadeProps>
+                <MatProps count="0" />
+            </p>
+        </i>
+        <i>
+            <p cid="4c5ba163">
+                <Version>1</Version>
+                <UniqueNodeId>2</UniqueNodeId>
+                <MaterialGlueIndex>0</MaterialGlueIndex>
+                <TopLeft>392 335</TopLeft>
+                <ShadeProps count="3">
+                    <i>
+                        <p cid="18c579ee">
+                            <Name>
+                                <![CDATA[Material Common.DisplayName]]>
+</Name>
+                            <Data>
+                                <![CDATA[DiffuseMap]]>
+</Data>
+                            <AllowDelete>0</AllowDelete>
+                            <LockFieldToName>0</LockFieldToName>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="13ff3201">
+                            <Name>
+                                <![CDATA[Material Properties.Default]]>
+</Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="c379fc2b">
+                            <Name>
+                                <![CDATA[Material Common.Editable]]>
+</Name>
+                            <Data>1</Data>
+                        </p>
+                    </i>
+                </ShadeProps>
+                <MatProps count="2">
+                    <i>
+                        <p cid="13ff3201">
+                            <Name>
+                                <![CDATA[0. DiffuseMap - ColorMap.TexturePath]]>
+</Name>
+                            <Data></Data>
+                        </p>
+                    </i>
+                    <i>
+                        <p cid="2c1ac345">
+                            <Name>
+                                <![CDATA[0. DiffuseMap - ColorMap.TextureSource]]>
+</Name>
+                            <Data>0</Data>
+                            <EnumNames count="4">
+                                <i>
+                                    <![CDATA[From File]]>
+</i>
+                                <i>
+                                    <![CDATA[White]]>
+</i>
+                                <i>
+                                    <![CDATA[Black]]>
+</i>
+                                <i>
+                                    <![CDATA[Noise]]>
+</i>
+                            </EnumNames>
+                        </p>
+                    </i>
+                </MatProps>
+            </p>
+        </i>
+    </Nodes>
+    <Connections count="3">
+        <i>
+            <Input>1</Input>
+            <Index>0</Index>
+            <Output>3</Output>
+        </i>
+        <i>
+            <Input>1</Input>
+            <Index>1</Index>
+            <Output>0</Output>
+        </i>
+        <i>
+            <Input>2</Input>
+            <Index>0</Index>
+            <Output>1</Output>
+        </i>
+    </Connections>
+</Derml>
