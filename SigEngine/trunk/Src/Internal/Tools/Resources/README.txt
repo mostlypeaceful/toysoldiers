@@ -1,1 +1,0 @@
-Do not make changes to this directory. These files are copied from SigEngine\Src\Internal\Tools\Resources and will be overwritten!
