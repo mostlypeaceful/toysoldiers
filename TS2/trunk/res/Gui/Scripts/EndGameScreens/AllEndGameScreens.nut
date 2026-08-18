@@ -1,5 +1,0 @@
-sigimport "GUI/scripts/endgamescreens/campaigndefeatscreen.nut"
-sigimport "GUI/scripts/endgamescreens/campaignvictoryscreen.nut"
-sigimport "gui/scripts/endgamescreens/versusendgamescreen.nut"
-sigimport "gui/scripts/endgamescreens/survivalendgamescreen.nut"
-sigimport "gui/scripts/endgamescreens/netquitearlyscreen.nut"
